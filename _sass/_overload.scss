@@ -3,3 +3,9 @@
     margin: 12px 0px 12px 24px;
     max-width: 300px;
 }
+
+.centered-figure{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
