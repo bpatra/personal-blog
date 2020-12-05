@@ -1,7 +1,6 @@
 ---
 layout: page
 title: About
-featured_image: /assets/images/pages/about.jpg
 ---
 
 <p><a href="/2013/07/P6094073_fav_cropped.jpg"><img class="size-medium wp-image-2037 alignright" src="/assets/images/legacy-wp-content/2013/07/P6094073_fav_cropped-300x262.jpg" alt="Benoit Patra" width="300" height="262" /></a></p>

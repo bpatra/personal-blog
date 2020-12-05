@@ -1,7 +1,7 @@
 # Site setings
-name: 'Benoit Patra blog'
-description: 'TODO'
-meta_description: 'Jekyll template, minimal style, perfect for bloggers.'
+name: "Benoit Patra's blog"
+description: 'Discussions on software engineering and machine learning'
+meta_description: 'Software engineering, machine learning, datascience, CTO'
 logo:
 # Author image is used in site sidebar and greetings in the home page hero text
 author:
@@ -9,9 +9,8 @@ author:
   greetings: "TODO:"
 favicon: 'assets/images/favicon.ico'
 baseurl: 
-production_url: https://benoitpatra.com/
-disqus: 'justgoodthemes'
-mailchimp_url: 'TODO:'
+production_url: https://www.benoitpatra.com/
+
 # Add your GA Tracking Id
 ga_analytics: 
 
@@ -21,17 +20,9 @@ contact_page_description: "Horace theme comes with a contact form built-in. You 
 thankyou_page_description: "Your message has been successfully sent. We will contact you very soon!"
 
 # Social links
-twitter: 'justgoodthemes'
-facebook: 'username'
-github: 'justgoodthemes'
-codepen: 'username'
-dribbble: 'username'
-medium: '@username'
-instagram: 'username'
-pinterest: 'username'
-linkedin: 'username'
-producthunt: '@username'
-quora: 'username'
+twitter: 'benoitpatra'
+github: 'bpatra'
+linkedin: 'benoit-patra'
 
 # Navigation
 navigation:
@@ -39,12 +30,6 @@ navigation:
     url: /
   - text: About
     url: /about
-  - text: Style Guide
-    url: /style-guide
-  - text: Contact Me
-    url: /contact
-  - text: Search
-    url: /search
 
 # Required Plugins
 plugins_dir:
