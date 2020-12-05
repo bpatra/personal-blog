@@ -128,4 +128,4 @@ Then, the implementation.
 
 You do not have to cast or worry anymore on the the type of the objects contained in you <em>ICollectionView</em>. You will also detect binding errors statically with Resharper.
 
-{% include image-caption.html imageurl='/assets/images/legacy-wp-content/2014/10/resharperclever-e1450469370983.png' title="Resharper handles typed generic collections in databinding[" caption="Resharper handles typed generic collections in databinding[" %}
+{% include image-caption.html imageurl='/assets/images/legacy-wp-content/2014/10/resharperclever-e1450469370983.png' title="Resharper handles typed generic collections in databinding" caption="Resharper handles typed generic collections in databinding" %}
