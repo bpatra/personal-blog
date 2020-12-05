@@ -1,15 +1,17 @@
 # Site setings
-name: "Benoit Patra's blog"
+name: "Benoît Patra's blog"
 description: 'Discussions on software engineering and machine learning'
 meta_description: 'Software engineering, machine learning, datascience, CTO'
 logo:
 # Author image is used in site sidebar and greetings in the home page hero text
 author:
   image: 'authorimage.jpg'
-  greetings: "TODO:"
+  greetings: "Hi, I am Benoît Patra, welcome to my personal blog."
 favicon: 'assets/images/favicon.ico'
 baseurl: 
 production_url: https://www.benoitpatra.com/
+exclude:
+  - importer-tips
 
 # Add your GA Tracking Id
 ga_analytics: 
