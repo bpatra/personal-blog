@@ -27,7 +27,6 @@ comments: []
 
 {% include image-align-right.html imageurl='/assets/images/legacy-wp-content/2013/07/220px-inception_ver3.jpg' title="F#-ception!" %}
 
-
 Hi, its middle of summer so let us relax with a "coding for fun" post. The subject presented here came from a kind of "wtf contest" that we had with a colleague of mine on our free time. The objective was to write&nbsp;a unit test to tackle an existing code base using the weirdest approach. My contestant Gabriel is a brilliant developer, so in order to compete with him I had to bring something really absurd rather than technically sophisticated. So I came with the idea of executing F# code inlined in a powershell script invoked from F# code. Obviously, this is absolutely useless. However, it fitted well for the thematic of the &nbsp;contest. In this post we&nbsp;will skip the "existing code base" part&nbsp;and focus on how to achieve this with a very simple example .
 
 The first part of the job is to write some F# code that builds the powershell script with inlined F#. We will have to reference the F# code dom provider which can be downloaded&nbsp;<a title="here" href="http://fsharppowerpack.codeplex.com/">here</a>. Remark that for the sake of simplicity of this post we did not add any extra assemblies (see&nbsp;<em>referencedAssemblies</em> in script below).
