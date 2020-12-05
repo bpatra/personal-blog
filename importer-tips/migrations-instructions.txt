@@ -35,3 +35,12 @@ ruby -r rubygems -e 'require "jekyll-import";
       "extension"      => "html",
       "status"         => ["publish"]
     })'
+___
+
+Retrieve the images with the FTP
+
+___
+
+Remove all the things with a script
+___
+take care of your URIs
