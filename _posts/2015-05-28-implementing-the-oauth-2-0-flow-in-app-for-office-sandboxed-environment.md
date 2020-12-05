@@ -54,7 +54,7 @@ I will get straight to the only working solution that I found. Actually, its the
 
 It looks like that the apps for office run with the following sandboxed attributes&nbsp;<em>sandbox="allow-scripts allow-forms allow-same-origin ms-allow-popups allow-popups".&nbsp;</em>Therefore, we are allowed to use popups and this popup is not restricted by CrossOrigin. What we will do is to open a popup and we will do the OAUTH flow in this popup, when its done we will get back the necessary information in the main app iframe. Here is a summary with a small graphic.
 
-{% include image-caption.html imageurl='/assets/images/legacy-wp-content/2015/05/solutionsummary-917x1024.png'  caption="An overview of the solution found for the OAUTH2.0 in sandboxed env" %}
+{% include image-caption.html imageurl='/assets/images/legacy-wp-content/2015/05/solutionsummary-917x1024.png' caption="An overview of the solution found for the OAUTH2.0 in sandboxed env" %}
 
 Then, you got it we will use a special callback.html file (that is basically blank and contains only javascript) as returned url. Here it its code.
 
