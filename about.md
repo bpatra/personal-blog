@@ -1,24 +1,9 @@
 ---
 layout: page
-status: publish
-published: true
 title: About
-author:
-  display_name: Benoit Patra
-  login: benoitpatra
-  email: benoit.patra@gmail.com
-  url: https://www.benoitpatra.com
-author_login: benoitpatra
-author_email: benoit.patra@gmail.com
-author_url: https://www.benoitpatra.com
-wordpress_id: 541
-wordpress_url: http://benoitpatra.wordpress.com/?page_id=1
-date: '2013-07-21 22:22:55 +0000'
-date_gmt: '2013-07-21 22:22:55 +0000'
-categories: []
-tags: []
-comments: []
+featured_image: /assets/images/pages/about.jpg
 ---
+
 <p><a href="http://benoitpatra.com/wp-content/uploads/2013/07/P6094073_fav_cropped.jpg"><img class="size-medium wp-image-2037 alignright" src="http://benoitpatra.com/wp-content/uploads/2013/07/P6094073_fav_cropped-300x262.jpg" alt="Benoit Patra" width="300" height="262" /></a></p>
 <p style="text-align: left;">Hi, I am Beno&icirc;t Patra, welcome to my personal blog. I am now CTO at <a title="iAdvize" href="https://www.iadvize.com/">iAdvize</a>. </p>
 <p>My initial background is in mathematics, I hold a PhD in mathematics that combines the following fields: probability, machine learning and statistics. I have been working in the software industry for ten years now. For more details, I invite you to consult my <a title="LinkedIn profile" href="http://www.linkedin.com/pub/benoit-patra/10/a89/648">LinkedIn profile</a>. If you want to have a look on my past academic research you can also visit my <a title="personal page" href="http://www.lsta.upmc.fr/doct/patra/">personal page</a> at LSTA-Paris VI University.</p>
