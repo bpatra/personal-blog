@@ -17,9 +17,9 @@ post_class: post-template
                 {% if page.tags.size > 0 %}
                 <div class="post-tags">
                     {% for tag in page.tags %} {% if forloop.index == page.tags.size %}
-                    <a href='{{ site.baseurl }}tag/{{ tag | downcase | replace: ' ', '- ' }}/'>{{ tag | camelcase }}</a>
+                    <a href='{{ site.baseurl }}/tag/{{ tag | downcase | replace: ' ', '- ' }}/'>{{ tag | camelcase }}</a>
                     {% else %}
-                    <a href='{{ site.baseurl }}tag/{{ tag | downcase | replace: ' ', '- ' }}/'>{{ tag | camelcase }}</a>
+                    <a href='{{ site.baseurl }}/tag/{{ tag | downcase | replace: ' ', '- ' }}/'>{{ tag | camelcase }}</a>
                     {% endif %}
                     {% endfor %}
                 </div>
@@ -106,7 +106,7 @@ post_class: post-template
             <h2 class="tagcloud-title">Tags</h2>
             <div class="tag-links">
                 {% for tag in sortedTags %}
-                <a href='{{ site.production_url }}tag/{{ tag | downcase | replace: ' ', '- ' }}/'>{{ tag | camelcase }}</a>
+                <a href='{{ site.baseurl }}/tag/{{ tag | downcase | replace: ' ', '- ' }}/'>{{ tag | camelcase }}</a>
                 {% endfor %}
             </div><!-- .tag-links -->
         </section><!-- .tagcloud -->
