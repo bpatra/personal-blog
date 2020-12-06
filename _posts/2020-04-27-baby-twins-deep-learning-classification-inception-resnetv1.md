@@ -36,7 +36,7 @@ When it comes to machine learning practical experiments, the first thing anybody
 
 Since July 2019 (9-months at the time of the writing), I am the happy father of two lovely twin baby girls: L and J. If I have free private data at scale, it is definitely photos of my kids. Indeed, all our families have been taking pictures of them and, thanks to Whatsapp and other communications means, I have been able to collect a great part of them.
 
-{% include image-caption.html imageurl='/assets/images/legacy-wp-content/2020/04/Untitled-2-300x238.jpg' caption="Deeplearning and Convnet neural networks are now the state-of-the-art methods for computer vision. Here are Convnet visualizations on a L. photo." %}
+{% include image-caption.html imageurl='/assets/images/legacy-wp-content/2020/04/Untitled-2.jpg' caption="Deeplearning and Convnet neural networks are now the state-of-the-art methods for computer vision. Here are Convnet visualizations on a L. photo." size_class="small" %}
 
 In this post, we will use a state-of-the-art deep learning architecture: <a href="https://arxiv.org/abs/1602.07261" target="_blank"><em>Inception ResNetV1</em></a> to build a classifier for photo portraits of my girls. We also take benefit of some pretrained weights from facenet dataset. Before that, we will make a detour by tricking a little bit the problem: this will allow us to check our code snippets and review some nice visualization techniques. Then, the <em>InceptionResNetV1</em> based model will allow us to achieve some interesting accuracy results. We will experiment using <a href="https://keras.io/" target="_blank">Keras</a> backed by <a href="https://www.tensorflow.org/" target="_blank">Tensorflow</a>. We conducted the computing intensive tasks on a GPU machine hosted on <a href="https://azure.microsoft.com" target="_blank">Microsoft Azure</a>.
 
@@ -61,16 +61,16 @@ In the raw datasets, some photos contain only L, others only J, some both and so
 
 For efficient annotation, I have used an opensource tagging software: <a href="https://github.com/microsoft/VoTT" target="_blank">VoTT</a> which is supported by Microsoft. The tagging is pretty straightforward and you can quickly annotate the photos with a very intuitive interface. It took me between one and two hours&nbsp;to tag the full dataset.
 
-{% include image-caption.html imageurl='/assets/images/legacy-wp-content/2020/04/Screenshot-2020-04-26-at-12.49.47-1024x516.png' caption="Efficient photo annotation with the VoTT software. Note also the FC Nantes outfits..." %}
+{% include image-caption.html imageurl='/assets/images/legacy-wp-content/2020/04/sidebysideLandJ.jpg' caption="Efficient photo annotation with the VoTT software. Note also the FC Nantes outfits..." size_class="small" %}
 
 One of the worries of twins parents, is the fear to favor one child over the other. Well, I am not concerned and data speak for me. Here are the results: after the tagging we have a very well balanced tags repartition with a little more than 600 tags for each of the girls.
 
-{% include image-caption.html imageurl='/assets/images/legacy-wp-content/2020/04/Screenshot-2020-04-26-at-11.11.38-178x300.png' caption="The tag repartitions of L and J." %}
+{% include image-caption.html imageurl='/assets/images/legacy-wp-content/2020/04/TagRepartition.png' caption="The tag repartitions of L and J." %}
 
 Now we will build the picture dataset: where each picture contains the portrait of one of the kid. VoTT provides the tag location within the picture as a JSON format. Therefore, it is easy to crop all files to produce a dataset where each image contains only one kid's face, see <a href="https://github.com/bpatra/twins-recognizer/blob/blogpost1/crop_raw_files.py" target="_blank">this code snippet</a>.
 
 
-{% include image-caption.html imageurl='/assets/images/legacy-wp-content/2020/04/Extract2.png' caption="The extraction process from tagged photos to square cropped images." %}
+{% include image-caption.html imageurl='/assets/images/legacy-wp-content/2020/04/Extract2.jpg' caption="The extraction process from tagged photos to square cropped images." size_class="small" %}
 
 <h3>Splitting the dataset: train, validation, test</h3>
 As always for any machine learning training procedure, one must separate the original dataset between: 1) training data that will be used to fit the model and 2) validation data that will be used to measure performance of the tuned algorithms. Here we go&nbsp;further by keeping also a third untouched test dataset.
@@ -90,9 +90,9 @@ This is the second time I do the setup of an Ubuntu machine with Cuda/cudNN and 
 
 For efficient development, I use VSCode with the new <a href="https://code.visualstudio.com/blogs/2019/07/25/remote-ssh" target="_blank">SSH Remote extensions</a> which make remote development completely seamless. The experiments are also conducted with IPython Jupyter notebook. And once again VSCode provides out-of-the-shelf <a href="https://code.visualstudio.com/docs/remote/ssh#_forwarding-a-port-creating-ssh-tunnel" target="_blank">SSH tunneling</a> to simplify everything.
 
-{% include image-caption.html imageurl='/assets/images/legacy-wp-content/2020/04/Screenshot-2020-04-26-at-15.33.09-e1587935894377.png' caption="Tensorflow outputs confirm that its primary computing device is our Tesla K80 GPU." %}
+{% include image-caption.html imageurl='/assets/images/legacy-wp-content/2020/04/Tensorflow-device-confirmation.png' caption="Tensorflow outputs confirm that its primary computing device is our Tesla K80 GPU." size_class="medium" %}
 
-{% include image-caption.html imageurl='/assets/images/legacy-wp-content/2020/04/Screenshot-2020-04-26-at-15.39.52-e1587935965787.png' caption="The nvidia-smi command shows load on the GPU from the Python process." %}
+{% include image-caption.html imageurl='/assets/images/legacy-wp-content/2020/04/nvidia-smi-output.png' caption="The nvidia-smi command shows load on the GPU from the Python process." size_class="medium" %}
 
 <h2>First, a simplified problem with tricked data to get started</h2>
 The experiments provided in this section can be found in <a href="https://github.com/bpatra/twins-recognizer/blob/blogpost1/Twins-Recognition-FAKEDATA.ipynb">this notebook</a>.
@@ -102,11 +102,11 @@ Here we will make a small detour by <del datetime="2020-04-26T19:57:35+00:00">si
 <h3>Drawing obvious shapes on image classes</h3>
 When tackling a datascience project, I always think it is great to start really simple. Here, I wanted to make sure that my code snippets were ok so I decided to trick (temporarily) the problem. Indeed, I drawed geometrical shapes on image classes. Precisely, for any J photo, a rectangle is drawn and, for any L photo, an ellipse is inserted. The size, the shape ratio and the filling color are left random. You can see with the two following examples what this looks like:
 
-{% include image-caption.html imageurl='/assets/images/legacy-wp-content/2020/04/fakeL-298x300.jpg' caption="An ellipse is drawn on all L photos, for train, validation and test sets." %}
+{% include image-caption.html imageurl='/assets/images/legacy-wp-content/2020/04/fakeL-298x300.jpg' caption="An ellipse is drawn on all L photos, for train, validation and test sets." size_class="small" %}
 
 &nbsp;
 
-{% include image-caption.html imageurl='/assets/images/legacy-wp-content/2020/04/fakeJ-300x290.jpg' caption="A rectangle with random filling color on all J images." %}
+{% include image-caption.html imageurl='/assets/images/legacy-wp-content/2020/04/fakeJ-300x290.jpg' caption="A rectangle with random filling color on all J images." size_class="small" %}
 
 Of course this completely workarounds and tricks the face recognition problem. Anyway that's a good starting point to test our setup and code experimentation snippets.
 
@@ -124,7 +124,7 @@ After running the training on 30 epochs we observe the following learning curves
 
 <script src="https://gist.github.com/bpatra/f7c836eea7f4030a8c656a4bf2964935.js"></script>
 
-{% include image-caption.html imageurl='/assets/images/legacy-wp-content/2020/04/Screenshot-2020-04-26-at-16.08.134.png' caption="Training and validation accuracy on tricked data. We achieve strong accuracy without surprise." %}
+{% include image-caption.html imageurl='/assets/images/legacy-wp-content/2020/04/great-accuracy-perf.png' caption="Training and validation accuracy on tricked data. We achieve strong accuracy without surprise." size_class="small" %}
 
 Now that the results seem satisfactory without sign of overfitting (the validation accuracy grows and stalls). It is time to measure performance on the test sets composed of the 200 pictures left aside.
 
@@ -132,7 +132,7 @@ Accuracy is a key indicator but even with a 2-class classification problem, it i
 
 <script src="https://gist.github.com/bpatra/fd302a09afdb54c57b95a3908059cf62.js"></script>
 
-{% include image-caption.html imageurl='/assets/images/legacy-wp-content/2020/04/confusion_matrix_fakedata-300x232.jpg' caption="The confusion matrix with tricked data. We see excellent accuracy, precision and recall." %}
+{% include image-caption.html imageurl='/assets/images/legacy-wp-content/2020/04/confusion_matrix_fakedata.jpg' caption="The confusion matrix with tricked data. We see excellent accuracy, precision and recall." size_class="small" %}
 
 <h3>Going beyond and observe Conv2d learnings with an activation model</h3>
 Again, we use a technique well exposed in the Fran&ccedil;ois Chollet's book.
@@ -141,11 +141,11 @@ The idea is to build a multi output model based on the successive outputs of the
 
 <script src="https://gist.github.com/bpatra/584290fbd46f8267e5f4f63eecfe1b6c.js"></script>
 
-{% include image-caption.html imageurl='/assets/images/legacy-wp-content/2020/04/down_layer_1output-300x246.jpg' caption="On the extracted feature on the bottom layer from the L picture with ellipse. We see in green the activated regions. The ellipsis is strongly activated but also the pacifier." %}
+{% include image-caption.html imageurl='/assets/images/legacy-wp-content/2020/04/down_layer_1output.jpg' caption="On the extracted feature on the bottom layer from the L picture with ellipse. We see in green the activated regions. The ellipsis is strongly activated but also the pacifier." size_class="small" %}
 
-{% include image-caption.html imageurl='/assets/images/legacy-wp-content/2020/04/down_layers-300x213.jpg' caption="From the bottom layers of our neural network model, the ellipsis are obviously the most activated regions of the input picture." %}
+{% include image-caption.html imageurl='/assets/images/legacy-wp-content/2020/04/down_layers.jpg' caption="From the bottom layers of our neural network model, the ellipsis are obviously the most activated regions of the input picture." size_class="medium" %}
 
-{% include image-caption.html imageurl='/assets/images/legacy-wp-content/2020/04/uperlayers-300x152.jpg' caption="With upper layers, it is visible that the patterns that is captured for the classification is the curve of the stroke path of our ellipsis. Similarly, the square corners of the rectangles are captured." %}
+{% include image-caption.html imageurl='/assets/images/legacy-wp-content/2020/04/uperlayers.jpg' caption="With upper layers, it is visible that the patterns that is captured for the classification is the curve of the stroke path of our ellipsis. Similarly, the square corners of the rectangles are captured." size_class="medium" %}
 
 <h2>Back to the real face recognition problem</h2>
 Now it is time to get back to our original problem: classification of my baby girls without relying on any trick, just with face recognition on the original images. The simple Convnet in the previous section will not be sufficient to build a classifier with significant accuracy. We will need  bigger artillery.
@@ -172,12 +172,11 @@ Thanks to our GPU we were able to retrain the full model composed of a <em>Incep
 
 After a dozen of minutes of training, I was happy to see the following training and validation accuracy curves.
 
-
-{% include image-caption.html imageurl='/assets/images/legacy-wp-content/2020/04/Screenshot-2020-04-26-at-11.18.18-300x195.png' caption="The training and validation accuracy over the epochs. We see that the validation accuracy reaches 0.80 accuracy." %}
+{% include image-caption.html imageurl='/assets/images/legacy-wp-content/2020/04/accuracy-results-080.png' caption="The training and validation accuracy over the epochs. We see that the validation accuracy reaches 0.80 accuracy." size_class="small" %}
 
 This shows all the positive signs of a successfully trained ML algorithm. Therefore, let us examine the performance on the test dataset, i.e. the one that has not been fed to the algorithm before.
 
-{% include image-caption.html imageurl='/assets/images/legacy-wp-content/2020/04/Screenshot-2020-04-26-at-12.04.22-300x259.png' caption="The final classification report and confusion matrix. We achieves nearly 0.80 of accuracy." %}
+{% include image-caption.html imageurl='/assets/images/legacy-wp-content/2020/04/classification-report-final.png' caption="The final classification report and confusion matrix. We achieves nearly 0.80 of accuracy." size_class="small" %}
 
 The classification reports and confusion matrix on the test dataset confirm the measure on the validation set. We achieve nearly 80% of accuracy. One interesting thing is, from the report, J. looks to be a little be more difficult for our model to classify than L. Honestly, I have no assumption on what could cause this. A deeper analysis by examining layers in the spirit of what has been presented above could be conducted.
 
@@ -190,5 +189,4 @@ By conducting these experiments, I confirm that it is nearly impossible to perfo
 
 Finally, I learnt a lot. It is always a good thing to try things on your own data. This is how you learn to tackle real-life problems in datascience.
 
-
-{% include image-caption.html imageurl='/assets/images/legacy-wp-content/2020/04/JPrediction-278x300.jpg' caption="Our classifier works: it is now able at 80% accuracy to recognize between my two baby girls." %}
+{% include image-caption.html imageurl='/assets/images/legacy-wp-content/2020/04/JPrediction.jpg' caption="Our classifier works: it is now able at 80% accuracy to recognize between my two baby girls." size_class="small" %}

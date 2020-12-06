@@ -43,7 +43,7 @@ Microsoft describes Q# as:
 Q# (Q-sharp) is a domain-specific programming language used for expressing quantum algorithms. It is to be used for writing subroutines that execute on an adjunct quantum processor, under the control of a classical host program and computer. Until quantum processors are widely available, Q# subroutines execute on a simulator.
 </blockquote>
 
-{% include image-caption.html imageurl='/assets/images/qubit.png' caption="A sphere is often used to represent the concept of Qubit: the fundamental unit of a Quantum capable device. Image source: https://medium.com/@kareldumon/" size_class="small" %}
+{% include image-caption.html imageurl='/assets/images/legacy-wp-content/2020/05/1_w9516UckuSEBQdiUOoiHbQ.png' caption="A sphere is often used to represent the concept of Qubit: the fundamental unit of a Quantum capable device. Image source: https://medium.com/@kareldumon/" size_class="small" %}
 
 
 Actually, Microsoft released a full <a href="https://docs.microsoft.com/en-us/quantum/welcome" target="_blank">Quantum Development Kit</a> on top of the Q# compiler. It is completely free and open source. Following Microsoft habits to do things properly, even in its early days this was really well polished: documentation was pretty neat and complete and even some samples were shipped to help you start. They did pretty good job making all this super attractive, even the name Q# sounds cool, doesn't it?
