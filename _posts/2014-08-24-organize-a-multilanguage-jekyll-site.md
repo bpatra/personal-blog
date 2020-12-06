@@ -1,0 +1,136 @@
+---
+layout: post
+status: publish
+published: true
+title: Organize a multilanguage Jekyll site
+author:
+  display_name: Benoit Patra
+  login: benoitpatra
+  email: benoit.patra@gmail.com
+  url: https://www.benoitpatra.com
+author_login: benoitpatra
+author_email: benoit.patra@gmail.com
+author_url: https://www.benoitpatra.com
+date: '2014-08-24 15:47:39 +0000'
+date_gmt: '2014-08-24 13:47:39 +0000'
+categories:
+- Programming
+- Web Development
+tags:
+- html
+- jekyll
+- mulitlanguage
+- website
+- SEO
+comments:
+- id: 271
+  author: dineshramitc
+  author_email: kdineshram1986@gmail.com
+  author_url: http://dineshramKali.wordpress.com
+  date: '2014-08-25 02:13:58 +0000'
+  date_gmt: '2014-08-25 00:13:58 +0000'
+  content: Reblogged this on <a href="http://dineshramitc.wordpress.com/2014/08/25/organize-a-multilanguage-jekyll-site/"
+    rel="nofollow">Dinesh Ram Kali.</a>.
+- id: 281
+  author: Daniel
+  author_email: daniel@kite-mallorca.com
+  author_url: http://www.kite-mallorca.com
+  date: '2014-12-02 10:40:21 +0000'
+  date_gmt: '2014-12-02 09:40:21 +0000'
+  content: Hi, very interesting Idea. I'm trying to bring it work, but for the moment
+    without success. Do you have a repo as example?
+- id: 291
+  author: benoitpatra
+  author_email: benoit.patra@gmail.com
+  author_url: http://benoitpatra.wordpress.com
+  date: '2014-12-02 11:41:25 +0000'
+  date_gmt: '2014-12-02 10:41:25 +0000'
+  content: |-
+    Hi Daniel,
+    sure, you can clone the git repository <a href="https://github.com/bpatra/jekyllsiteblogpaginated.git" title="jekyll site blog paginate sample" rel="nofollow">here</a>
+    It is very basic, I have just translated one sentence but I think you will get the idea.
+    You can view the "site" here <a href="http://bpatra.github.io/jekyllsiteblogpaginated" rel="nofollow">http://bpatra.github.io/jekyllsiteblogpaginated</a>
+- id: 301
+  author: Alois Treindl
+  author_email: alois@astro.ch
+  author_url: ''
+  date: '2015-01-08 18:54:29 +0000'
+  date_gmt: '2015-01-08 17:54:29 +0000'
+  content: Hi Benoit, I have to set up a multilingual small site for a psychotherapist
+    friend. She needs about 3 pages in each language, default French, exra languages
+    English and Arabic. I have just started getting familiar with Jekyll (was a big
+    effort to get it running on RHEL6). Can I possibly get some of your basic setup
+    files, to use as a start-off example?
+- id: 311
+  author: benoitpatra
+  author_email: benoit.patra@gmail.com
+  author_url: http://benoitpatra.wordpress.com
+  date: '2015-01-08 19:36:05 +0000'
+  date_gmt: '2015-01-08 18:36:05 +0000'
+  content: |-
+    Hi Alois,
+    of course, you can use the sample that I mentioned in a previous comment. You can take the source files in the <a href="https://github.com/bpatra/jekyllsiteblogpaginated" rel="nofollow">git reposity </a> or <a href="https://github.com/bpatra/jekyllsiteblogpaginated/archive/master.zip" rel="nofollow">here</a> if you prefer a direct download link.
+- id: 25302
+  author: Andrea Ballerino
+  author_email: andre.ballerino@gmail.com
+  author_url: ''
+  date: '2017-11-14 11:20:26 +0000'
+  date_gmt: '2017-11-14 11:20:26 +0000'
+  content: "Hi Benoit,\r\nI think this method no longer works with the latest version
+    of Jekyll. Can you confirm that?\r\nThank you.\r\nAndrea"
+- id: 25317
+  author: Benoit Patra
+  author_email: benoit.patra@gmail.com
+  author_url: https://www.benoitpatra.com
+  date: '2017-11-15 18:53:30 +0000'
+  date_gmt: '2017-11-15 18:53:30 +0000'
+  content: "Hi I am sorry Andrea, I did not test. But I believe it is linked to <a
+    href=\"https://jekyllrb.com/docs/upgrading/2-to-3/#layout-metadata\" rel=\"nofollow\">this
+    problem </a>while migrating from Jekyll 2 to Jekyll 3. Indeed, Jekyll changed
+    the way they handle variables in layout metadata. \nHope it helps."
+- id: 65121
+  author: SantosLilia
+  author_email: ixodochahithiqoekh7177@mail.ru
+  author_url: https://www.aliebay.co/
+  date: '2020-12-03 23:31:01 +0000'
+  date_gmt: '2020-12-03 22:31:01 +0000'
+  content: "browse around these guys  \r\n<a href=\"https://www.aliebay.co/threads/expert-double-stop-mt4.1843/\"
+    / rel=\"nofollow\">Expert Double Stop Mt4</a>"
+---
+In this post I will describe a simple organization of <a href="http://jekyllrb.com/">Jekyll</a> sources to get a mulitlanguage website.
+
+<strong>EDIT:&nbsp;</strong>In the post below I suggest to use a 'translated' tree structure under the /fr directory. e.g. _/about/about.html_ becomes _fr/apropos/apropos.html_. This leads to complication and nobody cares if the url is translated. I suggest you to keep the exact same tree structure&nbsp;in base site, <em>_layout</em> and _fr_ directories.
+
+What is Jekyll actually? Jekyll describes itself as a "a blog-aware static site generator". If you know the product you'll find this description totally fitted but still obscure if you are a newcomer. Let me introduce Jekyll in my own terms. Jekyll helps you to build .html pages, they are created when you publish (or update your site). Contrary to traditional dynamic webservers (e.g. ASP.NET, PHP etc.), the pages are not served and created "on demand" when the user visits the website. With Jekyll it's more simple, they are only web pages stored on the server disk as if you have created them "by hand". The magic lies in the fact that you do not have to duplicate all the html everywhere. Jekyll is a "generator" which means by using its basic features, includes, layouts etc. you will not have to repeat yourself so your site will be easily maintainable. What does "blog aware" mean? Jekyll can create pages but it has also been created for blogging on the first place. On its core you will find many things related to blog matters such as pagination, ordering, tagging etc. To conclude the presentation of Jekyll let us mention the fact that it is supported natively by <a href="https://pages.github.com/">github-pages</a>.
+
+The multi language organization described in this post will illustrate some of the features of Jekyll. If you create a website with Jekyll, you must have a clean website structure such as the following one. You will notice the usual directories <em>_layout</em> and <em>_site</em>.
+
+<script src="https://gist.github.com/bpatra/05e8ae432ea98b1321f05ae9d9c48ba1.js"></script>
+
+<em>_layout</em> is extremely powerful, it is a form of inheritance. When you declare a page such as <em>index.html</em> and if you reference in the YAML (a kind of file header recognized by Jekyll) the <em>default</em> layout then your page will use all the html defined in the _layout <em>default</em>. We will use extensively the layout pattern for our localized website structure. The main idea is simple: the content of the pages are stored in a layout file located under the <em>_layout</em> directory, the rest of the site will only "call" layouts with the proper language to use.
+
+Let us take a simple example to illustrate this. Suppose that your have a website which default language is english and another one: french. Naturally, the default language is located at the root of the website while other languages are located on a subfolders (e.g. www.myexample.com/fr). Suppose now that you have another subdirectory "about" ("&agrave; propos" in french) then your hosted website will have the following structure:
+
+<script src="https://gist.github.com/bpatra/2918b37b10632785c89f142875f52688.js"></script>
+
+The question now is: how to achieve this easily with Jekyll such that the translation of the sentences are kept side by side on the same file? This latter requirement is important to work with your translators. The trick is to replicate the website structure in <em>_layouts</em>. We use the YAML formatter to define a key/value variable that will hold the translation. The "true" pages will only call the layout with the right language to use.
+
+Then, for the example mentioned above, the Jekyll sources structure looks like:
+
+<script src="https://gist.github.com/bpatra/dc3f01114a9a0ecd2600d00936118b7b.js"></script>
+
+The <em>about_lyt.html</em> contains the html content of the page and the translation such as this one. This new layout uses the default layout containing the common content of all website pages.
+
+<script src="https://gist.github.com/bpatra/209b250af53241ab5d1f74ea9b4e852d.js"></script>
+
+Then the two localized files simply contain a very basic YAML header.
+Let us have a look at the file <em>about.html</em>
+
+<script src="https://gist.github.com/bpatra/f5e98015d60f71dc0090e5466ca48687.js"></script>
+
+And now let us examine its french alter ego <em>apropos.html</em>
+
+<script src="https://gist.github.com/bpatra/ca0904ecade4b4c287506d15b1096eb4.js"></script>
+
+This, organization is very simple and maintainable, this is the one that I have chosen for my own company's website <a href="http://www.keluro.com">www.keluro.com</a>. It is also very easy to send the YAML to the translators and put them back in your files to update your website. If you are interested in a script to extract YAML you may use <a href="https://gist.github.com/79d8f54b50ea6a2c484c">this one</a> written in powershell.
+
