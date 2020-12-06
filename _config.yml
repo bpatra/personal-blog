@@ -30,12 +30,12 @@ jekyll-archives:
   enabled:
     - month
     - categories
-  layouts:
-    month: month-archive
-    category: category-archive
+    - tags
+  layouts: archive
   permalinks:
     month: '/:year/:month/'
     category: '/category/:name/'
+    tags: '/tag/:tag/'
 
 # Navigation
 navigation:
@@ -49,7 +49,6 @@ navigation:
 # Required Plugins
 plugins_dir:
   - jekyll-paginate
-  - jekyll-tagsgenerator
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-archives

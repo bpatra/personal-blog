@@ -1,12 +1,16 @@
 ---
 layout: default
-title: Category Archive
+title: Archives
 ---
 
 <main id="main" class="site-main">
     <div class="post-feed inner">
         <header class="page-header">
+            {% if page.type == 'month' %}
+            <h1 class="page-title">Archive of posts from {{ page.date | date: "%B %Y" }}</h1>
+            {% else %}
             <h1 class="page-title">Posts with {{ page.type }} '{{ page.title }}'</h1>
+            {% endif %}
             <p class="page-description">A collection of {{ page.posts.size }} {% if page.posts.size == 1 %}post{% else %}posts{% endif %}</p>
         </header>
         <div class="post-feed inner-wide">
