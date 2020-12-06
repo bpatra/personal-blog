@@ -88,7 +88,7 @@ In this post we&nbsp;will describe how to create a searchable list with&nbsp;<a 
 
 In this post we will create a very simple app that let you search a player in the list of all the players of the last Football World Cup in Brazil. The complete source code can be found on&nbsp;<a href="https://github.com/bpatra/MvvMSample">my Github here.</a>
 
-{% include image-caption.html imageurl='/assets/images/legacy-wp-content/2014/10/listview.jpg' title="Searching 'dav' in the ListView display a list of results starting with ex Chelsea's player David Luis..." caption="Searching 'dav' in the ListView display a list of results starting with ex Chelsea's player David Luis..." %}
+{% include image-caption.html imageurl='/assets/images/legacy-wp-content/2014/10/listview.jpg' caption="Searching 'dav' in the ListView display a list of results starting with ex Chelsea's player David Luis..." %}
 
 The key ingredients of such implementation is very simple in MVVM. First take the View which&nbsp;does not need more than the few lines of xaml below.
 
@@ -108,7 +108,7 @@ As I said in the introduction, this is quite enoying. You may want to create scr
 
 In addition we cannot use anymore the XAML validation and intellisense provided by Resharper.
 
-{% include image-caption.html imageurl='/assets/images/legacy-wp-content/2014/10/resharpercomplaining-1024x195.jpg' title="Resharper complaining because of the unknown's member of the DataContext (typed as object)" caption="Resharper complaining because of the unknown's member of the DataContext (typed as object)" %}
+{% include image-caption.html imageurl='/assets/images/legacy-wp-content/2014/10/resharpercomplaining-1024x195.jpg' caption="Resharper complaining because of the unknown's member of the DataContext (typed as object)" %}
 
 Fortunately we can create our generic version of <em>ICollectionView</em> and get back to the comfortable world of type safety. In this example, I will only provide the generic enumeration and the generic version for the <em>SourceCollection</em> member but you can add others. Indeed, you may create a generic version of the <em>Filter</em> predicate to avoid dealing with <em>System.Object</em> in your lambdas but with your generic type <em>T</em> instead.
 
@@ -128,4 +128,4 @@ Then, the implementation.
 
 You do not have to cast or worry anymore on the the type of the objects contained in you <em>ICollectionView</em>. You will also detect binding errors statically with Resharper.
 
-{% include image-caption.html imageurl='/assets/images/legacy-wp-content/2014/10/resharperclever-e1450469370983.png' title="Resharper handles typed generic collections in databinding" caption="Resharper handles typed generic collections in databinding" %}
+{% include image-caption.html imageurl='/assets/images/legacy-wp-content/2014/10/resharperclever-e1450469370983.png' caption="Resharper handles typed generic collections in databinding" %}

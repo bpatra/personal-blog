@@ -450,15 +450,15 @@ This post blog follows a problem that I encountered when I upgraded my laptop to
 
 Assuming that you are in the same, or a close, situation: the hdmi sound works well when Windows is reboot with the cable plugged in. Consequently, when everything is working, if you right click on the sound icon in the tray bar and select "playback devices" you should be able to see the TV in the device playbacks&nbsp;.
 
-{% include image-caption.html imageurl='/assets/images/legacy-wp-content/2013/12/playbackdevices.jpg' title="The list of available playback devices." caption="The list of available playback devices." %}
+{% include image-caption.html imageurl='/assets/images/legacy-wp-content/2013/12/playbackdevices.jpg' caption="The list of available playback devices." %}
 
 Before going any further the first thing to do is to update the drivers. This is quite simple, right click on the windows menu at the bottom left of your desktop screen and select the device manager. My advice is to update all drivers for the two entries in the tree view "display adapters" and "sound, video and game controllers".
 
-{% include image-caption.html imageurl='/assets/images/legacy-wp-content/2013/12/devicemanager-300x195.jpg' title=" The device manager" caption="The device manager" %}
+{% include image-caption.html imageurl='/assets/images/legacy-wp-content/2013/12/devicemanager-300x195.jpg' caption="The device manager" %}
 
 Once all drivers have been updated, check that the problem still occurs (restart the OS once at least) and if it does you may be interested in the following.
 
-{% include image-caption.html imageurl='/assets/images/legacy-wp-content/2013/12/updatedriversoftware-300x206.jpg' title="Upgrading driver software" caption="Upgrading driver software" %}
+{% include image-caption.html imageurl='/assets/images/legacy-wp-content/2013/12/updatedriversoftware-300x206.jpg' caption="Upgrading driver software" %}
 
 
 So even after updating the drivers, you still need the reboot to get the sound. Actually, the drivers managing the hdmi need to be restarted and that is what we are going to do manually, without restarting the OS. To perform such action, we are going to need devcon.exe which is a tiny program distributed freely by Microsoft with the Windows Driver Kit. Download it<a href="http://msdn.microsoft.com/en-us/windows/hardware/gg454513.aspx"> here</a>&nbsp;(you do not need Visual studio).
@@ -467,7 +467,7 @@ After the (silent) installation of WDK you may find <strong>devcon.exe</strong> 
 
 *WARNING:* devcon.exe error messages are extremely misleading (read completely wrong...). Indeed, if you are using the x86 version instead of the x64 version or if you are trying to restart the drivers (see below) without administrators right you will still have the same error.: "No matching devices found". Consequently, do not try to interpret the error raised by devcon.exe.
 
-{% include image-caption.html imageurl='/assets/images/legacy-wp-content/2013/12/listmedia1-300x77.jpg' title="devcon.exe listclass display" caption="'devcon.exe listclass media' executed in powershell using conemu terminal" %}
+{% include image-caption.html imageurl='/assets/images/legacy-wp-content/2013/12/listmedia1-300x77.jpg' caption="'devcon.exe listclass media' executed in powershell using conemu terminal" %}
 
 
 Now, we are going to restart the two drivers using devcon.exe. First, let us see all drivers dedicated to sound, then type in your command prompt (or better with <a href="http://en.wikipedia.org/wiki/Windows_PowerShell">powershell</a>) run as administrator: <strong>
@@ -484,7 +484,7 @@ Unfortunately, it does not seem to be sufficient and the system also needs to re
 &lt;pathToDevCon&gt;/devcon.exe listclass display</strong>
 
 
-{% include image-caption.html imageurl='/assets/images/legacy-wp-content/2013/12/listmedia2-300x90.jpg' title="devcon.exe listclass display" caption="devcon.exe listclass display" %}
+{% include image-caption.html imageurl='/assets/images/legacy-wp-content/2013/12/listmedia2-300x90.jpg' caption="devcon.exe listclass display" %}
 
 Then now if you restart the driver listed here as <em>"Intel(R) HD Graphics Family"</em> then the <a class="zem_slink" title="HDMI" href="http://en.wikipedia.org/wiki/HDMI" target="_blank" rel="wikipedia">HDMI</a> sound device playback should be available if the cable is connected. To do so execute:
 
@@ -501,7 +501,7 @@ Here is the script that you can use. I have added two instructions to enable the
 
 Remind that to be effective this .ps1 file should be executed with administrator rights. Remind also, that devcon.exe will only tell you that the drivers cannot be found if you are not with admin rights. So I am suggesting to make the script more easily run in admin mode, you can put a powershell.exe shortcut next to the .ps1 script file. By right clicking on the shortcut file go to Properties and fill the target property as follows.&nbsp;Target:"powershell.exe restart_drivers.ps1". Then, in Advanced... select Run as administator.
 
-{% include image-caption.html imageurl='/assets/images/legacy-wp-content/2013/12/shortcuts-300x268.jpg' title=" shortcut to run restart_drivers.ps1 directly with admin right" caption="A shortcut to run restart_drivers.ps1 directly with admin right" %}
+{% include image-caption.html imageurl='/assets/images/legacy-wp-content/2013/12/shortcuts-300x268.jpg' caption="A shortcut to run restart_drivers.ps1 directly with admin right" %}
 
 
 <span style="line-height: 1.714285714; font-size: 1rem;">That is all, no when you will connect your hdmi </span><span style="line-height: 1.714285714; font-size: 1rem;">cable you will only have to click on the shortcut and enjoy the sound from your TV.</span>

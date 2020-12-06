@@ -58,7 +58,7 @@ The outer braces: <code>task PathAssemblyInfo</code> defines the scope of the ta
 
 Now let us look on how to combine and invoke the PSake targets from Teamcity. I have a <em>/build</em> directory at the root of the repository which looks like
 
-{% include image-caption.html imageurl='/assets/images/legacy-wp-content/2014/07/directorystructure.jpg' title="The organisation of build target with PSake" caption="The organisation of build target with PSake" %}
+{% include image-caption.html imageurl='/assets/images/legacy-wp-content/2014/07/directorystructure.jpg' caption="The organisation of build target with PSake" %}
 
 The PSake project is located under the <em>/build</em> folder. In the <em>/targets</em> directory we put all targets where one target equals one file with the same name. The <em>bootstrapTargets.ps1</em> loads all build targets that are put in the subdirectory with the same name. In <em>bootstrapTargets.ps1</em> I also put the high level targets, the one that will be called by the Continous Integration. Here, I have defined a high level target <em>Example</em> that executes first our <em>PatchAssemblyInfo</em> then another target that I have called <em>RenameMSI</em> (only for the example). You can also put in <em>bootstrapTargets.ps1</em> some functions that will be reused by the different targets.
 
@@ -66,7 +66,7 @@ The PSake project is located under the <em>/build</em> folder. In the <em>/targe
 
 Now see how to invoke the PSake Example task within Teamcity. Create a Powershell using at least the 3.0 version.
 
-{% include image-caption.html imageurl='/assets/images/legacy-wp-content/2014/07/psakeexample-e1450469198529.jpg' title="The organisation of build target with PSake" caption="Invoke the Example PSake task within TeamCity" %}
+{% include image-caption.html imageurl='/assets/images/legacy-wp-content/2014/07/psakeexample-e1450469198529.jpg' caption="Invoke the Example PSake task within TeamCity" %}
 
 The script in the Teamcity editor (and only this one) assumes the current directory is the repository root. The first line imports the module while second one invoke the <em>Example</em> task using PSake. The third line below is important so that exceptions thrown in the script appear as build failures.<br />
 <code>if ($psake.build_success -eq $false) { exit 1 } else { exit 0 }</code>

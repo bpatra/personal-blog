@@ -1,5 +1,12 @@
 <figure class="centered-figure {{ include.size_class }} {{ include.position_class }}">
-    <img src="{{ include.imageurl }}" alt="{{ include.title }}" />
+
+    {% if include.title %}
+    {% assign title = include.title %}
+    {% else %}
+    {% assign title = include.caption %}
+    {% endif %}
+
+    <img src="{{ include.imageurl }}" alt="{{ title }}" />
     {% if include.caption %}
         <figcaption class="caption-text">{{ include.caption }}</figcaption> 
     {% endif %}

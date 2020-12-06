@@ -57,7 +57,7 @@ In my WPF apps, all view models are specified through interfaces. Then, for the 
 
 <strong>For each view model there are two implementations: </strong>the production implementation and the design implementation. I like to separate in another namespace the design time implementations to avoid "solution explorer visual pollution".
 
-{% include image-caption.html imageurl='/assets/images/legacy-wp-content/2015/01/solutionexplorer.jpg' title="Visual Studio Solution Explorer with Design ViewModels" caption="Visual Studio Solution Explorer with Design ViewModels" %}
+{% include image-caption.html imageurl='/assets/images/legacy-wp-content/2015/01/solutionexplorer.jpg'  caption="Visual Studio Solution Explorer with Design ViewModels" %}
 
 
 We use a <em>ViewModelLocator</em> so that the views can find the appropriate implementation of the view model interface. Typically, the <em>ViewModelLocator</em> exposes a static property for the "top" rooted view model.

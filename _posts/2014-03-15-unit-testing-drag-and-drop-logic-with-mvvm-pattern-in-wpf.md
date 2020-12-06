@@ -33,7 +33,7 @@ I recently had a discussion with a friend about the Model-View-ViewModel pattern
 The objective of this post is to detail the code architecture and the techniques involved to the testing of a very simple WPF app. This app enables the user to rank via drag and drop the list of the french football clubs and save this ranking. This could be a part of larger app that could be used, for example, to bet the final table... However for the sake of simplicity of this post we will focus mainly on the WPF control <em>ListView</em> containing the football club rows. The source code can be found in this <a href="https://github.com/bpatra/MvvMSample">github repository</a>.
 
 
-{% include image-caption.html imageurl='/assets/images/legacy-wp-content/2014/03/screenshotandsave.png' title="List view control displaying the football clubs." caption="The list view control displaying the football clubs that can be reorganized by drag and drop. The order can be saved." %}
+{% include image-caption.html imageurl='/assets/images/legacy-wp-content/2014/03/screenshotandsave.png' caption="The list view control displaying the football clubs that can be reorganized by drag and drop. The order can be saved." %}
 
 We will use an external library that wraps all the complex events handling regarding the mouse action involved in the drag and drop. Following unit testing principles, we will only test our logic which will be the movement of elements in the collection the&nbsp;<em>ListView</em> is bound to. In order to add little bit of extra complexity, we would like to allow not only the movement of one row but also of a block of contiguous rows.
 
@@ -47,7 +47,7 @@ There are tons of blog posts and articles on theoretical description of MVVM wri
 
 The basic interaction rules can be summarized in the drawing below.
 
-{% include image-caption.html imageurl='/assets/images/legacy-wp-content/2014/03/mvvm1-300x149.png' title="MVVM interactions overview" caption="MVVM interactions overview" %}
+{% include image-caption.html imageurl='/assets/images/legacy-wp-content/2014/03/mvvm1-300x149.png' caption="MVVM interactions overview" %}
 
 Speaking more in term of WPF, the view contains the UserControls, the windows. A view class definition is split between the xaml file (simplifying UI design) and the associate .cs file called code behind. If an application is coded following MVVM principles the code behind should be small, containing code on the UI elements that are difficult to expressed with XAML syntax (e.g. keyboard bindings).
 
@@ -99,4 +99,4 @@ We finish this post by showing the true implementation of the ViewModel. We do n
 
 To conclude, we have shown the basic ingredients for the testing of a ViewModel, this tests suite can be extended to complete a strong code coverage (there are many corner cases in our situation). Not also, that the MVVM pattern allows you to test the command, for example the <em>SaveClick</em>. Thanks to the Moq VerifySet method, you can check that the setter on the&nbsp;<em>UserBet</em>&nbsp;property for the&nbsp;mock&nbsp;<em>Mock<IChampionship> </em>is called (see project on github).
 
-{% include image-caption.html imageurl='/assets/images/legacy-wp-content/2014/03/testseries-e1450467680749.jpg' title="All tests running successfully" caption="All tests running successfully" %}
+{% include image-caption.html imageurl='/assets/images/legacy-wp-content/2014/03/testseries-e1450467680749.jpg' caption="All tests running successfully" %}

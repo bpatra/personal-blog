@@ -47,7 +47,7 @@ You may retrieve the code samples below on my <a title="github repository" href=
 
 To illustrate these tools we will use a very simple mockup project and we start its description with the following VisualStudio solution.
 
-{% include image-caption.html imageurl='/assets/images/legacy-wp-content/2014/05/vssolution.jpg' title="The Visual Studio solution describing the example of this post." caption="The Visual Studio solution describing the example of this post." %}
+{% include image-caption.html imageurl='/assets/images/legacy-wp-content/2014/05/vssolution.jpg' caption="The Visual Studio solution describing the example of this post." %}
 
 As usual there are two projects: <em>WebApplication1</em>, the core project, containing the app folder with our javascript logic, especially the one that we would like to test: <em>sut.js</em> (for SystemUnderTest). There is also the test project, <em>WebApplication1.Tests</em>. The file testing the logic contained in <em>sut.js</em> is simply <em>sutTests.js</em>. The testing framework Jasmine is added to the solution by referencing the folder <em>lib/jasmine-2.0.0.</em>.
 
@@ -64,19 +64,19 @@ Let us now focus on the test suite in the <em>sutTests.js</em> code.
 This piece of code is very basic Jasmine syntax for a test suite. We assert the values of the factorial function for the two corner cases where the input is 0 and 1 and we also test the situation with n=5. Remark also that we have a test which asserts that an exception is thrown when a non positive value is passed to the function. We have not covered this situation with the snippet above, consequently, we expect this test to fail... Remark that all the needed references to js files are handled with <em>///<reference</em> of Visual Studio. By the way, we benefit from Visual Studio Intellisense here.
 
 
-{% include image-caption.html imageurl='/assets/images/legacy-wp-content/2014/05/intellisense.jpg' title="The javascript Intellisense with Visual Studio" caption="The javascript Intellisense with Visual Studio" %}
+{% include image-caption.html imageurl='/assets/images/legacy-wp-content/2014/05/intellisense.jpg' caption="The javascript Intellisense with Visual Studio" %}
 
 In the next screen shot, we run the&nbsp;tests with the Visual Studio Test Explorer&nbsp;that is compatible with Jasmine thanks to Chutzpah.
 
-{% include image-caption.html imageurl='/assets/images/legacy-wp-content/2014/05/runallonefailure.jpg' title="Run all our test with the Visual Studio test explorer. As expected we encounter a failure." caption="Run all our test with the Visual Studio test explorer. As expected we encounter a failure." %}
+{% include image-caption.html imageurl='/assets/images/legacy-wp-content/2014/05/runallonefailure.jpg' caption="Run all our test with the Visual Studio test explorer. As expected we encounter a failure." %}
 
 
 If we were in the situation where we do not know what is going wrong (which is often the case) we would need to debug the test. Unfortunately, like Resharper, you cannot debug the test directly in VisualStudio, the debugger does not attach well. Even Chutzpah creator does not know <em>how <a href="http://stackoverflow.com/questions/12561362/how-do-i-debug-my-javascript-that-is-being-executed-by-chutzpah-phantomjs">we would do that</a>,</em> so I believe we will have to wait to debug javascript test as easily as we debug .NET within visual studio. Then, we will have to debug with a web browser. However, Chutzpah creates the webpage for bootstrapping your failing test. So just by clicking in Open in browser you will have the web page loaded and a link to run the failing test within the browser (see screenshots below).
 
 
-{% include image-caption.html imageurl='/assets/images/legacy-wp-content/2014/05/openinbrowser.jpg' title="Chutzpah Visual Studio extension creates web page for running/debugging tests in the web browser." caption="Chutzpah Visual Studio extension creates web page for running/debugging tests in the web browser." %}
+{% include image-caption.html imageurl='/assets/images/legacy-wp-content/2014/05/openinbrowser.jpg' caption="Chutzpah Visual Studio extension creates web page for running/debugging tests in the web browser." %}
 
-{% include image-caption.html imageurl='/assets/images/legacy-wp-content/2014/05/debuginbrowser.jpg' title="Then the debugging sessions happens in your browser (here Chrome). Clicking again the links reexecute the tests." caption="Then the debugging sessions happens in your browser (here Chrome). Clicking again the links reexecute the tests." %}
+{% include image-caption.html imageurl='/assets/images/legacy-wp-content/2014/05/debuginbrowser.jpg' caption="Then the debugging sessions happens in your browser (here Chrome). Clicking again the links reexecute the tests." %}
 
 Now, we do have all the material for editing efficiently tests in Visual Studio. Let us have a few words for running the test using the command line on the server. Personally, I embed the Chutzaph runner in a&nbsp;<em>/build</em> directory within my sources and executes the following Powershell script.
 
@@ -84,7 +84,7 @@ Now, we do have all the material for editing efficiently tests in Visual Studio.
 
 Here is what it looks when ran it an Powershell console with teamcity options.
 
-{% include image-caption.html imageurl='/assets/images/legacy-wp-content/2014/05/chutzpahposh.jpg' title="The execution of all javascript tests of the solution with Chutzpah runner using Powershell" caption="The execution of all javascript tests of the solution with Chutzpah runner using Powershell" %}
+{% include image-caption.html imageurl='/assets/images/legacy-wp-content/2014/05/chutzpahposh.jpg' caption="The execution of all javascript tests of the solution with Chutzpah runner using Powershell" %}
 
 To conclude, I would say that Chutzpah is a great project and if you need a simple and ready to use test runner I would recommend it. The only limitation for now &nbsp;would be that the runner only supports phantomJS. However, you may use another another test runner for executing the tests with different browser and&nbsp;you can keep the Chutzpah Visual Studio extension for the development. One last important thing to note is the fact that Chutzpah 3.0 supports <a href="http://requirejs.org/">RequireJs</a>.
 

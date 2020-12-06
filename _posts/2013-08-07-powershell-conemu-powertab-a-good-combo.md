@@ -31,7 +31,7 @@ comments: []
 <span style="line-height:1.714285714;font-size:1rem;">Microsoft has released in 2006 Powershell (PoSh), a brilliant shell based on the .NET framework. However, the console (or terminal) stays really close to the usual windows command prompt. It is commonly admitted that this console suffers a lot of drawbacks which makes it painful for a everyday usage, see for example these blogs (<a title="artlogic" href="http://blog.artlogic.com/2013/06/28/making-the-windows-command-prompt-suck-slightly-less/">artlogic</a>&nbsp;, <a title="hanselman" href="http://http://www.hanselman.com/blog/MakingABetterSomewhatPrettierButDefinitelyMoreFunctionalWindowsCommandLine.aspx">hanselman</a>, etc.). Just to make things clear, let us recall the difference between a shell and a console. The former is the command interpreter, it is performing the hard work while the latter is just the window, i.e. the program in charge of prompting and displaying information.</span>
 
 
-{% include image-caption.html imageurl='/assets/images/legacy-wp-content/2013/08/conemu.jpg' title="ConEmu with PowerTab tabbing!" caption="ConEmu with PowerTab tabbing" position_class="image-right" %}
+{% include image-caption.html imageurl='/assets/images/legacy-wp-content/2013/08/conemu.jpg' caption="ConEmu with PowerTab tabbing" position_class="image-right" %}
 
 
 In this post I will show you how to configure C<a title="conemu" href="https://code.google.com/p/conemu-maximus5/">onEmu</a>&nbsp;an opensource console emulator to work with Powershell and to benefit from a well designed tab completion with <a title="PowerTab" href="http://powertab.codeplex.com/">PowerTab</a>.
@@ -44,7 +44,7 @@ If you are an intensive Powershell user, you would want ConEmu to start directly
 
 {% include insert-gists.html gisturl='https://gist.github.com/bpatra/6158561.js' %}
 
-{% include image-caption.html imageurl='/assets/images/legacy-wp-content/2013/08/shortcutprop.jpg' title="Target in properties of the desktop/taskbar shortcut" caption="Target in properties of the desktop/taskbar shortcut" position_class="image-right"%}
+{% include image-caption.html imageurl='/assets/images/legacy-wp-content/2013/08/shortcutprop.jpg' caption="Target in properties of the desktop/taskbar shortcut" position_class="image-right"%}
 
 Next, create a shortcut in task bar or desktop, right click on it on go to the properties of &nbsp;the&nbsp;link. You may enter the following command in the target&nbsp;property:<em>&nbsp;
 &lt;pathToConemu&gt;conemu.exe /cmd @

@@ -66,7 +66,7 @@ My current task at work is the development of an excel addin. This addin is deve
 
 Let me start this post by reminding you that a range in Excel is not necessarily a block of contiguous&nbsp;cells. Indeed, try it yourself by starting excel right now. Then you can select a range, keep the Ctrl button of your keyboard press on and select an other block of contiguous cell. Then, you have several cells selected that you can name (as shown in the screenshot). Finally, you have created a named range with non-contiguous cells.
 
-{% include image-caption.html imageurl='/assets/images/legacy-wp-content/2013/10/ranges-300x168.jpg' title="A range of non-contiguous cells in Excel" caption="A range of non-contiguous cells in Excel" position_class="image-right"%}
+{% include image-caption.html imageurl='/assets/images/legacy-wp-content/2013/10/ranges-300x168.jpg' caption="A range of non-contiguous cells in Excel" position_class="image-right"%}
 
 <span style="line-height: 1.714285714; font-size: 1rem;">Having said that, let us assume that for our addin&nbsp;we need to reference programmatically the range of all lines of the form, with usual excel notations,&nbsp;</span><strong style="line-height: 1.714285714; font-size: 1rem;">Ax:Cx</strong><span style="line-height: 1.714285714; font-size: 1rem;">&nbsp;where </span><strong style="line-height: 1.714285714; font-size: 1rem;">x</strong><span style="line-height: 1.714285714; font-size: 1rem;"> describes a set of row indices.&nbsp;</span>
 
