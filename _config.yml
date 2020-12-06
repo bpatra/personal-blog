@@ -7,7 +7,7 @@ logo:
 author:
   image: 'authorimage.jpg'
   greetings: "Hi, I am Benoît Patra, welcome to my personal blog."
-favicon: 'assets/images/favicon.ico'
+favicon: 'assets/images/favicon.png'
 baseurl: 
 production_url: https://www.benoitpatra.com/
 exclude:
