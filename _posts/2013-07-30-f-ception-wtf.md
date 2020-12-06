@@ -25,7 +25,7 @@ tags:
 comments: []
 ---
 
-{% include image-align-right.html imageurl='/assets/images/legacy-wp-content/2013/07/220px-inception_ver3.jpg' title="F#-ception!" %}
+{% include image-caption.html imageurl='/assets/images/legacy-wp-content/2013/07/220px-inception_ver3.jpg' title="F#-ception!" position_class="image-right" %}
 
 Hi, its middle of summer so let us relax with a "coding for fun" post. The subject presented here came from a kind of "wtf contest" that we had with a colleague of mine on our free time. The objective was to write&nbsp;a unit test to tackle an existing code base using the weirdest approach. My contestant Gabriel is a brilliant developer, so in order to compete with him I had to bring something really absurd rather than technically sophisticated. So I came with the idea of executing F# code inlined in a powershell script invoked from F# code. Obviously, this is absolutely useless. However, it fitted well for the thematic of the &nbsp;contest. In this post we&nbsp;will skip the "existing code base" part&nbsp;and focus on how to achieve this with a very simple example .
 
@@ -52,6 +52,6 @@ Then executed within MsTest framework....
 ...it works!
 
 
-![TestPassed](/assets/images/legacy-wp-content/2013/07/testpassed.jpg)
+{% include image-caption.html imageurl='/assets/images/legacy-wp-content/2013/07/testpassed.jpg' caption="The run is successful" size_class="small" %}
 
 I'd like to thank Gabriel for being fair play by helping me to debug the first version of F#-ception.

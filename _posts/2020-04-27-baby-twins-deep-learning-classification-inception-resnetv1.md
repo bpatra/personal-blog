@@ -30,7 +30,7 @@ comments: []
 
 Deeplearning techniques have proven to be the most efficient AI tools for computer vision. In this blog post we use a deeplearning convolutional neural network to build a classifier&nbsp;on my baby twins pictures.
 
-{% include image-align-right.html imageurl='/assets/images/legacy-wp-content/2020/04/superlittleLandJ-300x281.jpg' caption="A photo of my two girls with annotations. It will be used for building&nbsp;the face recognition dataset. In the blog post, their faces have been blurred for anonymization." %}
+{% include image-caption.html imageurl='/assets/images/legacy-wp-content/2020/04/superlittleLandJ-300x281.jpg' caption="A photo of my two girls with annotations. It will be used for building&nbsp;the face recognition dataset. In the blog post, their faces have been blurred for anonymization." position_class="image-right" %}
 
 When it comes to machine learning practical experiments, the first thing anybody needs are some data. When experimenting for hobby, we often rely on some open and popular dataset such as <a href="https://en.wikipedia.org/wiki/MNIST_database">MNIST</a> or the <a href="https://www.kaggle.com/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews">IMDB reviews</a>. However, it is useful for improving to be confronted with challenges on fresh and unworked data.
 

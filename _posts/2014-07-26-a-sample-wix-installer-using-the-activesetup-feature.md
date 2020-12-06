@@ -103,7 +103,7 @@ comments:
   content: Same issue .Don't know what's wrong.
 ---
 
-{% include image-align-right.html imageurl='/assets/images/legacy-wp-content/2014/07/pedroslokoouedec1.jpg' title="F#-ception!" caption="All users have the software in the case of a local machine install contrary to user install" %}
+{% include image-caption.html imageurl='/assets/images/legacy-wp-content/2014/07/pedroslokoouedec1.jpg' title="F#-ception!" caption="All users have the software in the case of a local machine install contrary to user install" position_class="image-right" %}
 
 In this post I will explain the technical details of the <a href="https://github.com/bpatra/ExcelDNAWixInstallerLM">Wix sample installer for local machine</a> install of <a href="https://exceldna.codeplex.com/">Excel-DNA addins</a>. <a href="http://wixtoolset.org/">Wix</a> is a popular free toolset to create .msi installer. I used the ActiveSetup feature to address a "per user" install problem and this is the part I will cover in this post. Therefore, it maybe useful for both who do not know ActiveSetup at all and for people looking out to write their own Wix installer leveraging the ActiveSetup. Even, if I think ActiveSetup should be used only if there is no alternative this barely known feature may save your life so it is good to be aware of its existence. We will use the terminology of the Windows Registry that you can check on the<a href="http://en.wikipedia.org/wiki/Windows_Registry"> Wikipedia page</a>.
 

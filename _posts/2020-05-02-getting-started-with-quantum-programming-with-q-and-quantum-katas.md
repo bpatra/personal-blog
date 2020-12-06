@@ -31,7 +31,7 @@ comments: []
 
 Quantum computing has received a lot of attention in the past years and in fall 2019 <a href="https://www.youtube.com/watch?v=-ZNEzzDcllU" target="_blank">Google claimed</a> they achieved the so-called <a href="https://en.wikipedia.org/wiki/Quantum_supremacy">quantum supremacy</a>. Quantum computing brings with it great promises from its early days, when Richard Feynman and others, imagined that leveraging the quantum properties of subatomic particles could lead to devices with inconmensurable computing power compared to what could be ever achieved with a classical computer.
 
-{% include image-align-right.html imageurl='/assets/images/legacy-wp-content/2020/05/Richard_Feynman_Nobel-212x300.jpg' caption="Professor Richard Feynman. Nobel prize and one of the forefathers of quantum computing." %}
+{% include image-caption.html imageurl='/assets/images/legacy-wp-content/2020/05/Richard_Feynman_Nobel-212x300.jpg' caption="Professor Richard Feynman. Nobel prize and one of the forefathers of quantum computing." position_class="image-right" %}
 
 I am no quantum researcher or expert, I cannot reasonably predict who is going to win this "race" for quantum supremacy or even when. However, these recent claims make the race even more exciting to watch. Even if a usable quantum computing chip does not seem to be something we will have at hand in the short term, there is still a lot that can be done now, with simulations for instance.
 
@@ -43,7 +43,7 @@ Microsoft describes Q# as:
 Q# (Q-sharp) is a domain-specific programming language used for expressing quantum algorithms. It is to be used for writing subroutines that execute on an adjunct quantum processor, under the control of a classical host program and computer. Until quantum processors are widely available, Q# subroutines execute on a simulator.
 </blockquote>
 
-{% include image-caption.html imageurl='/assets/images/legacy-wp-content/2020/05/1_w9516UckuSEBQdiUOoiHbQ-300x229.png' caption="A sphere is often used to represent the concept of Qubit: the fundamental unit of a Quantum capable device. Image source: https://medium.com/@kareldumon/" %}
+{% include image-caption.html imageurl='/assets/images/qubit.png' caption="A sphere is often used to represent the concept of Qubit: the fundamental unit of a Quantum capable device. Image source: https://medium.com/@kareldumon/" size_class="small" %}
 
 
 Actually, Microsoft released a full <a href="https://docs.microsoft.com/en-us/quantum/welcome" target="_blank">Quantum Development Kit</a> on top of the Q# compiler. It is completely free and open source. Following Microsoft habits to do things properly, even in its early days this was really well polished: documentation was pretty neat and complete and even some samples were shipped to help you start. They did pretty good job making all this super attractive, even the name Q# sounds cool, doesn't it?
@@ -56,7 +56,7 @@ In this blog post, I share some of my feedbacks, tips and even resources to help
 
 <h2>An overview of Quantum Katas</h2>
 
-{% include image-align-right.html imageurl='/assets/images/legacy-wp-content/2020/05/K1PL_Berlin_2018-09-16_Female_Kata_108-177x300.jpg' caption="The name kata comes from martial arts and karate. It's a discipline originally aimed at practicing the execution of a movement until perfection. Image source Wikipedia." %}
+{% include image-caption.html imageurl='/assets/images/legacy-wp-content/2020/05/K1PL_Berlin_2018-09-16_Female_Kata_108-177x300.jpg' caption="The name kata comes from martial arts and karate. It's a discipline originally aimed at practicing the execution of a movement until perfection. Image source Wikipedia." position_class="image-right"%}
 
 Quantum Katas is a series of tutorials and exercises provided by Microsoft. They come with the form of small challenges that you need to solve using the Q# programming language. They guide you progressively from the very beginning to advanced and hard problems on quantum computing.
 
@@ -64,7 +64,7 @@ Most of the katas are presented as a <a href="https://docs.microsoft.com/en-us/q
 
 When executed within a <a href="#notebooks">Jupyter notebook</a>, you benefit from well formatted explanations with beautiful maths equations right next to your Q# code inputs.
 
-{% include image-caption.html imageurl='/assets/images/legacy-wp-content/2020/05/Screenshot-2020-05-02-at-11.29.14-1024x892.png' caption="A Q# kata example. It takes the form of an exercice. Fill the operation with code and see if it passes the tests. If you do not understand anything yet, do not worry: the series of tutorials will lead you there." %}
+{% include image-caption.html imageurl='/assets/images/legacy-wp-content/2020/05/Screenshot-2020-05-02-at-11.29.14-1024x892.png' caption="A Q# kata example. It takes the form of an exercice. Fill the operation with code and see if it passes the tests. If you do not understand anything yet, do not worry: the series of tutorials will lead you there." size_class="medium" %}
 
 <h2>What are the real prerequisites to get started with Q# and Quantum Katas?</h2>
 On the <a href="https://docs.microsoft.com/en-us/quantum/overview/how-to-learn-quantum-computing">Katas's webpage</a> Microsoft provides the prerequisites to get started. I think it was interesting to provide my point of view here.
@@ -119,7 +119,7 @@ Indeed, a Qubit in the arbitrary (superposed) state $\ket{\psi}$ can be written 
 
 When starting to learn quantum computing, a reference often cited is <a href="https://algassert.com/quirk" target="_blank">Quirk</a>. While it's an amazing project, building visual quantum circuits has not really helped me to "get" the fundamentals of quantum computing and why it can achieve for example these exponential speed ups.
 
-{% include image-caption.html imageurl='/assets/images/legacy-wp-content/2020/04/1200px-Bloch_sphere.svg_.png' caption="The Bloch Sphere and its 3D representation. This is very popular, but has not helped me much while trying to get into quantum computing." %}
+{% include image-caption.html imageurl='/assets/images/legacy-wp-content/2020/04/1200px-Bloch_sphere.svg_.png' caption="The Bloch Sphere and its 3D representation. This is very popular, but has not helped me much while trying to get into quantum computing." size_class="small"  %}
 
 <h3>Adopt quickly the bra-ket notations and get used to tensorial product</h3>
 If you come with a mathematical background you probably have not worked with <a href="https://en.wikipedia.org/wiki/Bra%E2%80%93ket_notation" target="_blank">bra-ket notations</a> before. If everybody use them in quantum mechanics and computing this is for a reason. As you will learn in the Quantum Katas tutorials, the canonical base for a 3-Qubit systems is composed of the 8 vectors $\ket{000}$, $\ket{001}$, $\ket{010}$... which is much more handy to write compared to a $\mathbb{C}$ 8-dimensional vector for each. Remember, a $N$-Qubit state is represented by a $2^{N}$ dimensional vector. Convince yourself that the bra-ket notations are consistent with the matrix representation you are more familiar with and after that <strong>stick and embrace bra-ket notations</strong>. I also advise you to review the <a href="https://en.wikipedia.org/wiki/Tensor_product" target="_blank">tensor product</a> properties, which is used intensively in quantum computing. In my mathematical studies I had encountered it sometimes (more frequently as an exercise), here it plays a central role.

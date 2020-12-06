@@ -1,11 +1,34 @@
 .image-right{
+  @media only screen and (min-width: 500px) {
     float: right;
     margin: 12px 0px 12px 24px;
     max-width: 300px;
+  }
 }
 
 .centered-figure{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  img{
+    border-radius: 3px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  &.small{
+    img{
+      @media only screen and (min-width: 500px) {
+          width: 400px;
+      }
+    }
+  }
+
+  &.medium{
+    img{
+      @media only screen and (min-width: 700px) {
+          width: 600px;
+      }
+    }
+  }
 }

@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-![Benoit Patra](/assets/images/legacy-wp-content/2013/07/P6094073_fav_cropped-300x262.jpg#right)
+{% include image-caption.html imageurl='/assets/images/legacy-wp-content/2013/07/P6094073_fav_cropped-300x262.jpg' title="Benoit Patra" position_class="image-right"%}
 
 Hi, I am Benoît Patra, welcome to my personal blog. I am now CTO at <a title="iAdvize" href="https://www.iadvize.com/">iAdvize</a>.
 
