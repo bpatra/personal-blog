@@ -30,6 +30,8 @@ linkedin: 'benoit-patra'
 navigation:
   - text: Home
     url: /
+  - text: Posts
+    url: /posts
   - text: About
     url: /about
 

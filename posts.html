@@ -1,0 +1,31 @@
+---
+layout: page
+title: Posts
+---
+
+<h2>By publication date</h2>
+
+<!-- <h2>By categories</h2>
+
+{% for category in site.categories %}
+  <div class="archive-group">
+    {% capture category_name %}{{ category | first }}{% endcapture %}
+    <div id="#{{ category_name | slugize }}">{{ category_name }} - ({{ category[1].size }})</div>
+  </div>
+{% endfor %} -->
+
+<h2>By tags</h2>
+
+<!-- Create a sorted array of tags -->
+{% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor
+%}{%
+endcapture %} {% assign sortedTags = site_tags | split:',' | sort %}
+<section class="tagcloud inner">
+    <h2 class="tagcloud-title">Tags</h2>
+    <div class="tag-links">
+        {% for tag in sortedTags %}
+        <a href='{{ site.baseurl }}/tag/{{ tag | downcase | replace: ' ', '- ' }}/'>{{ tag | camelcase }}</a>
+        {% endfor %}
+    </div><!-- .tag-links -->
+</section><!-- .tagcloud -->
+
