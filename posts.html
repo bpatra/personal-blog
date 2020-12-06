@@ -21,7 +21,7 @@ title: Posts
     <div class="tag-links">
         {% for category in site.categories %}
             {% capture category_name %}{{ category | first }}{% endcapture %}
-            <a href="{{ site.baseurl }}/category/{{ category_name | downcase | replace: ' ', '-'}}/">{{ category_name }} ({{ category[1].size }})</a>
+            <a href="{{ site.baseurl }}/category/{{ category_name | downcase | slugify }}/">{{ category_name }} ({{ category[1].size }})</a>
         {% endfor %}
     </div><!-- .tag-links -->
 </section><!-- .tagcloud -->
@@ -34,7 +34,7 @@ endcapture %} {% assign sortedTags = site_tags | split:',' | sort %}
     <h2 class="tagcloud-title">Tags</h2>
     <div class="tag-links">
         {% for tag in sortedTags %}
-        <a href='{{ site.baseurl }}/tag/{{ tag | downcase | replace: ' ', '-' }}/'>{{ tag | camelcase }}</a>
+        <a href='{{ site.baseurl }}/tag/{{ tag | downcase | slugify }}/'>{{ tag | camelcase }}</a>
         {% endfor %}
     </div><!-- .tag-links -->
 </section><!-- .tagcloud -->
