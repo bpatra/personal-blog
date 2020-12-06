@@ -14,8 +14,7 @@ author_url: https://www.benoitpatra.com
 date: '2020-03-07 11:25:45 +0000'
 date_gmt: '2020-03-07 11:25:45 +0000'
 featured: true
-featured_image_thumbnail:
-featured_image: assets/images/legacy-wp-content/2020/03/Ubutntu-on-Windows-10-logo-banner2.jpg
+featured_image: /assets/images/legacy-wp-content/2020/03/Ubutntu-on-Windows-10-logo-banner2.jpg
 hidden: true
 categories:
 - Programming

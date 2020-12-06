@@ -26,9 +26,9 @@ post_class: post-template
                 {% endif %}
             </header><!-- .post-header -->
 
-            {% if page.featured_image %}
+            {% if page.featured_image_in_post %}
             <div class="post-thumbnail">
-                <img src="{{ site.baseurl }}{{ page.featured_image }}" alt="{{ page.title }}">
+                <img src="{{ site.baseurl }}{{ page.featured_image_in_post }}" alt="{{ page.title }}">
             </div>
             {% endif %}
             <div class="post-content">

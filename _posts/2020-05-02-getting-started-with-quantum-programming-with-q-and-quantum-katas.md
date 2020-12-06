@@ -18,7 +18,7 @@ date: '2020-05-02 15:13:32 +0000'
 date_gmt: '2020-05-02 13:13:32 +0000'
 featured: true
 featured_image_thumbnail:
-featured_image: assets/images/legacy-wp-content/2020/05/qubit-preview.png
+featured_image: /assets/images/legacy-wp-content/2020/05/qubit-preview.png
 hidden: true
 categories:
 - Programming
