@@ -52,7 +52,9 @@
     <script src="{{ site.baseurl }}/assets/js/jquery-3.3.1.min.js"></script>
     <script src="{{ site.baseurl }}/assets/js/plugins.js"></script>
     <script src="{{ site.baseurl }}/assets/js/custom.js"></script>
-
+    {% if page.has_maths %}
+    {% include mathjax-footer.html %}
+    {% endif %}
 </body>
 
 </html>
