@@ -14,7 +14,7 @@ exclude:
   - importer-tips
 
 # Add your GA Tracking Id
-ga_analytics: 
+ga_analytics: UA-71053026-1
 
 # Contact form setings
 email: youremail@email.com
