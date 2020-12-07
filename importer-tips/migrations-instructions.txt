@@ -44,3 +44,18 @@ ___
 Remove all the things with a script
 ___
 take care of your URIs
+
+___ 
+
+put everything on Gist...
+___
+Use includes for the images....
+because you cannot move Wordpress snippets (shortcodes....)
+
+___
+
+Jekyll Archives...
+(slugify urls !)
+___
+
+Go to Azure Static Web Apps
