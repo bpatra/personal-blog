@@ -27,7 +27,7 @@ Since 2010, I teach C++&nbsp; about 25 hours per year at <a href="http://www.ens
 
 <a href="https://github.com/bpatra/tpgit/blob/master/TPGit.pdf?raw=true">The link to the practical (pdf)</a>
 
-The source control that we decided to retain is git. Even if we do believe that SVN would suffice for the quite small project of our students. We think that git is the future in term of source control and git is much more powerful than SVN so, why have less when you can have more?
+The source control that we decided to retain is git. Even if we do believe that SVN would suffice for the quite small project of our students. We think that git is the future in terms of source control and git is much more powerful than SVN so, why have less when you can have more?
 
 I publish this practical because it may be useful to others. Note that this practical is not a tutorial and it does not aim at being a git manual either. I think that their is plenty of very good documentation on the net starting by the famous <a href="http://git-scm.com/book">ProGit</a> by Scott Chacon. This practical is more about <em>how do you work with git in a real life?</em>&nbsp;It should be followed by a pair of student but you can do it alone if you manage split your brain in two.
 

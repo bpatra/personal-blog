@@ -49,7 +49,7 @@ The basic interaction rules can be summarized in the drawing below.
 
 {% include image-caption.html imageurl='/assets/images/legacy-wp-content/2014/03/mvvm1-300x149.png' caption="MVVM interactions overview" %}
 
-Speaking more in term of WPF, the view contains the UserControls, the windows. A view class definition is split between the xaml file (simplifying UI design) and the associate .cs file called code behind. If an application is coded following MVVM principles the code behind should be small, containing code on the UI elements that are difficult to expressed with XAML syntax (e.g. keyboard bindings).
+Speaking more in terms of WPF, the view contains the UserControls, the windows. A view class definition is split between the xaml file (simplifying UI design) and the associate .cs file called code behind. If an application is coded following MVVM principles the code behind should be small, containing code on the UI elements that are difficult to expressed with XAML syntax (e.g. keyboard bindings).
 
 Now it is time, to present the external tools that we are going to use in this small app. The drag and drop mouse interaction will be handled by the open source project <a title="GongWPF" href="https://github.com/punker76/gong-wpf-dragdrop">GongWPF</a>. For unit testing we will use the <a title="Visual Studio Test framework" href="http://en.wikipedia.org/wiki/Visual_Studio_Unit_Testing_Framework">Visual Studio Test framework</a> and <a title="Moq" href="https://github.com/Moq/moq4">Moq</a> for creating mock objects. For a real and more sophisticated app written with MVVM, I would recommend you to use a framework. Personally, I do like <a title="mvvmlight" href="https://mvvmlight.codeplex.com/">MVVMLight</a>.
 
@@ -81,7 +81,7 @@ Following the TDD principles let us write tests first.&nbsp;But before that, let
 
 {% include insert-gists.html gisturl='https://gist.github.com/bpatra/9517801.js' %}
 
-Here comes our first unit test. I think it is a good thing when a test can expressed in term of a simple sentence such as "Given... When ... Then...". Logically, the test method name should be closed to this sentence. The first one will assert that " <strong>given a list of four rows when the the source is the first row and the target is the second one then the list of row should be reordered</strong>". Remark that the target (the <em>InsertIndex</em> in GongWPF API) corresponds to the row instance preceding the inserted item. Being clear with this convention, the GongWPF interfaces are easily mocked using Moq, resulting in the following unit test. We assert that after executing the <em>Drop</em> method the list is<em> club2, club1, club3, club4</em>
+Here comes our first unit test. I think it is a good thing when a test can expressed in terms of a simple sentence such as "Given... When ... Then...". Logically, the test method name should be closed to this sentence. The first one will assert that " <strong>given a list of four rows when the the source is the first row and the target is the second one then the list of row should be reordered</strong>". Remark that the target (the <em>InsertIndex</em> in GongWPF API) corresponds to the row instance preceding the inserted item. Being clear with this convention, the GongWPF interfaces are easily mocked using Moq, resulting in the following unit test. We assert that after executing the <em>Drop</em> method the list is<em> club2, club1, club3, club4</em>
 
 {% include insert-gists.html gisturl='https://gist.github.com/bpatra/9518156.js' %}
 

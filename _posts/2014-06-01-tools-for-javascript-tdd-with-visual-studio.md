@@ -27,7 +27,7 @@ tags:
 - visual studio
 comments: []
 ---
-In this post I describe the tools that I have selected for efficient development of javascript tests within Visual Studio. Indeed, if you are developing sites with ASP.NET or <a href="http://msdn.microsoft.com/en-us/office/dn448457.aspx">Apps for Office</a> then you are more or less committed to use Visual Studio. Therefore, you probably do not want to use another editor for the javascript development.
+In this post I describe the tools that I have selected for efficient development of javascript tests within Visual Studio. Indeed, if you are developing sites with ASP.NET or <a href="http://msdn.microsoft.com/en-us/office/dn448457.aspx">Apps for Office</a> then you are more or less committed to use Visual Studio. Therefore, you probably do not want to use another editor for your javascript development.
 
 What were my requirements when I chose the tools that I will describe to you in this post? Actually, I needed tools which can&nbsp;provide&nbsp;me&nbsp;the same comfort that I have while I am developing in&nbsp;TDD with&nbsp;.NET. Precisely, the test should be run individually (or at least individually for a given set). They should be run on the continuous integration build, which is <a href="http://www.jetbrains.com/teamcity/">teamcity</a> in my case. The test runner may use any browser for executing the tests even if flexibility for using all kind of browsers would be appreciated. In addition, the test should be easily debugged and this is a very important aspect for me.
 
@@ -37,7 +37,7 @@ Let me detail a little this latter requirement.&nbsp;Indeed, I have read recentl
 Wiseman said: &ldquo;If you need to debug unit test then something is wrong with it&rsquo;s unitness.&rdquo;<br />
 PS: If it&rsquo;s really needed you can debug it in browser as you normally debug JavaScript code.
 </blockquote>
-Even if the rest of the blog is brilliant, *I do not agree at all with this sentence*. &nbsp;If you practice regularly&nbsp;TDD then you'll see that you have to debug, that's part of the game. If you never have to debug maybe it's because you are asserting too much trivialities and not enough your own complex logic. In addition, if you have to create the webpage on your own, for debugging, that is not acceptable to me either. You should be able to put your breakpoint anywhere in your code and hit it in less than five seconds. We will see that the tool chosen permits such quick debugging and that's the main reason why I am using it.
+While if the rest of the blog is brilliant, *I do not subscribe at all to this sentence*. &nbsp;If you practice regularly&nbsp;TDD then you'll see that you have to debug, that's part of the game. If you never have to debug maybe it's because you are asserting too much trivialities and not enough your own complex logic. In addition, if you have to create the webpage on your own, for debugging, that is not acceptable to me either. You should be able to put your breakpoint anywhere in your code and hit it in less than five seconds. We will see that the tool chosen permits such quick debugging and that's the main reason why I am using it.
 
 At the time of the writing, the popular Visual Studio Addin <a href="http://www.jetbrains.com/resharper/">Resharper</a> with its version 8 supports javascript tests with the frameworks Jasmine or QUnit. Unfortunately, the debugger cannot be properly attached while debugging the scripts. Sadly, I had to reject Resharper that I appreciate so much for .NET development.
 
