@@ -41,8 +41,8 @@ jekyll-archives:
 navigation:
   - text: Home
     url: /
-  - text: Posts
-    url: /posts
+  - text: Archives
+    url: /archives
   - text: About
     url: /about
 
