@@ -16,6 +16,8 @@ exclude:
 # Add your GA Tracking Id
 ga_analytics: UA-71053026-1
 
+disqus: benoitpatra
+
 # Social links
 twitter: 'benoitpatra'
 github: 'bpatra'
