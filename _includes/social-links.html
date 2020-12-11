@@ -54,4 +54,9 @@
         {% include icons/quora.html %}
     </a>
     {% endif %}
+    {% if site.feed %}
+    <a href="/{{ site.feed }}" target="_blank">
+        {% include icons/rss.html %}
+    </a>
+    {% endif %}
 </p>

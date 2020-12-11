@@ -20,6 +20,7 @@ ga_analytics: UA-71053026-1
 twitter: 'benoitpatra'
 github: 'bpatra'
 linkedin: 'benoit-patra'
+feed: 'feed.xml'
 
 jekyll-archives:
   enabled:
