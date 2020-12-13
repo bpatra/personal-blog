@@ -4,7 +4,7 @@
             <time class="published" datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%B %-d, %Y" }}</time>
         </div><!-- .post-meta -->
         <h2 class="post-title">
-            <a href="{{ post.url | absolute_url }}" rel="bookmark">{{ post.title }}</a>
+            <a href="{{ post.url }}" rel="bookmark">{{ post.title }}</a>
         </h2>
     </header><!-- .post-header -->
     <div class="post-content">

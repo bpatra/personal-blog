@@ -1,15 +1,11 @@
 # Site setings
 name: "Benoît Patra's blog"
+title: "Benoît Patra's blog"
+tagline: "Discussions on software engineering"
 description: 'Discussions on software engineering and machine learning'
-meta_description: 'Software engineering, machine learning, datascience, CTO'
-logo:
-# Author image is used in site sidebar and greetings in the home page hero text
-author:
-  image: 'authorimage.jpg'
-  greetings: "Hi, I am Benoît Patra, welcome to my personal blog."
 
+url: https://www.benoitpatra.com # required by seo-tag plugins and others
 baseurl: 
-production_url: https://www.benoitpatra.com/
 exclude:
   - jekyll-ignore
 
@@ -18,8 +14,33 @@ ga_analytics: UA-71053026-1
 
 disqus: benoitpatra
 
-# Social links
-twitter: 'benoitpatra'
+# used by both template and Jekyll SEO TAG pluging
+logo: '/assets/images/logo.png'
+
+
+# jekyll-seo-tag
+author:
+  name: Benoit Patra
+  twitter: benoitpatra
+  image: 'authorimage.jpg'
+  # theme
+  greetings: "Hi, I am Benoît Patra, welcome to my personal blog."
+
+
+#Social for Jekyll SEO
+social:
+  name: Benoît Patra
+  links:
+    - https://twitter.com/benoitpatra
+    - https://www.linkedin.com/in/benoit-patra
+    - https://github.com/bpatra
+
+# used by both theme and SEO-tag
+twitter:
+  username: benoitpatra # used by theme
+  card: summary
+
+# Social links for template
 github: 'bpatra'
 linkedin: 'benoit-patra'
 feed: 'feed.xml'

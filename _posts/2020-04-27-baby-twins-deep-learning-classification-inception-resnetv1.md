@@ -20,9 +20,9 @@ tags:
 - neural networks
 ---
 
-Deeplearning techniques have proven to be the most efficient AI tools for computer vision. In this blog post we use a deeplearning convolutional neural network to build a classifier&nbsp;on my baby twins pictures.
+Deeplearning techniques have proven to be the most efficient AI tools for computer vision. In this blog post we use a deeplearning convolutional neural network to build a classifier on my baby twins pictures.
 
-{% include image-caption.html imageurl='/assets/images/legacy-wp-content/2020/04/superlittleLandJ-300x281.jpg' caption="A photo of my two girls with annotations. It will be used for building&nbsp;the face recognition dataset. In the blog post, their faces have been blurred for anonymization." position_class="image-right" %}
+{% include image-caption.html imageurl='/assets/images/legacy-wp-content/2020/04/superlittleLandJ-300x281.jpg' caption="A photo of my two girls with annotations. It will be used for building the face recognition dataset. In the blog post, their faces have been blurred for anonymization." position_class="image-right" %}
 
 When it comes to machine learning practical experiments, the first thing anybody needs are some data. When experimenting for hobby, we often rely on some open and popular dataset such as <a href="https://en.wikipedia.org/wiki/MNIST_database">MNIST</a> or the <a href="https://www.kaggle.com/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews">IMDB reviews</a>. However, it is useful for improving to be confronted with challenges on fresh and unworked data.
 
@@ -32,7 +32,7 @@ Since July 2019 (9-months at the time of the writing), I am the happy father of 
 
 In this post, we will use a state-of-the-art deep learning architecture: <a href="https://arxiv.org/abs/1602.07261" target="_blank"><em>Inception ResNetV1</em></a> to build a classifier for photo portraits of my girls. We also take benefit of some pretrained weights from facenet dataset. Before that, we will make a detour by tricking a little bit the problem: this will allow us to check our code snippets and review some nice visualization techniques. Then, the <em>InceptionResNetV1</em> based model will allow us to achieve some interesting accuracy results. We will experiment using <a href="https://keras.io/" target="_blank">Keras</a> backed by <a href="https://www.tensorflow.org/" target="_blank">Tensorflow</a>. We conducted the computing intensive tasks on a GPU machine hosted on <a href="https://azure.microsoft.com" target="_blank">Microsoft Azure</a>.
 
-The code source is available here:&nbsp;<a href="https://github.com/bpatra/twins-recognizer">on Github</a>. The dataset is obviously composed of personal pictures of my family that I do not want to let openly accessible. In this blog post, the faces of my babies have been <strong>intentionally blured to preserve their privacy</strong>. Of course, the algorithms whose results are presented here were run with non obfuscated data.
+The code source is available here: <a href="https://github.com/bpatra/twins-recognizer">on Github</a>. The dataset is obviously composed of personal pictures of my family that I do not want to let openly accessible. In this blog post, the faces of my babies have been <strong>intentionally blured to preserve their privacy</strong>. Of course, the algorithms whose results are presented here were run with non obfuscated data.
 
 In this post and in the <a href="https://github.com/bpatra/twins-recognizer" target="_blank">associated source code</a> we reuse some of the models and snippets from the (excellent) book <a href="https://www.amazon.com/Deep-Learning-Python-Francois-Chollet/dp/1617294438" target="_blank">Deep Learning with Python by Fran&ccedil;ois Chollet</a>. We also leverage the <em>InceptionResNetv1</em> implementation <a href="https://sefiks.com/2018/09/03/face-recognition-with-facenet-in-keras/" target="_blank">from Sefik Ilkin Serengil</a>.
 
@@ -51,7 +51,7 @@ I have collected 1000 raw photos that will be used to create the dataset.
 <h3>Photo tagging</h3>
 In the raw datasets, some photos contain only L, others only J, some both and some none of them. We exploit these photos to extract face pictures for each girl. To do so, we need to locate precisely the faces in the photos first.
 
-For efficient annotation, I have used an opensource tagging software: <a href="https://github.com/microsoft/VoTT" target="_blank">VoTT</a> which is supported by Microsoft. The tagging is pretty straightforward and you can quickly annotate the photos with a very intuitive interface. It took me between one and two hours&nbsp;to tag the full dataset.
+For efficient annotation, I have used an opensource tagging software: <a href="https://github.com/microsoft/VoTT" target="_blank">VoTT</a> which is supported by Microsoft. The tagging is pretty straightforward and you can quickly annotate the photos with a very intuitive interface. It took me between one and two hours to tag the full dataset.
 
 {% include image-caption.html imageurl='/assets/images/legacy-wp-content/2020/04/sidebysideLandJ.jpg' caption="Efficient photo annotation with the VoTT software. Note also the FC Nantes outfits..." size_class="small" %}
 
@@ -65,7 +65,7 @@ Now we will build the picture dataset: where each picture contains the portrait 
 {% include image-caption.html imageurl='/assets/images/legacy-wp-content/2020/04/Extract2.jpg' caption="The extraction process from tagged photos to square cropped images." size_class="small" %}
 
 <h3>Splitting the dataset: train, validation, test</h3>
-As always for any machine learning training procedure, one must separate the original dataset between: 1) training data that will be used to fit the model and 2) validation data that will be used to measure performance of the tuned algorithms. Here we go&nbsp;further by keeping also a third untouched test dataset.
+As always for any machine learning training procedure, one must separate the original dataset between: 1) training data that will be used to fit the model and 2) validation data that will be used to measure performance of the tuned algorithms. Here we go further by keeping also a third untouched test dataset.
 
 It is always easier to work with an equally balanced dataset. Luckily this is almost the case with the original data. Consequently after processing (mainly shuffling and splitting) we obtain the following repartition in our file system:
 
@@ -96,7 +96,7 @@ When tackling a datascience project, I always think it is great to start really 
 
 {% include image-caption.html imageurl='/assets/images/legacy-wp-content/2020/04/fakeL-298x300.jpg' caption="An ellipse is drawn on all L photos, for train, validation and test sets." size_class="small" %}
 
-&nbsp;
+ 
 
 {% include image-caption.html imageurl='/assets/images/legacy-wp-content/2020/04/fakeJ-300x290.jpg' caption="A rectangle with random filling color on all J images." size_class="small" %}
 
