@@ -1,0 +1,218 @@
+{VERSION 6 0 "IBM INTEL NT" "6.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 
+2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Output" -1 
+11 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 3 0 
+0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Output" -1 12 1 {CSTYLE "" -1 
+-1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 3 0 0 0 0 1 0 1 0 2 2 
+0 1 }}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "#Exercice 1" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 20 "with(LinearAlgebra);" }}
+{PARA 12 "" 1 "" {XPPMATH 20 "6#7ir%#&xG%$AddG%(AdjointG%3BackwardSubs
+tituteG%+BandMatrixG%&BasisG%-BezoutMatrixG%/BidiagonalFormG%-Bilinear
+FormG%%CAREG%5CharacteristicMatrixG%9CharacteristicPolynomialG%'Column
+G%0ColumnDimensionG%0ColumnOperationG%,ColumnSpaceG%0CompanionMatrixG%
+0ConditionNumberG%/ConstantMatrixG%/ConstantVectorG%%CopyG%2CreatePerm
+utationG%-CrossProductG%%DAREG%-DeleteColumnG%*DeleteRowG%,Determinant
+G%)DiagonalG%/DiagonalMatrixG%*DimensionG%+DimensionsG%+DotProductG%6E
+igenConditionNumbersG%,EigenvaluesG%-EigenvectorsG%&EqualG%2ForwardSub
+stituteG%.FrobeniusFormG%4GaussianEliminationG%2GenerateEquationsG%/Ge
+nerateMatrixG%(GenericG%2GetResultDataTypeG%/GetResultShapeG%5GivensRo
+tationMatrixG%,GramSchmidtG%-HankelMatrixG%,HermiteFormG%3HermitianTra
+nsposeG%/HessenbergFormG%.HilbertMatrixG%2HouseholderMatrixG%/Identity
+MatrixG%2IntersectionBasisG%+IsDefiniteG%-IsOrthogonalG%*IsSimilarG%*I
+sUnitaryG%2JordanBlockMatrixG%+JordanFormG%1KroneckerProductG%(LA_Main
+G%0LUDecompositionG%-LeastSquaresG%,LinearSolveG%.LyapunovSolveG%$MapG
+%%Map2G%*MatrixAddG%2MatrixExponentialG%/MatrixFunctionG%.MatrixInvers
+eG%5MatrixMatrixMultiplyG%+MatrixNormG%,MatrixPowerG%5MatrixScalarMult
+iplyG%5MatrixVectorMultiplyG%2MinimalPolynomialG%&MinorG%(ModularG%)Mu
+ltiplyG%,NoUserValueG%%NormG%*NormalizeG%*NullSpaceG%3OuterProductMatr
+ixG%*PermanentG%&PivotG%*PopovFormG%0QRDecompositionG%-RandomMatrixG%-
+RandomVectorG%%RankG%6RationalCanonicalFormG%6ReducedRowEchelonFormG%$
+RowG%-RowDimensionG%-RowOperationG%)RowSpaceG%-ScalarMatrixG%/ScalarMu
+ltiplyG%-ScalarVectorG%*SchurFormG%/SingularValuesG%*SmithFormG%8Stron
+glyConnectedBlocksG%*SubMatrixG%*SubVectorG%)SumBasisG%0SylvesterMatri
+xG%/SylvesterSolveG%/ToeplitzMatrixG%&TraceG%*TransposeG%0TridiagonalF
+ormG%+UnitVectorG%2VandermondeMatrixG%*VectorAddG%,VectorAngleG%5Vecto
+rMatrixMultiplyG%+VectorNormG%5VectorScalarMultiplyG%+ZeroMatrixG%+Zer
+oVectorG%$ZipG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "? Matrix;
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 25 "A:=Matrix(2,2,[1,2,4,8]);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%\"AG-%'RTABLEG6%\"*?\"f5;-%'MATRIXG6#7$7$\"\"\"\"\"#7
+$\"\"%\"\")%'MatrixG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 26 "B:=
+Matrix([[1,-5],[5,1]]);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"BG-%'RT
+ABLEG6%\"*%Q$Gg\"-%'MATRIXG6#7$7$\"\"\"!\"&7$\"\"&F.%'MatrixG" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 21 "C:=Matrix([[1],[2]]);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"CG-%'RTABLEG6%\"*[MGg\"-%'MATRIXG6
+#7$7#\"\"\"7#\"\"#%'MatrixG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+19 "E:=Matrix([[1,2]]);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"EG-%'RT
+ABLEG6%\"*7NGg\"-%'MATRIXG6#7#7$\"\"\"\"\"#%'MatrixG" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 4 "A+B;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%
+'RTABLEG6%\"*/PGg\"-%'MATRIXG6#7$7$\"\"#!\"$7$\"\"*F/%'MatrixG" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 4 "3*A;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#-%'RTABLEG6%\"*KQGg\"-%'MATRIXG6#7$7$\"\"$\"\"'7$\"#7\"
+#C%'MatrixG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 4 "A.C;" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#-%'RTABLEG6%\"*'*QGg\"-%'MATRIXG6#7$7#
+\"\"&7#\"#?%'MatrixG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 26 "Mat
+rixMatrixMultiply(A,C);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%'RTABLEG6
+%\"*gRGg\"-%'MATRIXG6#7$7#\"\"&7#\"#?%'MatrixG" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 4 "E.B;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%'RTAB
+LEG6%\"*CSGg\"-%'MATRIXG6#7#7$\"#6!\"$%'MatrixG" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 4 "A^3;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%'RTAB
+LEG6%\"*WVGg\"-%'MATRIXG6#7$7$\"#\")\"$i\"7$\"$C$\"$['%'MatrixG" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 33 "#R1:=Matrix(5,7,(i,j) -> ran
+d()):" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 22 "R1:=RandomMatrix(5
+,7);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#R1G-%'RTABLEG6%\"*3WGg\"-%'
+MATRIXG6#7'7)!#b!\"*\"#6\"#N\"#P\"##*\"#h7)\"#a\"#p!#w!#q!#(*\"#t\"#G7
+)\"#z\"#J\"##)!#V!##*!#R!#[7)!#**!#m!#H!#BF;\"#i!#j7)!#K!#\")\"#H!#9\"
+#WF0\"#F%'MatrixG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 22 "R2:=Ra
+ndomMatrix(7,5);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#R2G-%'RTABLEG6%
+\"*sWGg\"-%'MATRIXG6#7)7'\"#L!#J!#$*!\"$!#j7'!#<!#I\"#7\"#>\"#'*7'\"#e
+!#]\"##)\"#pF=7'!#@\"#)*!\"%!#*)\"#s7'\"#:\"\"&\"#9\"#&*\"#U7'!#e!#B\"
+#y\"#x\"#b7'\"#vF7!#v!#%)\"#M%'MatrixG" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 9 "R:=R2.R1;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"RG-%'
+RTABLEG6%\"*OXGg\"-%'MATRIXG6#7)7)!%B&)!#=!%Zm\"%v#)\"%$z*\"%@N\"%(4%7
+)!%!p%!&v0\"\"%5`!$#z\"%)y'!%))>!%e57)!%^%)!&t:\"\"&i6\"!$\\&\"%Dv\"%D
+N!%#G%7)\"&QE\"\"%po!%QL!%%Q'!&WK\"\"$_'\"%1#*7)!&)>5!%G!*!$/'!%+K\"%l
+v\"%^v!%oW7)!%t7!%%=)\"%oo!%:j\"$]*!%yY!&#H67)!%'z\"\"%,6!%ZL\"%wf\"%'
+>$\"%yj\"&<\\\"%'MatrixG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 35 
+"H:=Matrix(10,10, (i,j) -> 1/(i+j));" }}{PARA 11 "" 1 "" {XPPMATH 20 "
+6#>%\"HG-%'RTABLEG6%\"*+YGg\"-%'MATRIXG6#7,7,#\"\"\"\"\"##F/\"\"$#F/\"
+\"%#F/\"\"&#F/\"\"'#F/\"\"(#F/\"\")#F/\"\"*#F/\"#5#F/\"#67,F1F3F5F7F9F
+;F=F?FA#F/\"#77,F3F5F7F9F;F=F?FAFD#F/\"#87,F5F7F9F;F=F?FAFDFG#F/\"#97,
+F7F9F;F=F?FAFDFGFJ#F/\"#:7,F9F;F=F?FAFDFGFJFM#F/\"#;7,F;F=F?FAFDFGFJFM
+FP#F/\"#<7,F=F?FAFDFGFJFMFPFS#F/\"#=7,F?FAFDFGFJFMFPFSFV#F/\"#>7,FAFDF
+GFJFMFPFSFVFY#F/\"#?%'MatrixG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 54 "J:=SubMatrix(H,[seq(2*k+1,k=0..4)],[seq(2*k,k=1..5)]);" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#>%\"JG-%'RTABLEG6%\"*kYGg\"-%'MATRIXG6#7'7'#
+\"\"\"\"\"$#F/\"\"&#F/\"\"(#F/\"\"*#F/\"#67'F1F3F5F7#F/\"#87'F3F5F7F:#
+F/\"#:7'F5F7F:F=#F/\"#<7'F7F:F=F@#F/\"#>%'MatrixG" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 17 "K:=Matrix([A,B]);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%\"KG-%'RTABLEG6%\"*#z%Gg\"-%'MATRIXG6#7$7&\"\"\"\"\"#
+F.!\"&7&\"\"%\"\")\"\"&F.%'MatrixG" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 18 "seq1 := A,B,R,H,J;" }}{PARA 12 "" 1 "" {XPPMATH 20 "6
+#>%%seq1G6'-%'RTABLEG6%\"*?\"f5;-%'MATRIXG6#7$7$\"\"\"\"\"#7$\"\"%\"\"
+)%'MatrixG-F'6%\"*%Q$Gg\"-F+6#7$7$F/!\"&7$\"\"&F/F4-F'6%\"*OXGg\"-F+6#
+7)7)!%B&)!#=!%Zm\"%v#)\"%$z*\"%@N\"%(4%7)!%!p%!&v0\"\"%5`!$#z\"%)y'!%)
+)>!%e57)!%^%)!&t:\"\"&i6\"!$\\&\"%Dv\"%DN!%#G%7)\"&QE\"\"%po!%QL!%%Q'!
+&WK\"\"$_'\"%1#*7)!&)>5!%G!*!$/'!%+K\"%lv\"%^v!%oW7)!%t7!%%=)\"%oo!%:j
+\"$]*!%yY!&#H67)!%'z\"\"%,6!%ZL\"%wf\"%'>$\"%yj\"&<\\\"F4-F'6%\"*+YGg
+\"-F+6#7,7,#F/F0#F/\"\"$#F/F2#F/F>#F/\"\"'#F/\"\"(#F/F3#F/\"\"*#F/\"#5
+#F/\"#67,F_qFaqFbqFcqFeqFgqFhqFjqF\\r#F/\"#77,FaqFbqFcqFeqFgqFhqFjqF\\
+rF_r#F/\"#87,FbqFcqFeqFgqFhqFjqF\\rF_rFbr#F/\"#97,FcqFeqFgqFhqFjqF\\rF
+_rFbrFer#F/\"#:7,FeqFgqFhqFjqF\\rF_rFbrFerFhr#F/\"#;7,FgqFhqFjqF\\rF_r
+FbrFerFhrF[s#F/\"#<7,FhqFjqF\\rF_rFbrFerFhrF[sF^s#F/\"#=7,FjqF\\rF_rFb
+rFerFhrF[sF^sFas#F/\"#>7,F\\rF_rFbrFerFhrF[sF^sFasFds#F/\"#?F4-F'6%\"*
+kYGg\"-F+6#7'7'F_qFbqFeqFhqF\\r7'FbqFeqFhqF\\rFbr7'FeqFhqF\\rFbrFhr7'F
+hqF\\rFbrFhrF^s7'F\\rFbrFhrF^sFdsF4" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 25 "seq(Trace(m), m in seq1);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6'\"\"*\"\"#\"%%[$#\"%\"Q(\"%S]#\"%@]\"%:t" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 31 "seq(Determinant(m), m in seq1);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6'\"\"!\"#EF##\"\"\"\"en+++++3#y'f#[7n)
+\\y,_^L)3n#4C)*3+P&)#\"+C=ut5\"9v=#)Qx7@ALCw<" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 26 "seq(m^(-1), m in [B,H,J]);" }}{PARA 12 "" 1 "" 
+{XPPMATH 20 "6%-%'RTABLEG6%\"*)G(Gg\"-%'MATRIXG6#7$7$#\"\"\"\"#E#\"\"&
+F.7$#!\"&F.F,%'MatrixG-F$6%\"*))))Gg\"-F(6#7,7,\"%]g!'+y@\"(+9$G!)![)
+\\=\")+$p$p!*+%e&e\"\"*+WiC#!*+_`#>\")?UX\"*!)+cZ=7,F=\"(+4#))!*![;B7
+\"*+;VK)!++w!3@$\"++W)=\\(!,+7(>y5\"+?2@d$*!++3d*[%\"*+Aa9*7,F>FH\"++O
+zm<!,+_bnB\"\",+'[sp[!-+_^Ia6\"-?2v)>o\"!-+o&pWZ\"\",+;HM8(!,+_nKY\"7,
+F?FIFR\",+#)[w$))!-+G&f]`$\"-?nG9%[)!.+3I[([7\".+;I/Q5\"!-+O\"3vP&\"-+
+OXk467,F@FJFSFen\".S)3\"*pJ9!.+%=dyqM\".+3u'3^^!.+GDL]e%\".+a=IqC#!-?^
+q]gY7,FAFKFTFfnF]o\".+s'G9%[)!/+78)fzE\"\"/+On:MN6!.S9Y3Ef&\".+GwE^;\"
+7,FBFLFUFgnF^oFdo\"/+;3DD1>!/SMdsi:<\".+/q!y)[)!.+wDJax\"7,FCFMFVFhnF_
+oFeoFjo\"/+%ond4b\"!.+G\\.Tq(\".+'41\"ph\"7,FDFNFWFinF`oFfoF[pF_p\".+y
+pi,%Q!-+[Ib%3)7,FEFOFXFjnFaoFgoF\\pF`pFcp\"-!o(*Qnq\"F4-F$6%\"*)[!Hg\"
+-F(6#7'7'#\"(v?+%\"&%Q;#!)&R0/\"\"%'4%#\")D=*o'\"%#>)#!)vq6UFbq#\")vwu
+sF_q7'F`q#\")vr?K\"%C5#!*D-XD#\"%[?#\"*vTK\\\"F]r#!*v9um#Fbq7'FcqF^r#
+\"+vM8g;Fbq#!+D5;P6F`r#\"+0Ne!3#Feq7'FfqFarFhr#\"*Nx\"yzF]r#!+v58'[\"F
+bq7'FhqFcrFjrF_s#\"+vk82GF_qF4" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 25 "seq2:= A , R1, R2, R, K; " }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>
+%%seq2G6'-%'RTABLEG6%\"*?\"f5;-%'MATRIXG6#7$7$\"\"\"\"\"#7$\"\"%\"\")%
+'MatrixG-F'6%\"*3WGg\"-F+6#7'7)!#b!\"*\"#6\"#N\"#P\"##*\"#h7)\"#a\"#p!
+#w!#q!#(*\"#t\"#G7)\"#z\"#J\"##)!#V!##*!#R!#[7)!#**!#m!#H!#BFI\"#i!#j7
+)!#K!#\")\"#H!#9\"#WF>\"#FF4-F'6%\"*sWGg\"-F+6#7)7'\"#L!#J!#$*!\"$FY7'
+!#<!#I\"#7\"#>\"#'*7'\"#e!#]FNFEFE7'!#@\"#)*!\"%!#*)\"#s7'\"#:\"\"&\"#
+9\"#&*\"#U7'!#eFW\"#y\"#x\"#b7'\"#vFjo!#v!#%)\"#MF4-F'6%\"*OXGg\"-F+6#
+7)7)!%B&)!#=!%Zm\"%v#)\"%$z*\"%@N\"%(4%7)!%!p%!&v0\"\"%5`!$#z\"%)y'!%)
+)>!%e57)!%^%)!&t:\"\"&i6\"!$\\&\"%Dv\"%DN!%#G%7)\"&QE\"\"%po!%QL!%%Q'!
+&WK\"\"$_'\"%1#*7)!&)>5!%G!*!$/'!%+K\"%lv\"%^v!%oW7)!%t7!%%=)\"%oo!%:j
+\"$]*!%yY!&#H67)!%'z\"\"%,6!%ZL\"%wf\"%'>$\"%yj\"&<\\\"F4-F'6%\"*#z%Gg
+\"-F+6#7$7&F/F0F/!\"&7&F2F3FgpF/F4" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 24 "seq(Rank(m), m in seq2);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6'\"\"\"\"\"&F$F$\"\"#" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 46 "#Les matrices R, R1 et R2 ont les m\352mes rangs." }}
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 29 "seq(NullSpace(m), m in seq2
+);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6'<#-%'RTABLEG6%\"*k,7i\"-%'MATRIX
+G6#7$7#!\"#7#\"\"\"&%'VectorG6#%'columnG<$-F%6%\"*[@7i\"-F)6#7)7##\"*P
+ED*=\")*)>%4)7##\"+Upv.B\"*X*4ZS7##\"*FbF-$\"*:L!\\87##!+JY6:CFB7##\"+
+Yqs9LFB7#\"\"!F.F0-F%6%\"*wA7i\"-F)6#7)7##\"*h3;(>\")E8'R&7##\"*J$>5WF
+F7##\"*$4qG<FF7##!*^\\4,*\"*Im!)p#7##\"*Q=Lz)FFF.FMF0<\"<$-F%6%\"*wq7i
+\"F8F0-F%6%\"*/s7i\"FRF0<$-F%6%\"*_#H@;-F)6#7&7#\"#EFM7#!#@F.F0-F%6%\"
+*!QH@;-F)6#7&F,F.FMFMF0" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 39 "
+#Les matrices R et R1 ont le m\352me noyau" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 31 "seq(ColumnSpace(m), m in seq2);" }}{PARA 12 "" 1 "
+" {XPPMATH 20 "6'7#-%'RTABLEG6%\"*[,8i\"-%'MATRIXG6#7$7#\"\"\"7#\"\"%&
+%'VectorG6#%'columnG7'-F%6%\"*;48i\"-F)6#7'F,7#\"\"!F;F;F;F0-F%6%\"*!)
+48i\"-F)6#7'F;F,F;F;F;F0-F%6%\"*W58i\"-F)6#7'F;F;F,F;F;F0-F%6%\"*368i
+\"-F)6#7'F;F;F;F,F;F0-F%6%\"*s68i\"-F)6#7'F;F;F;F;F,F07'-F%6%\"*/C^j\"
+-F)6#7)F,F;F;F;F;7##!)&\\i+&\")'z'eV7##\")\\QfmFinF0-F%6%\"*oC^j\"-F)6
+#7)F;F,F;F;F;7##\"*2pJ=#\"*cQR!Q7##!(4c^*FfoF0-F%6%\"*KD^j\"-F)6#7)F;F
+;F,F;F;7##!*&3x(z#\"*_:/B&7##\"*fLM(\\FcpF0-F%6%\"*'f7N;-F)6#7)F;F;F;F
+,F;7##!+h!=**)H\"+;CL%=%7##\"+ry2@\\F`qF0-F%6%\"*gE^j\"-F)6#7)F;F;F;F;
+F,7##\")N-+A\")Gd6e7##!)XnRCF]rF07'-F%6%\"*GM^j\"FYF0-F%6%\"*#\\8N;F`o
+F0-F%6%\"*cN^j\"F]pF0-F%6%\"*?O^j\"FjpF0-F%6%\"*%o8N;FgqF07$-F%6%\"*_W
+^j\"-F)6#7$F,F;F0-F%6%\"*;X^j\"-F)6#7$F;F,F0" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 40 "#Les matrices R2 et R ont la m\352me image." }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "seq3:=A,B,R,H;" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#>%%seq3G6&-%'RTABLEG6%\"*?\"f5;-%'MATRIXG6#7$7$
+\"\"\"\"\"#7$\"\"%\"\")%'MatrixG-F'6%\"*%Q$Gg\"-F+6#7$7$F/!\"&7$\"\"&F
+/F4-F'6%\"*OXGg\"-F+6#7)7)!%B&)!#=!%Zm\"%v#)\"%$z*\"%@N\"%(4%7)!%!p%!&
+v0\"\"%5`!$#z\"%)y'!%))>!%e57)!%^%)!&t:\"\"&i6\"!$\\&\"%Dv\"%DN!%#G%7)
+\"&QE\"\"%po!%QL!%%Q'!&WK\"\"$_'\"%1#*7)!&)>5!%G!*!$/'!%+K\"%lv\"%^v!%
+oW7)!%t7!%%=)\"%oo!%:j\"$]*!%yY!&#H67)!%'z\"\"%,6!%ZL\"%wf\"%'>$\"%yj
+\"&<\\\"F4-F'6%\"*+YGg\"-F+6#7,7,#F/F0#F/\"\"$#F/F2#F/F>#F/\"\"'#F/\"
+\"(#F/F3#F/\"\"*#F/\"#5#F/\"#67,F_qFaqFbqFcqFeqFgqFhqFjqF\\r#F/\"#77,F
+aqFbqFcqFeqFgqFhqFjqF\\rF_r#F/\"#87,FbqFcqFeqFgqFhqFjqF\\rF_rFbr#F/\"#
+97,FcqFeqFgqFhqFjqF\\rF_rFbrFer#F/\"#:7,FeqFgqFhqFjqF\\rF_rFbrFerFhr#F
+/\"#;7,FgqFhqFjqF\\rF_rFbrFerFhrF[s#F/\"#<7,FhqFjqF\\rF_rFbrFerFhrF[sF
+^s#F/\"#=7,FjqF\\rF_rFbrFerFhrF[sF^sFas#F/\"#>7,F\\rF_rFbrFerFhrF[sF^s
+FasFds#F/\"#?F4" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 46 "seq(Char
+acteristicPolynomial(m,x), m in seq3);" }}{PARA 12 "" 1 "" {XPPMATH 
+20 "6&,&*$)%\"xG\"\"#\"\"\"F(*&\"\"*F(F&F(!\"\",(\"#EF(F$F(*&F'F(F&F(F
++,.*$)F&\"\"(F(F(*&\"%%[$F()F&\"\"'F(F+*&\"*OPp0$F()F&\"\"&F(F+*&\"-.p
+F*)HSF()F&\"\"%F(F(*&\"2%*48)3'z(*z\"F()F&\"\"$F(F(*&\"5=e^zht.ZQOF(F%
+F(F+,8*$)F&\"#5F(F(*&#\"%\"Q(\"%S]F(*$)F&F*F(F(F+*&#\"16f%\\Cfzb\"\"1+
+#>*)*p/unF(*$)F&\"\")F(F(F(*&#\"1tCUi48\\L\"4+?BBugM'G6F(F0F(F+*&#\":T
+\\i9Z75M^1?5#\"?++/ZEk17%eu&38R!*F(*$F5F(F(F(*&#\"7$Hteia/V*[,J\"A++gH
+vV1nZUfk%f]w$F(*$F9F(F(F+*&#\"<Ts\\Y6rz%3/yea?\"L+++7*Q)3\\!e/)[\"f+#p
+>&y'G6#F(*$F=F(F(F(*&#\"6\\!\\Vc>BtG27\"M+++SaSDKQUVNnW&4(y\")GN+WF(*$
+FAF(F(F+*&#\"5f`ASX%z8k#\\\"V++++O\">5=Vu2&[\\e^E_v<I%o9l>RF(F$F(F(*&#
+\"*Z*o=L\"V++++!))yfm_ao6z&z4T)fZA'>[')3$eF(F&F(F+#F(\"en+++++3#y'f#[7
+n)\\y,_^L)3n#4C)*3+P&)F(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 
+"Eigenvectors(A);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$-%'RTABLEG6%\"*w[
+6l\"-%'MATRIXG6#7$7#\"\"*7#\"\"!&%'VectorG6#%'columnG-F$6%\"*S\\6l\"-F
+(6#7$7$#\"\"\"\"\"%!\"#7$F;F;%'MatrixG" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 22 "X:=Eigenvectors(B)[2];" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#>%\"XG-%'RTABLEG6%\"*wWMy\"-%'MATRIXG6#7$7$^#\"\"\"^#!\"\"7$F/F/
+%'MatrixG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 71 "X.Matrix([[Eig
+envectors(B)[1][1],0],[0,Eigenvectors(B)[1][2]]]).X^(-1);" }}{PARA 11 
+"" 1 "" {XPPMATH 20 "6#-%'RTABLEG6%\"*%[s(z\"-%'MATRIXG6#7$7$\"\"\"!\"
+&7$\"\"&F,%'MatrixG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 22 "eval
+f(Eigenvalues(R));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%'RTABLEG6%\"*w
+-_#=-%'MATRIXG6#7)7#$\"\"!F-F+7#$\"0gg-m9*y?!#67#$\"0ufC['\\qxF17#$\"0
+x8t%3U)o\"!#57#$!0UfE`z1.\"F87#$!0QE*GCG%H\"F8&%'VectorG6#%'columnG" }
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 22 "evalf(Eigenvalues(H));" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#-%'RTABLEG6%\"*sTD'=-%'MATRIXG6#7,7#$
+\"0L1+(4_n?!#G7#$\"0MJQs>Kb%!#E7#$\"0O\\W@a8h%!#C7#$\"0$p)[4&\\WG!#A7#
+$\"07&HjYk#>\"!#?7#$\"0XlDib**e$!#>7#$\"07:0)4P!)z!#=7#$\"0cMB;!*[K\"!
+#;7#$\"0g-5^tti\"!#:7#$\"0dlgriwG\"!#9&%'VectorG6#%'columnG" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 305 "#H est diagonalisable. Pour
+ r\351pondre \340 la question pr\351c\351dente \340 savoir si J est di
+agonalisable il faut calculer la dimension de l'espace propre associ
+\351 \340 la valeur 0, c'est \340 dire le noyau. Or nous avions calcul
+\351 une base du noyau qui \351tait compos\351 de deux vecteurs. Cette
+ matrice est donc diagonalisable." }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}}{MARK "18 1 0" 0 }{VIEWOPTS 1 1 0 1 1 1803 1 1 
+1 1 }{PAGENUMBERS 0 1 2 33 1 1 }

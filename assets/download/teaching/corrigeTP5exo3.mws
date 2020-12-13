@@ -1,0 +1,282 @@
+{VERSION 6 0 "IBM INTEL NT" "6.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Text Output" -1 2 1 
+{CSTYLE "" -1 -1 "Courier" 1 10 0 0 255 1 0 0 0 0 0 1 3 0 3 0 }1 0 0 
+-1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Warning" 2 7 1 {CSTYLE "" -1 -1 "
+" 0 1 0 0 255 1 0 0 0 0 0 0 1 0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }
+{PSTYLE "Error" 7 8 1 {CSTYLE "" -1 -1 "" 0 1 255 0 255 1 0 0 0 0 0 0 
+0 0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Maple Output" 0 11 
+1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }3 3 0 -1 -1 -1 
+0 0 0 0 0 0 -1 0 }{PSTYLE "" 11 12 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 }1 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "#Exercice 3 :\n" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 20 "with(LinearAlgebra);" }}
+{PARA 12 "" 1 "" {XPPMATH 20 "6#7ir%#&xG%$AddG%(AdjointG%3BackwardSubs
+tituteG%+BandMatrixG%&BasisG%-BezoutMatrixG%/BidiagonalFormG%-Bilinear
+FormG%%CAREG%5CharacteristicMatrixG%9CharacteristicPolynomialG%'Column
+G%0ColumnDimensionG%0ColumnOperationG%,ColumnSpaceG%0CompanionMatrixG%
+0ConditionNumberG%/ConstantMatrixG%/ConstantVectorG%%CopyG%2CreatePerm
+utationG%-CrossProductG%%DAREG%-DeleteColumnG%*DeleteRowG%,Determinant
+G%)DiagonalG%/DiagonalMatrixG%*DimensionG%+DimensionsG%+DotProductG%6E
+igenConditionNumbersG%,EigenvaluesG%-EigenvectorsG%&EqualG%2ForwardSub
+stituteG%.FrobeniusFormG%4GaussianEliminationG%2GenerateEquationsG%/Ge
+nerateMatrixG%(GenericG%2GetResultDataTypeG%/GetResultShapeG%5GivensRo
+tationMatrixG%,GramSchmidtG%-HankelMatrixG%,HermiteFormG%3HermitianTra
+nsposeG%/HessenbergFormG%.HilbertMatrixG%2HouseholderMatrixG%/Identity
+MatrixG%2IntersectionBasisG%+IsDefiniteG%-IsOrthogonalG%*IsSimilarG%*I
+sUnitaryG%2JordanBlockMatrixG%+JordanFormG%1KroneckerProductG%(LA_Main
+G%0LUDecompositionG%-LeastSquaresG%,LinearSolveG%.LyapunovSolveG%$MapG
+%%Map2G%*MatrixAddG%2MatrixExponentialG%/MatrixFunctionG%.MatrixInvers
+eG%5MatrixMatrixMultiplyG%+MatrixNormG%,MatrixPowerG%5MatrixScalarMult
+iplyG%5MatrixVectorMultiplyG%2MinimalPolynomialG%&MinorG%(ModularG%)Mu
+ltiplyG%,NoUserValueG%%NormG%*NormalizeG%*NullSpaceG%3OuterProductMatr
+ixG%*PermanentG%&PivotG%*PopovFormG%0QRDecompositionG%-RandomMatrixG%-
+RandomVectorG%%RankG%6RationalCanonicalFormG%6ReducedRowEchelonFormG%$
+RowG%-RowDimensionG%-RowOperationG%)RowSpaceG%-ScalarMatrixG%/ScalarMu
+ltiplyG%-ScalarVectorG%*SchurFormG%/SingularValuesG%*SmithFormG%8Stron
+glyConnectedBlocksG%*SubMatrixG%*SubVectorG%)SumBasisG%0SylvesterMatri
+xG%/SylvesterSolveG%/ToeplitzMatrixG%&TraceG%*TransposeG%0TridiagonalF
+ormG%+UnitVectorG%2VandermondeMatrixG%*VectorAddG%,VectorAngleG%5Vecto
+rMatrixMultiplyG%+VectorNormG%5VectorScalarMultiplyG%+ZeroMatrixG%+Zer
+oVectorG%$ZipG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 26 "M:=Matrix
+(2,2,[4,-1,4,0]);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"MG-%'RTABLEG6
+%\"*ONc^\"-%'MATRIXG6#7$7$\"\"%!\"\"7$F.\"\"!%'MatrixG" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "Eigenvectors(M);" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#-%-EigenvectorsG6#-%'RTABLEG6%\"*ONc^\"-%'MATRIXG6#7$
+7$\"\"%!\"\"7$F/\"\"!%'MatrixG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 98 "#M n'est pas diagonalisable : l'espace engendr\351 par les vec
+teurs propres n'est que de dimension 1." }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 84 "P:=Matrix(2,2,[1,1,2,0]); #On prend comme premier vec
+teur de base le vecteur propre." }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%
+\"PG-%'RTABLEG6%\"*#Rd::-%'MATRIXG6#7$7$\"\"\"F.7$\"\"#\"\"!%'MatrixG
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "PM:=P^(-1).M.P;" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#PMG-%'RTABLEG6%\"*O(e::-%'MATRIXG6#
+7$7$\"\"#F.7$\"\"!F.%'MatrixG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 91 "PP:=Matrix(2,2,[2,0,0,1]); #On conjugue par une dilatation pour \+
+ramener le coefficient \340 1." }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#P
+PG-%'RTABLEG6%\"*+)e::-%'MATRIXG6#7$7$\"\"#\"\"!7$F/\"\"\"%'MatrixG" }
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "PP^(-1).PM.PP;" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#-%'RTABLEG6%\"*K'f::-%'MATRIXG6#7$7$\"\"#\"
+\"\"7$\"\"!F,%'MatrixG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 33 "M
+2:=Matrix(2,2,[35,-116,10,-33]);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%
+#M2G-%'RTABLEG6%\"*'pf::-%'MATRIXG6#7$7$\"#N!$;\"7$\"#5!#L%'MatrixG" }
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "Eigenvectors(M2);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#-%-EigenvectorsG6#-%'RTABLEG6%\"*'pf::
+-%'MATRIXG6#7$7$\"#N!$;\"7$\"#5!#L%'MatrixG" }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 111 "#M2 est diagonalisable dans C. Elle n'est pas dia
+gonalisable dans R car elle a des valeurs propres non r\351elles." }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 87 "V1:=Matrix(2,1,[17+I,5]); V2
+:=Matrix(2,1,[17-I,5]); #Les vecteurs propres de M2 dans C." }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#>%#V1G-%'RTABLEG6%\"*g(f::-%'MATRIXG6#7$7#^$
+\"#<\"\"\"7#\"\"&%'MatrixG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#V2G-%
+'RTABLEG6%\"*C)f::-%'MATRIXG6#7$7#^$\"#<!\"\"7#\"\"&%'MatrixG" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 159 "P2:=Matrix([(V1+V2)/2,(V1-V
+2)/(2*I)]); #On prend pour vecteurs de base la partie r\351elle et la \+
+partie imaginaire d'un des vecteurs propres (ils sont conjugu\351s)." 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#P2G-%'RTABLEG6%\"*/6c^\"-%'MATRIX
+G6#7$7$\"#<\"\"\"7$\"\"&\"\"!%'MatrixG" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 19 "PM2:=P2^(-1).M2.P2;" }}{PARA 11 "" 1 "" {XPPMATH 20 "
+6#>%$PM2G-%'RTABLEG6%\"*O>c^\"-%'MATRIXG6#7$7$\"\"\"\"\"#7$!\"#F.%'Mat
+rixG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "PM2/sqrt(5);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#-%'RTABLEG6%\"*+?c^\"-%'MATRIXG6#7$7$,
+$*&\"\"&!\"\"F.#\"\"\"\"\"#F1,$*(F2F1F.F/F.F0F17$,$*(F2F1F.F/F.F0F/F,%
+'MatrixG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 169 "#(1/sqrt(5))^2
++(2/sqrt(5))^2=1 donc il existe theta tel que cos(theta)=1/sqrt(5) et \+
+sin(theta)=2/sqrt(5) ; en posant a=sqrt(5), la matrice est bien de la \+
+forme demand\351e." }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 68 "M3:=M
+atrix(4,4,[\n[3,0,-1,0],\n[-1,2,0,1],\n[0,0,3,0],\n[-1,-1,-1,4]\n]);" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#M3G-%'RTABLEG6%\"*k?c^\"-%'MATRIX
+G6#7&7&\"\"$\"\"!!\"\"F/7&F0\"\"#F/\"\"\"7&F/F/F.F/7&F0F0F0\"\"%%'Matr
+ixG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 68 "M4:=Matrix(4,4,[\n[2
+,-3,-2,-2],\n[0,4,1,1],\n[1,2,4,1],\n[0,-1,-1,2]\n]);" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#>%#M4G-%'RTABLEG6%\"*G@c^\"-%'MATRIXG6#7&7&\"\"#!
+\"$!\"#F07&\"\"!\"\"%\"\"\"F47&F4F.F3F47&F2!\"\"F7F.%'MatrixG" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "Eigenvectors(M3);" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#-%-EigenvectorsG6#-%'RTABLEG6%\"*k?c^\"-%'MA
+TRIXG6#7&7&\"\"$\"\"!!\"\"F07&F1\"\"#F0\"\"\"7&F0F0F/F07&F1F1F1\"\"%%'
+MatrixG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "Eigenvectors(M4)
+;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%-EigenvectorsG6#-%'RTABLEG6%\"*
+G@c^\"-%'MATRIXG6#7&7&\"\"#!\"$!\"#F17&\"\"!\"\"%\"\"\"F57&F5F/F4F57&F
+3!\"\"F8F/%'MatrixG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 172 "#M3
+ et M4 ne sont pas diagonalisables, leurs espaces engendr\351s par les
+ vecteurs propres sont de dimension 2, mais on ne peut pas conclure qu
+ant \340 la similitude de M3 et M4." }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 54 "e1:=Matrix(4,1,[-1,1,0,0]); e3:=Matrix(4,1,[1,0,0,1])
+;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#e1G-%'RTABLEG6%\"*#>i::-%'MATR
+IXG6#7&7#!\"\"7#\"\"\"7#\"\"!F1%'MatrixG" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#>%#e3G-%'RTABLEG6%\"*cAc^\"-%'MATRIXG6#7&7#\"\"\"7#\"\"!F/F-%'Ma
+trixG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 22 "Id:=IdentityMatrix
+(4);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#IdG-%/IdentityMatrixG6#\"\"
+%" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 37 "e2:=LinearSolve(M3-3*I
+d,e1,free='s');" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#e2G-%,LinearSolv
+eG6%-%'RTABLEG6%\"*wDc^\"-%'MATRIXG6#7&7&,&*&\"\"$\"\"\"-%/IdentityMat
+rixG6#\"\"%F4!\"\"F3F4\"\"!F9F:7&F9,&*&F3F4F5F4F9\"\"#F4F:F47&F:F:F1F:
+7&F9F9F9,&*&F3F4F5F4F9F8F4%'MatrixG-F)6%\"*#>i::-F-6#7&7#F97#F47#F:FLF
+C/%%freeG%\"sG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 33 "e2:=eval(
+e2,[s[1,1]=0,s[2,1]=1]);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#e2G-%,L
+inearSolveG6%-%'RTABLEG6%\"*wDc^\"-%'MATRIXG6#7&7&,&*&\"\"$\"\"\"-%/Id
+entityMatrixG6#\"\"%F4!\"\"F3F4\"\"!F9F:7&F9,&*&F3F4F5F4F9\"\"#F4F:F47
+&F:F:F1F:7&F9F9F9,&*&F3F4F5F4F9F8F4%'MatrixG-F)6%\"*#>i::-F-6#7&7#F97#
+F47#F:FLFC/%%freeG%\"sG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 37 "
+e4:=LinearSolve(M3-3*Id,e3,free='s');" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6#>%#e4G-%,LinearSolveG6%-%'RTABLEG6%\"*KGc^\"-%'MATRIXG6#7&7&,&*&\"
+\"$\"\"\"-%/IdentityMatrixG6#\"\"%F4!\"\"F3F4\"\"!F9F:7&F9,&*&F3F4F5F4
+F9\"\"#F4F:F47&F:F:F1F:7&F9F9F9,&*&F3F4F5F4F9F8F4%'MatrixG-F)6%\"*cAc^
+\"-F-6#7&7#F47#F:FKFJFC/%%freeG%\"sG" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 33 "e4:=eval(e4,[s[1,1]=0,s[2,1]=1]);" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#>%#e4G-%,LinearSolveG6%-%'RTABLEG6%\"*KGc^\"-%'MATRIX
+G6#7&7&,&*&\"\"$\"\"\"-%/IdentityMatrixG6#\"\"%F4!\"\"F3F4\"\"!F9F:7&F
+9,&*&F3F4F5F4F9\"\"#F4F:F47&F:F:F1F:7&F9F9F9,&*&F3F4F5F4F9F8F4%'Matrix
+G-F)6%\"*cAc^\"-F-6#7&7#F47#F:FKFJFC/%%freeG%\"sG" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 26 "P3:=Matrix([e1,e2,e3,e4]);" }}{PARA 8 "" 1 "
+" {TEXT -1 200 "Error, (in Matrix) this entry is too tall or too short
+: LinearSolve(Matrix(4, 4, [[...],[...],[...],[...]], datatype = anyth
+ing),Matrix(4, 1, [[...],[...],[...],[...]], datatype = anything),free
+ = s)\n" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "Rank(P3);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#-%%RankG6#%#P3G" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 14 "P3^(-1).M3.P3;" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#-%\".G6%*&\"\"\"F'%#P3G!\"\"-%'RTABLEG6%\"*k?c^\"-%'MATRIXG6#7&7
+&\"\"$\"\"!F)F47&F)\"\"#F4F'7&F4F4F3F47&F)F)F)\"\"%%'MatrixGF(" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 44 "#Le polyn\364me minimal de M
+3 est donc (X-3)^2." }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "Eige
+nvectors(M4);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%-EigenvectorsG6#-%'
+RTABLEG6%\"*G@c^\"-%'MATRIXG6#7&7&\"\"#!\"$!\"#F17&\"\"!\"\"%\"\"\"F57
+&F5F/F4F57&F3!\"\"F8F/%'MatrixG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 54 "f1:=Matrix(4,1,[1,-1,0,1]);f4:=Matrix(4,1,[1,-1,1,0]);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#f1G-%'RTABLEG6%\"*'*Gc^\"-%'MATRIXG
+6#7&7#\"\"\"7#!\"\"7#\"\"!F-%'MatrixG" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6#>%#f4G-%'RTABLEG6%\"*gHc^\"-%'MATRIXG6#7&7#\"\"\"7#!\"\"F-7#\"\"!%'
+MatrixG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 37 "f2:=LinearSolve(
+M4-3*Id,f1,free='s');" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#f2G-%,Line
+arSolveG6%-%'RTABLEG6%\"*;Kc^\"-%'MATRIXG6#7&7&,&*&\"\"$\"\"\"-%/Ident
+ityMatrixG6#\"\"%F4!\"\"\"\"#F4!\"$!\"#F<7&\"\"!,&*&F3F4F5F4F9F8F4F4F4
+7&F4F:F?F47&F>F9F9F1%'MatrixG-F)6%\"*'*Gc^\"-F-6#7&7#F47#F97#F>FJFC/%%
+freeG%\"sG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 34 "f2:=eval(f2,[
+s[2,1]=-1,s[1,1]=0]);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#f2G-%,Line
+arSolveG6%-%'RTABLEG6%\"*;Kc^\"-%'MATRIXG6#7&7&,&*&\"\"$\"\"\"-%/Ident
+ityMatrixG6#\"\"%F4!\"\"\"\"#F4!\"$!\"#F<7&\"\"!,&*&F3F4F5F4F9F8F4F4F4
+7&F4F:F?F47&F>F9F9F1%'MatrixG-F)6%\"*'*Gc^\"-F-6#7&7#F47#F97#F>FJFC/%%
+freeG%\"sG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 37 "f3:=LinearSol
+ve(M4-3*Id,f2,free='s');" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%#f3G-%,L
+inearSolveG6%-%'RTABLEG6%\"*sMc^\"-%'MATRIXG6#7&7&,&*&\"\"$\"\"\"-%/Id
+entityMatrixG6#\"\"%F4!\"\"\"\"#F4!\"$!\"#F<7&\"\"!,&*&F3F4F5F4F9F8F4F
+4F47&F4F:F?F47&F>F9F9F1%'MatrixG-F&6%-F)6%\"*;Kc^\"F,FC-F)6%\"*'*Gc^\"
+-F-6#7&7#F47#F97#F>FOFC/%%freeG%\"sGFR" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 33 "f3:=eval(f3,[s[2,1]=1,s[1,1]=0]);" }}{PARA 12 "" 1 "
+" {XPPMATH 20 "6#>%#f3G-%,LinearSolveG6%-%'RTABLEG6%\"*sMc^\"-%'MATRIX
+G6#7&7&,&*&\"\"$\"\"\"-%/IdentityMatrixG6#\"\"%F4!\"\"\"\"#F4!\"$!\"#F
+<7&\"\"!,&*&F3F4F5F4F9F8F4F4F47&F4F:F?F47&F>F9F9F1%'MatrixG-F&6%-F)6%
+\"*;Kc^\"F,FC-F)6%\"*'*Gc^\"-F-6#7&7#F47#F97#F>FOFC/%%freeG%\"sGFR" }}
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 26 "P4:=Matrix([f1,f2,f3,f4]);
+" }}{PARA 8 "" 1 "" {TEXT -1 200 "Error, (in Matrix) this entry is too
+ tall or too short: LinearSolve(Matrix(4, 4, [[...],[...],[...],[...]]
+, datatype = anything),Matrix(4, 1, [[...],[...],[...],[...]], datatyp
+e = anything),free = s)\n" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 
+"Rank(P4);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%%RankG6#%#P4G" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "P4^(-1).M4.P4;" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#-%\".G6%*&\"\"\"F'%#P4G!\"\"-%'RTABLEG6%\"*G@c^
+\"-%'MATRIXG6#7&7&\"\"#!\"$!\"#F57&\"\"!\"\"%F'F'7&F'F3F8F'7&F7F)F)F3%
+'MatrixGF(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 39 "#Le polyn\364
+me minimal de M4 est (X-3)^3." }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 74 "#M3 et M4 n'ont pas le m\352me polyn\364me minimal, donc ne sont
+ pas semblables." }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{MARK "2 0 0" 0 }
+{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }
+{RTABLE_HANDLES 151563536 151557392 151558736 151558800 151559632 
+151559696 151559760 151559824 151561104 151561936 151562000 151562064 
+151562128 151562192 151562256 151562576 151562832 151562896 151562960 
+151563216 151563472 }{RTABLE 
+M7R0
+I6RTABLE_SAVE/151563536X,%)anythingG6"F%[gl!"%!!!#%"#"#""%F&!""""!F%
+}
+{RTABLE 
+M7R0
+I6RTABLE_SAVE/151557392X,%)anythingG6"F%[gl!"%!!!#%"#"#"""""#F&""!F%
+}
+{RTABLE 
+M7R0
+I6RTABLE_SAVE/151558736X,%)anythingG6"F%[gl!"%!!!#%"#"#""#""!F&F&F%
+}
+{RTABLE 
+M7R0
+I6RTABLE_SAVE/151558800X,%)anythingG6"F%[gl!"%!!!#%"#"#""#""!F'"""F%
+}
+{RTABLE 
+M7R0
+I6RTABLE_SAVE/151559632X,%)anythingG6"F%[gl!"%!!!#%"#"#""#""!"""F&F%
+}
+{RTABLE 
+M7R0
+I6RTABLE_SAVE/151559696X,%)anythingG6"F%[gl!"%!!!#%"#"#"#N"#5!$;"!#LF%
+}
+{RTABLE 
+M7R0
+I6RTABLE_SAVE/151559760X,%)anythingG6"F%[gl!"%!!!##"#""^$"#<"""""&F%
+}
+{RTABLE 
+M7R0
+I6RTABLE_SAVE/151559824X,%)anythingG6"F%[gl!"%!!!##"#""^$"#<!""""&F%
+}
+{RTABLE 
+M7R0
+I6RTABLE_SAVE/151561104X,%)anythingG6"F%[gl!"%!!!#%"#"#"#<""&"""""!F%
+}
+{RTABLE 
+M7R0
+I6RTABLE_SAVE/151561936X,%)anythingG6"F%[gl!"%!!!#%"#"#"""!"#""#F&F%
+}
+{RTABLE 
+M7R0
+I6RTABLE_SAVE/151562000X,%)anythingG6"F%[gl!"%!!!#%"#"#,$*$""&#"""""##F*F(,$F'#
+!"#F(,$F'#F+F(F&F%
+}
+{RTABLE 
+M7R0
+I6RTABLE_SAVE/151562064X,%)anythingG6"F%[gl!"%!!!#1"%"%""$!""""!F'F(""#F(F'F'F(
+F&F'F("""F(""%F%
+}
+{RTABLE 
+M7R0
+I6RTABLE_SAVE/151562128X,%)anythingG6"F%[gl!"%!!!#1"%"%""#""!"""F'!"$""%F&!""!"
+#F(F*F+F,F(F(F&F%
+}
+{RTABLE 
+M7R0
+I6RTABLE_SAVE/151562192X,%)anythingG6"F%[gl!"%!!!#%"%""!"""""""!F(F%
+}
+{RTABLE 
+M7R0
+I6RTABLE_SAVE/151562256X,%)anythingG6"F%[gl!"%!!!#%"%"""""""!F'F&F%
+}
+{RTABLE 
+M7R0
+I6RTABLE_SAVE/151562576X,%)anythingG6"F%[gl!"%!!!#1"%"%,&-%/IdentityMatrixG6#""
+%!"$""$"""!""""!F.F/,&F'F+""#F-F/F.F.F/F&F.F/F-F/,&F'F+F*F-F%
+}
+{RTABLE 
+M7R0
+I6RTABLE_SAVE/151562832X,%)anythingG6"F%[gl!"%!!!#1"%"%,&-%/IdentityMatrixG6#""
+%!"$""$"""!""""!F.F/,&F'F+""#F-F/F.F.F/F&F.F/F-F/,&F'F+F*F-F%
+}
+{RTABLE 
+M7R0
+I6RTABLE_SAVE/151562896X,%)anythingG6"F%[gl!"%!!!#%"%"""""!""""!F&F%
+}
+{RTABLE 
+M7R0
+I6RTABLE_SAVE/151562960X,%)anythingG6"F%[gl!"%!!!#%"%"""""!""F&""!F%
+}
+{RTABLE 
+M7R0
+I6RTABLE_SAVE/151563216X,%)anythingG6"F%[gl!"%!!!#1"%"%,&-%/IdentityMatrixG6#""
+%!"$""#"""""!F-F.F+,&F'F+F*F-F,!""!"#F-F/F0F1F-F-F&F%
+}
+{RTABLE 
+M7R0
+I6RTABLE_SAVE/151563472X,%)anythingG6"F%[gl!"%!!!#1"%"%,&-%/IdentityMatrixG6#""
+%!"$""#"""""!F-F.F+,&F'F+F*F-F,!""!"#F-F/F0F1F-F-F&F%
+}
+

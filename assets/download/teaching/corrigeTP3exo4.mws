@@ -1,0 +1,51 @@
+{VERSION 6 0 "IBM INTEL NT" "6.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Maple Output" 0 11 1 
+{CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }3 3 0 -1 -1 -1 0 
+0 0 0 0 0 -1 0 }{PSTYLE "" 11 12 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 }1 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }}
+{SECT 0 {EXCHG {PARA 0 "" 0 "" {TEXT -1 290 "Exercice 4\nLa fonction f
+ \351tant paire, il fa falloir aller jusqu'\340 un d\351veloppement d'
+ordre 8 pour obtenir 5 equations afins d'annuler tous les coefficients
+.\nAttention avec la fonction series rend un O(1/x^n) pour un d\351vel
+oppement \340 l'ordre n. On demandera donc un developpement \340 l'ord
+re 9." }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 52 "f:=x->cos(x) - (a + b*x^2 + \+
+c*x^4)/(1+d*x^2 +e*x^4);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"fGf*6#
+%\"xG6\"6$%)operatorG%&arrowGF(,&-%$cosG6#9$\"\"\"*&,(%\"aGF1*&%\"bGF1
+)F0\"\"#F1F1*&%\"cGF1)F0\"\"%F1F1F1,(F1F1*&%\"dGF1F7F1F1*&%\"eGF1F;F1F
+1!\"\"FBF(F(F(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 29 "dev_limit
+e:=series(f(x),x,9);" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%+dev_limiteG
++/%\"xG,&\"\"\"F(%\"aG!\"\"\"\"!,(#F(\"\"#F*%\"bGF**&F)F(%\"dGF(F(F.,*
+%\"cGF**&F)F(%\"eGF(F(*&,&F/F*F0F(F(F1F(F*#F(\"#CF(\"\"%,(*&F7F(F5F(F*
+*&,*F3F*F4F(*&F/F(F1F(F(*&F)F()F1F.F(F*F(F1F(F*#F(\"$?(F*\"\"',(#F(\"&
+?.%F(*&F>F(F5F(F**&,,*&F/F(F5F(F(**F.F(F)F(F1F(F5F(F**&F1F(F3F(F(*&F/F
+(FAF(F**&F)F()F1\"\"$F(F(F(F1F(F*\"\")-%\"OG6#F(\"\"*" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 34 "poly:=convert(dev_limite,polynom);
+" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%%polyG,.\"\"\"F&%\"aG!\"\"*&,(#F
+&\"\"#F(%\"bGF(*&F'F&%\"dGF&F&F&)%\"xGF,F&F&*&,*%\"cGF(*&F'F&%\"eGF&F&
+*&,&F-F(F.F&F&F/F&F(#F&\"#CF&F&)F1\"\"%F&F&*&,(*&F8F&F6F&F(*&,*F4F(F5F
+&*&F-F&F/F&F&*&F'F&)F/F,F&F(F&F/F&F(#F&\"$?(F(F&)F1\"\"'F&F&*&,(#F&\"&
+?.%F&*&FAF&F6F&F(*&,,*&F-F&F6F&F&**F,F&F'F&F/F&F6F&F(*&F/F&F4F&F&*&F-F
+&FDF&F(*&F'F&)F/\"\"$F&F&F&F/F&F(F&)F1\"\")F&F&" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 39 "equas:=seq(coeff(poly,x,2*k)=0,k=0..4);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%&equasG6'/,&\"\"\"F(%\"aG!\"\"\"\"!/
+,(#F(\"\"#F*%\"bGF**&F)F(%\"dGF(F(F+/,*%\"cGF**&F)F(%\"eGF(F(*&,&F0F*F
+1F(F(F2F(F*#F(\"#CF(F+/,(*&F9F(F7F(F**&,*F5F*F6F(*&F0F(F2F(F(*&F)F()F2
+F/F(F*F(F2F(F*#F(\"$?(F*F+/,(#F(\"&?.%F(*&F@F(F7F(F**&,,*&F0F(F7F(F(**
+F/F(F)F(F2F(F7F(F**&F2F(F5F(F(*&F0F(FCF(F**&F)F()F2\"\"$F(F(F(F2F(F*F+
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 32 "sol:=solve(\{equas\},\{
+a,b,c,d,e\});" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%$solG<'/%\"aG\"\"\"
+/%\"bG#!$:\"\"$_#/%\"cG#\"$8$\"&?^\"/%\"dG#\"#6F-/%\"eG#\"#8F2" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 30 "f2:=unapply(subs(sol,f(x)),x
+);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#f2Gf*6#%\"xG6\"6$%)operatorG%
+&arrowGF(,&-%$cosG6#9$\"\"\"*&,(F1F1*&#\"$:\"\"$_#F1*$)F0\"\"#F1F1!\"
+\"*&#\"$8$\"&?^\"F1*$)F0\"\"%F1F1F1F1,(F1F1*&#\"#6F7F1F8F1F1*&#\"#8F?F
+1F@F1F1F;F;F(F(F(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 48 "equiva
+lent:=convert(series(f2(x),x,11),polynom);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%+equivalentG,$*(\"#f\"\"\"\"*+'4C:!\"\"%\"xG\"#5F*" }
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{MARK "9 0 0" 0 }
+{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }

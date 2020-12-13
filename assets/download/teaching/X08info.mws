@@ -1,0 +1,209 @@
+{VERSION 6 0 "Windows Vista" "6.0" }
+{USTYLETAB {PSTYLE "Ordered List 1" -1 200 1 {CSTYLE "" -1 -1 "Times"
+ 1 12 0 0 0 1 2 2 2 2 2 2 1 0 0 1 }1 1 0 0 3 3 2 0 2 0 2 2 -1 1 }
+{PSTYLE "Ordered List 2" -1 201 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 
+1 2 2 2 2 2 2 1 0 0 1 }1 1 0 0 3 3 2 36 2 0 2 2 -1 1 }{PSTYLE "Ordered
+ List 3" -1 202 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 
+0 0 1 }1 1 0 0 3 3 2 72 2 0 2 2 -1 1 }{PSTYLE "Ordered List 4" -1 203 
+1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 0 0 1 }1 1 0 0 3
+ 3 2 108 2 0 2 2 -1 1 }{PSTYLE "Ordered List 5" -1 204 1 {CSTYLE "" -1
+ -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 0 0 1 }1 1 0 0 3 3 2 144 2 0 2 
+2 -1 1 }{PSTYLE "Author" -1 19 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1
+ 2 2 2 2 2 2 1 0 0 1 }3 1 0 0 8 8 2 0 2 0 2 2 -1 1 }{PSTYLE "Annotatio
+n Title" -1 205 1 {CSTYLE "" -1 -1 "Times" 1 18 0 0 0 1 2 1 2 2 2 2 1 
+0 0 1 }3 1 0 0 12 12 2 0 2 0 2 2 -1 1 }{PSTYLE "Warning" -1 7 1 
+{CSTYLE "" -1 -1 "Courier" 1 10 0 0 255 1 2 2 2 2 2 1 1 0 0 1 }1 1 0 0
+ 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE "Fixed Width" -1 17 1 {CSTYLE "" -1 -1 
+"Courier" 1 10 0 0 0 1 2 2 2 2 2 2 1 0 0 1 }3 1 0 0 0 0 2 0 2 0 2 2 -1
+ 1 }{PSTYLE "Maple Plot" -1 13 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1
+ 2 2 2 2 2 2 1 0 0 1 }3 1 0 0 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE "Line Prin
+ted Output" -1 6 1 {CSTYLE "" -1 -1 "Courier" 1 10 0 0 255 1 2 2 2 2 2
+ 1 1 0 0 1 }1 1 0 0 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE "Text Output" -1 2 1
+ {CSTYLE "" -1 -1 "Courier" 1 10 0 0 255 1 2 2 2 2 2 1 1 0 0 1 }1 1 0 
+0 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE "Diagnostic" -1 9 1 {CSTYLE "" -1 -1 "
+Courier" 1 10 64 128 64 1 2 2 2 2 2 1 1 0 0 1 }1 1 0 0 0 0 2 0 2 0 2 2
+ -1 1 }{PSTYLE "Help" -1 10 1 {CSTYLE "" -1 -1 "Courier" 1 9 0 0 255 1
+ 2 2 2 2 2 1 1 0 0 1 }1 1 0 0 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE "Normal" 
+-1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 0 0 1 }1 1 
+0 0 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE "Maple Output" -1 11 1 {CSTYLE "" -1
+ -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 0 0 1 }3 1 0 0 0 0 2 0 2 0 2 2 
+-1 1 }{PSTYLE "Dash Item" -1 16 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 
+1 2 2 2 2 2 2 1 0 0 1 }1 1 0 0 3 3 2 0 2 0 2 2 -1 1 }{PSTYLE "Maple Ou
+tput12" -1 206 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 0
+ 0 1 }1 1 0 0 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE "Title" -1 18 1 {CSTYLE ""
+ -1 -1 "Times" 1 18 0 0 0 1 2 1 1 2 2 2 1 0 0 1 }3 1 0 0 12 12 2 0 2 0
+ 2 2 -1 1 }{PSTYLE "Error" -1 8 1 {CSTYLE "" -1 -1 "Courier" 1 10 255 
+0 255 1 2 2 2 2 2 1 1 0 0 1 }1 1 0 0 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE "He
+ading 1" -1 3 1 {CSTYLE "" -1 -1 "Times" 1 18 0 0 0 1 2 1 2 2 2 2 1 0 
+0 1 }1 1 0 0 8 4 2 0 2 0 2 2 -1 1 }{PSTYLE "Bullet Item" -1 15 1 
+{CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 0 0 1 }1 1 0 0 3 3
+ 2 0 2 0 2 2 -1 1 }{PSTYLE "Heading 4" -1 20 1 {CSTYLE "" -1 -1 "Times
+" 1 10 0 0 0 1 1 1 2 2 2 2 1 0 0 1 }1 1 0 0 0 0 2 0 2 0 2 2 -1 1 }
+{PSTYLE "Heading 3" -1 5 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 1 1 2
+ 2 2 2 1 0 0 1 }1 1 0 0 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE "Heading 2" -1 4
+ 1 {CSTYLE "" -1 -1 "Times" 1 14 0 0 0 1 2 1 2 2 2 2 1 0 0 1 }1 1 0 0 
+8 2 2 0 2 0 2 2 -1 1 }{PSTYLE "Left Justified Maple Output" -1 12 1 
+{CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 0 0 1 }1 1 0 0 0 0
+ 2 0 2 0 2 2 -1 1 }{PSTYLE "List Item" -1 14 1 {CSTYLE "" -1 -1 "Times
+" 1 12 0 0 0 1 2 2 2 2 2 2 1 0 0 1 }1 1 0 0 3 3 2 0 2 0 2 2 -1 1 }
+{CSTYLE "Annotation Text" -1 200 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 0 0 
+0 1 }{CSTYLE "Help Maple Name" -1 35 "Times" 1 12 104 64 92 1 2 1 2 2 
+2 2 0 0 0 1 }{CSTYLE "2D Math Bold" -1 5 "Times" 1 12 0 0 0 1 2 1 2 2 
+2 2 0 0 0 1 }{CSTYLE "Help Menus" -1 36 "Times" 1 12 0 0 0 1 2 1 2 2 2
+ 2 0 0 0 1 }{CSTYLE "2D Math Italic" -1 3 "Times" 1 12 0 0 0 1 1 2 2 2
+ 2 2 0 0 0 1 }{CSTYLE "Help Normal" -1 30 "Times" 1 12 0 0 0 1 2 2 2 2
+ 2 2 0 0 0 1 }{CSTYLE "Plot Text" -1 28 "Times" 1 8 0 0 0 1 2 2 2 2 2 
+2 0 0 0 1 }{CSTYLE "Help Nonterminal" -1 24 "Courier" 1 12 0 0 0 1 2 1
+ 2 2 2 2 0 0 0 1 }{CSTYLE "Help Heading" -1 26 "Times" 1 14 0 0 0 1 2 
+1 2 2 2 2 0 0 0 1 }{CSTYLE "Help Italic" -1 42 "Times" 1 12 0 0 0 1 1 
+2 2 2 2 2 0 0 0 1 }{CSTYLE "Help Variable" -1 25 "Courier" 1 12 0 0 0 
+1 2 2 2 2 2 2 0 0 0 1 }{CSTYLE "Help Italic Bold" -1 40 "Times" 1 12 0
+ 0 0 1 1 2 2 2 2 2 0 0 0 1 }{CSTYLE "Default" -1 38 "Times" 1 12 0 0 0
+ 1 2 2 2 2 2 2 0 0 0 1 }{CSTYLE "Help Underlined Italic" -1 43 "Times"
+ 1 12 0 0 0 1 1 2 1 2 2 2 0 0 0 1 }{CSTYLE "Maple Input" -1 0 "Courier
+" 1 12 255 0 0 1 2 1 2 2 1 2 0 0 0 1 }{CSTYLE "2D Output" -1 20 "Times
+" 1 12 0 0 255 1 2 2 2 2 2 2 0 0 0 1 }{CSTYLE "2D Math Bold Small" -1 
+10 "Times" 1 1 0 0 0 1 2 1 2 2 2 2 0 0 0 1 }{CSTYLE "2D Math Small" -1
+ 7 "Times" 1 1 0 0 0 1 2 2 2 2 2 2 0 0 0 1 }{CSTYLE "Page Number" -1 
+33 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 0 0 0 1 }{CSTYLE "Output Labels" 
+-1 29 "Times" 1 8 0 0 0 1 2 2 2 2 2 2 0 0 0 1 }{CSTYLE "Plot Title" -1
+ 27 "Times" 1 10 0 0 0 1 2 1 2 2 2 2 0 0 0 1 }{CSTYLE "Help Emphasized
+" -1 22 "Times" 1 12 0 0 0 1 1 2 2 2 2 2 0 0 0 1 }{CSTYLE "2D Math Sym
+bol 2" -1 16 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 0 0 0 1 }{CSTYLE "Maple \+
+Comment" -1 21 "Courier" 1 12 0 0 0 1 2 1 2 2 2 2 0 0 0 1 }{CSTYLE "Ma
+ple Input Placeholder" -1 201 "Courier" 1 12 200 0 200 1 2 1 2 2 1 2 0
+ 0 0 1 }{CSTYLE "Code" -1 202 "Courier" 1 12 255 0 0 1 2 2 2 2 2 2 0 0
+ 0 1 }{CSTYLE "2D Inert Output" -1 203 "Times" 1 12 144 144 144 1 2 2 
+2 2 1 2 0 0 0 1 }{CSTYLE "2D Math Italic Small" -1 204 "Times" 1 1 0 0
+ 0 1 1 2 2 2 2 2 0 0 0 1 }{CSTYLE "2D Comment" -1 18 "Times" 1 12 0 0 
+0 1 2 2 2 2 2 2 0 0 0 1 }{CSTYLE "Help Underlined Bold" -1 41 "Times" 
+1 12 0 0 0 1 1 1 2 2 2 2 0 0 0 1 }{CSTYLE "Copyright" -1 34 "Times" 1 
+10 0 0 0 1 2 2 2 2 2 2 0 0 0 1 }{CSTYLE "Hyperlink" -1 17 "Times" 1 12
+ 0 128 128 1 2 2 1 2 2 2 0 0 0 1 }{CSTYLE "Help Underlined" -1 44 "Tim
+es" 1 12 0 0 0 1 2 2 1 2 2 2 0 0 0 1 }{CSTYLE "Prompt" -1 1 "Courier" 
+1 12 0 0 0 1 2 1 2 2 2 2 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 1 12 
+0 0 0 1 2 2 2 2 2 2 0 0 0 1 }{CSTYLE "2D Input" -1 19 "Times" 1 12 255
+ 0 0 1 2 2 2 2 1 2 0 0 0 1 }{CSTYLE "Header and Footer" -1 205 "Times"
+ 1 10 0 0 0 1 2 2 2 2 2 2 0 0 0 1 }{CSTYLE "Text" -1 206 "Times" 1 12 
+0 0 0 1 2 2 2 2 2 2 0 0 0 1 }{CSTYLE "Help Notes" -1 37 "Times" 1 12 0
+ 0 0 1 2 1 2 2 2 2 0 0 0 1 }{CSTYLE "Help Bold" -1 39 "Times" 1 12 0 0
+ 0 1 2 1 2 2 2 2 0 0 0 1 }{CSTYLE "Equation Label" -1 207 "Times" 1 12
+ 0 0 0 1 2 1 2 2 2 2 0 0 0 1 }{CSTYLE "LaTeX" -1 32 "Times" 1 12 0 0 0
+ 1 2 2 2 2 2 2 0 0 0 1 }{CSTYLE "Popup" -1 31 "Times" 1 12 0 128 128 1
+ 1 2 1 2 2 2 0 0 0 1 }{CSTYLE "Dictionary Hyperlink" -1 45 "Times" 1 
+12 147 0 15 1 2 2 1 2 2 2 0 0 0 1 }{CSTYLE "Help Fixed" -1 23 "Courier
+" 1 10 0 0 0 1 2 2 2 2 2 2 0 0 0 1 }}
+{SECT 0 {EXCHG {PARA 0 "" 0 "" {TEXT 208 32 "Question 2 : codage du t
+ableau t" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 25 "codageCesar:=pr
+oc(t,n,d)\n" }{MPLTEXT 1 0 13 "local i,res;\n" }{MPLTEXT 1 0 8 "res:=t
+;\n" }{MPLTEXT 1 0 21 "for i from 1 to n do\n" }{MPLTEXT 1 0 32 "  res
+[i]:=(res[i] - d) mod 26; \n" }{MPLTEXT 1 0 5 "end;\n" }{MPLTEXT 1 0 
+12 "return res;\n" }{MPLTEXT 1 0 9 "end proc;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%,codageCesarGf*6%%\"tG%\"nG%\"dG6$%\"iG%$resG6\"6\"C%
+>%$resG%\"tG?(%\"iG\"\"\"\"\"\"%\"nG%%trueG>&%$resG6#%\"iG-%$modG6$,&&
+%$resG6#%\"iG\"\"\"%\"dG!\"\"\"#EO%$resG6\"6\"6\"" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 27 "codageCesar([0,1,2,3],4,1);" }}{PARA 11 "" 1
+ "" {XPPMATH 20 "6#7&\"#D\"\"!\"\"\"\"\"#" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT 208 34 "Question 3 : decodage du tableau t" }}}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 27 "decodageCesar:=proc(t,n,d)\n" }{MPLTEXT 1 0 
+13 "local i,res;\n" }{MPLTEXT 1 0 8 "res:=t;\n" }{MPLTEXT 1 0 21 "for \+
+i from 1 to n do\n" }{MPLTEXT 1 0 32 "  res[i]:=(res[i] + d) mod 26; \+
+\n" }{MPLTEXT 1 0 5 "end;\n" }{MPLTEXT 1 0 12 "return res;\n" }
+{MPLTEXT 1 0 9 "end proc;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%.decoda
+geCesarGf*6%%\"tG%\"nG%\"dG6$%\"iG%$resG6\"6\"C%>%$resG%\"tG?(%\"iG\"
+\"\"\"\"\"%\"nG%%trueG>&%$resG6#%\"iG-%$modG6$,&&%$resG6#%\"iG\"\"\"%
+\"dG\"\"\"\"#EO%$resG6\"6\"6\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 29 "decodageCesar([0,1,2,3],4,1);" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6#7&\"\"\"\"\"#\"\"$\"\"%" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 208 56 "Qu
+estion 4 : comptage des occurences de chaque caractere" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 22 "frequences:=proc(t,n)\n" }{MPLTEXT 
+1 0 13 "local i,res;\n" }{MPLTEXT 1 0 23 "res:=[seq(0,j=1..26)];\n" }
+{MPLTEXT 1 0 21 "for i from 1 to n do\n" }{MPLTEXT 1 0 30 "  res[t[i]+
+1]:=res[t[i]+1]+1;\n" }{MPLTEXT 1 0 5 "end;\n" }{MPLTEXT 1 0 12 "retur
+n res;\n" }{MPLTEXT 1 0 9 "end proc;" }}{PARA 11 "" 1 "" {XPPMATH 20 "
+6#>%+frequencesGf*6$%\"tG%\"nG6$%\"iG%$resG6\"6\"C%>%$resG7#-%$seqG6$
+\"\"!/%\"jG;\"\"\"\"#E?(%\"iG\"\"\"\"\"\"%\"nG%%trueG>&%$resG6#,&&%\"t
+G6#%\"iG\"\"\"\"\"\"\"\"\",&&%$resG6#,&&%\"tG6#%\"iG\"\"\"\"\"\"\"\"\"
+\"\"\"\"\"\"\"\"\"O%$resG6\"6\"6\"" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 25 "frequences([4,4,0,23],4);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#7<\"\"\"\"\"!\"\"!\"\"!\"\"#\"\"!\"\"!\"\"!\"\"!\"\"!\"
+\"!\"\"!\"\"!\"\"!\"\"!\"\"!\"\"!\"\"!\"\"!\"\"!\"\"!\"\"!\"\"!\"\"\"
+\"\"!\"\"!" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 208 46 "Question 5 : decod
+age automatique du tableau t" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 24 "decodageAuto:=proc(t,n)\n" }{MPLTEXT 1 0 29 "local d,i,maxi,indi
+,tab,res;\n" }{MPLTEXT 1 0 22 "tab:=frequences(t,n);\n" }{MPLTEXT 1 0 
+10 "maxi:=-1;\n" }{MPLTEXT 1 0 9 "indi:=0;\n" }{MPLTEXT 1 0 23 "for i \+
+from 1 to 26 do \n" }{MPLTEXT 1 0 26 "  if (tab[i] > maxi) then\n" }
+{MPLTEXT 1 0 18 "    maxi:=tab[i];\n" }{MPLTEXT 1 0 13 "    indi:=i;\n
+" }{MPLTEXT 1 0 7 "  end;\n" }{MPLTEXT 1 0 5 "end;\n" }{MPLTEXT 1 0 
+20 "d:=(5-indi) mod 26;\n" }{MPLTEXT 1 0 27 "res:=decodageCesar(t,n,d)
+;\n" }{MPLTEXT 1 0 12 "return res;\n" }{MPLTEXT 1 0 9 "end proc;" }}
+{PARA 206 "" 1 "" {XPPMATH 20 "6#>%-decodageAutoGf*6$%\"tG%\"nG6(%\"dG
+%\"iG%%maxiG%%indiG%$tabG%$resG6\"6\"C)>%$tabG-%+frequencesG6$%\"tG%\"
+nG>%%maxiG!\"\">%%indiG\"\"!?(%\"iG\"\"\"\"\"\"\"#E%%trueG@$2%%maxiG&%
+$tabG6#%\"iGC$>%%maxiG&%$tabG6#%\"iG>%%indiG%\"iG>%\"dG-%$modG6$,&\"\"
+&\"\"\"%%indiG!\"\"\"#E>%$resG-%.decodageCesarG6%%\"tG%\"nG%\"dGO%$res
+G6\"6\"6\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }{TEXT 208 
+0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 34 "T:=codageCesar([4,11
+,4,21,4],5,3);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"TG7'\"\"\"\"\")
+\"\"\"\"#=\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "decodag
+eAuto(T,5);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#7'\"\"%\"#6\"\"%\"#@\"
+\"%" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 208 31 "Question 7 : codage de Vi
+genere" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 30 "codageVigenere:=p
+roc(t,n,c,k)\n" }{MPLTEXT 1 0 15 "local d,i,res;\n" }{MPLTEXT 1 0 8 "r
+es:=t;\n" }{MPLTEXT 1 0 21 "for i from 1 to n do\n" }{MPLTEXT 1 0 47 "
+  res[i]:=(res[i]+ c[((i-1) mod k)+1]) mod 26;\n" }{MPLTEXT 1 0 5 "end
+;\n" }{MPLTEXT 1 0 12 "return res;\n" }{MPLTEXT 1 0 9 "end proc;" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%/codageVigenereGf*6&%\"tG%\"nG%\"cG%
+\"kG6%%\"dG%\"iG%$resG6\"6\"C%>%$resG%\"tG?(%\"iG\"\"\"\"\"\"%\"nG%%tr
+ueG>&%$resG6#%\"iG-%$modG6$,&&%$resG6#%\"iG\"\"\"&%\"cG6#,&-%$modG6$,&
+%\"iG\"\"\"\"\"\"!\"\"%\"kG\"\"\"\"\"\"\"\"\"\"\"\"\"#EO%$resG6\"6\"6
+\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 72 "T:=codageVigenere([4,
+11,4,21,4,4,11,4,21,4,4,11,4,21,4],15,[0,1,2,3],4);" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#>%\"TG71\"\"%\"#7\"\"'\"#C\"\"%\"\"&\"#8\"\"(\"#@\"\"
+&\"\"'\"#9\"\"%\"#A\"\"'" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 208 33 "Ques
+tion 8 : PGCD de deux entiers" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 16 "pgcd:=proc(a,b)\n" }{MPLTEXT 1 0 16 "local u,v,temp;\n" }
+{MPLTEXT 1 0 13 "u:=max(a,b);\n" }{MPLTEXT 1 0 13 "v:=min(a,b);\n" }
+{MPLTEXT 1 0 15 "while (v>0) do\n" }{MPLTEXT 1 0 22 "  while ((u-v)>=0
+) do\n" }{MPLTEXT 1 0 12 "    u:=u-v;\n" }{MPLTEXT 1 0 7 "  end;\n" }
+{MPLTEXT 1 0 11 "  temp:=u;\n" }{MPLTEXT 1 0 8 "  u:=v;\n" }{MPLTEXT 
+1 0 11 "  v:=temp;\n" }{MPLTEXT 1 0 5 "end;\n" }{MPLTEXT 1 0 10 "retur
+n u;\n" }{MPLTEXT 1 0 9 "end proc;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#
+>%%pgcdGf*6$%\"aG%\"bG6%%\"uG%\"vG%%tempG6\"6\"C&>%\"uG-%$maxG6$%\"aG%
+\"bG>%\"vG-%$minG6$%\"aG%\"bG?(6\"\"\"\"\"\"\"6\"2\"\"!%\"vGC&?(6\"\"
+\"\"\"\"\"6\"1\"\"!,&%\"uG\"\"\"%\"vG!\"\">%\"uG,&%\"uG\"\"\"%\"vG!\"
+\">%%tempG%\"uG>%\"uG%\"vG>%\"vG%%tempGO%\"uG6\"6\"6\"" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "pgcd(15,30);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"#:" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 208 41 "Question \+
+9 : calcul du PGCD des distances" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT
+ 1 0 46 "pgcdDesDistancesEntreRepetitions:=proc(t,n,i)\n" }{MPLTEXT 1 
+0 15 "local d,j,pos;\n" }{MPLTEXT 1 0 6 "d:=0;\n" }{MPLTEXT 1 0 8 "pos
+:=i;\n" }{MPLTEXT 1 0 25 "for j from i+3 to n-3 do\n" }{MPLTEXT 1 0 
+58 "  if ([t[i+1],t[i+2],t[i+3]]=[t[j+1],t[j+2],t[j+3]]) then\n" }
+{MPLTEXT 1 0 22 "    d:=pgcd(d,j-pos);\n" }{MPLTEXT 1 0 12 "    pos:=j
+;\n" }{MPLTEXT 1 0 7 "  end;\n" }{MPLTEXT 1 0 5 "end;\n" }{MPLTEXT 1 
+0 10 "return d;\n" }{MPLTEXT 1 0 9 "end proc;" }}{PARA 206 "" 1 "" 
+{XPPMATH 20 "6#>%ApgcdDesDistancesEntreRepetitionsGf*6%%\"tG%\"nG%\"iG
+6%%\"dG%\"jG%$posG6\"6\"C&>%\"dG\"\"!>%$posG%\"iG?(%\"jG,&%\"iG\"\"\"
+\"\"$\"\"\"\"\"\",&%\"nG\"\"\"\"\"$!\"\"%%trueG@$/7%&%\"tG6#,&%\"iG\"
+\"\"\"\"\"\"\"\"&%\"tG6#,&%\"iG\"\"\"\"\"#\"\"\"&%\"tG6#,&%\"iG\"\"\"
+\"\"$\"\"\"7%&%\"tG6#,&%\"jG\"\"\"\"\"\"\"\"\"&%\"tG6#,&%\"jG\"\"\"\"
+\"#\"\"\"&%\"tG6#,&%\"jG\"\"\"\"\"$\"\"\"C$>%\"dG-%%pgcdG6$%\"dG,&%\"j
+G\"\"\"%$posG!\"\">%$posG%\"jGO%\"dG6\"6\"6\"" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 77 "pgcdDesDistancesEntreRepetitions([1,2,3,4,5,6,1,
+2,3,4,5,6,4,5,6,1,2,3],18,0);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"$
+" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 208 45 "Question 10 : determine la l
+ongueur de la cle" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 27 "longue
+urDeLaCle:=proc(t,n)\n" }{MPLTEXT 1 0 11 "local i,d;\n" }{MPLTEXT 1 0 
+6 "d:=0;\n" }{MPLTEXT 1 0 21 "for i from 1 to n do\n" }{MPLTEXT 1 0 
+56 "  d:=pgcd(d,pgcdDesDistancesEntreRepetitions(t,n,i-1));\n" }
+{MPLTEXT 1 0 5 "end;\n" }{MPLTEXT 1 0 10 "return d;\n" }{MPLTEXT 1 0 
+9 "end proc;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%0longueurDeLaCleGf*6
+$%\"tG%\"nG6$%\"iG%\"dG6\"6\"C%>%\"dG\"\"!?(%\"iG\"\"\"\"\"\"%\"nG%%tr
+ueG>%\"dG-%%pgcdG6$%\"dG-%ApgcdDesDistancesEntreRepetitionsG6%%\"tG%\"
+nG,&%\"iG\"\"\"\"\"\"!\"\"O%\"dG6\"6\"6\"" }}}{EXCHG {PARA 0 "> " 0 ""
+ {MPLTEXT 1 0 32 "decodageAutoVigenere:=proc(t,n)\n" }{MPLTEXT 1 0 1 "
+\n" }{MPLTEXT 1 0 1 "\n" }{MPLTEXT 1 0 9 "end proc;" }}}}
+{MARK "0 0 0" 0 }{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 0 1 2
+ 33 1 1 }
