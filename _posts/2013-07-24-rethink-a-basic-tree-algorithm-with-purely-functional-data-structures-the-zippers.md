@@ -1,18 +1,7 @@
 ---
 layout: post
-status: publish
-published: true
 title: 'Rewriting a tree algorithm with purely functional data structures: the "zippers".'
-author:
-  display_name: Benoit Patra
-  login: benoitpatra
-  email: benoit.patra@gmail.com
-  url: https://www.benoitpatra.com
-author_login: benoitpatra
-author_email: benoit.patra@gmail.com
-author_url: https://www.benoitpatra.com
 date: '2013-07-24 23:34:30 +0000'
-date_gmt: '2013-07-24 21:34:30 +0000'
 categories:
 - Programming
 - Algorithms

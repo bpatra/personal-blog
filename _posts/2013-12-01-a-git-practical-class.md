@@ -1,18 +1,7 @@
 ---
 layout: post
-status: publish
-published: true
 title: A git practical class
-author:
-  display_name: Benoit Patra
-  login: benoitpatra
-  email: benoit.patra@gmail.com
-  url: https://www.benoitpatra.com
-author_login: benoitpatra
-author_email: benoit.patra@gmail.com
-author_url: https://www.benoitpatra.com
 date: '2013-12-01 18:26:23 +0000'
-date_gmt: '2013-12-01 17:26:23 +0000'
 categories:
 - Programming
 - DevTools

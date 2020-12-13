@@ -1,19 +1,7 @@
 ---
 layout: post
-status: publish
-published: true
-title: Programming well structured Javascript stored procedures for DocumentDB with
-  Typescript and SystemJs
-author:
-  display_name: Benoit Patra
-  login: benoitpatra
-  email: benoit.patra@gmail.com
-  url: https://www.benoitpatra.com
-author_login: benoitpatra
-author_email: benoit.patra@gmail.com
-author_url: https://www.benoitpatra.com
+title: "Programming well structured Javascript stored procedures for DocumentDB with Typescript and SystemJs"
 date: '2016-07-09 17:06:38 +0000'
-date_gmt: '2016-07-09 17:06:38 +0000'
 categories:
 - Programming
 - Scripting

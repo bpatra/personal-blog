@@ -1,20 +1,7 @@
 ---
 layout: post
-status: publish
-published: true
 title: No hdmi sound without OS reboot? Restart the drivers...
-author:
-  display_name: Benoit Patra
-  login: benoitpatra
-  email: benoit.patra@gmail.com
-  url: https://www.benoitpatra.com
-author_login: benoitpatra
-author_email: benoit.patra@gmail.com
-author_url: https://www.benoitpatra.com
-wordpress_id: 142
-wordpress_url: http://benoitpatra.com/?p=142
 date: '2013-12-22 18:10:38 +0000'
-date_gmt: '2013-12-22 17:10:38 +0000'
 categories:
 - Uncategorized
 - Scripting

@@ -1,20 +1,7 @@
 ---
 layout: post
-status: publish
-published: true
 title: Powershell srcset image generator
-author:
-  display_name: Benoit Patra
-  login: benoitpatra
-  email: benoit.patra@gmail.com
-  url: https://www.benoitpatra.com
-author_login: benoitpatra
-author_email: benoit.patra@gmail.com
-author_url: https://www.benoitpatra.com
-wordpress_id: 1988
-wordpress_url: http://benoitpatra.com/?p=1988
 date: '2017-01-29 18:33:27 +0000'
-date_gmt: '2017-01-29 18:33:27 +0000'
 categories:
 - Programming
 - Scripting

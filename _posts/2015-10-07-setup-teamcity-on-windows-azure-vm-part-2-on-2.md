@@ -1,18 +1,7 @@
 ---
 layout: post
-status: publish
-published: true
 title: TeamCity on Windows Azure VM part 2/2 - enabling SSL with reverse proxy
-author:
-  display_name: Benoit Patra
-  login: benoitpatra
-  email: benoit.patra@gmail.com
-  url: https://www.benoitpatra.com
-author_login: benoitpatra
-author_email: benoit.patra@gmail.com
-author_url: https://www.benoitpatra.com
 date: '2015-10-07 23:17:32 +0000'
-date_gmt: '2015-10-07 21:17:32 +0000'
 categories:
 - Programming
 - Continuous Integration

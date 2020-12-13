@@ -1,18 +1,7 @@
 ---
 layout: post
-status: publish
-published: true
 title: My WPF/MVVM "must have" part 3/3 - On view model unit tests organization
-author:
-  display_name: Benoit Patra
-  login: benoitpatra
-  email: benoit.patra@gmail.com
-  url: https://www.benoitpatra.com
-author_login: benoitpatra
-author_email: benoit.patra@gmail.com
-author_url: https://www.benoitpatra.com
 date: '2015-06-30 13:11:33 +0000'
-date_gmt: '2015-06-30 11:11:33 +0000'
 categories:
 - Programming
 - MVVM

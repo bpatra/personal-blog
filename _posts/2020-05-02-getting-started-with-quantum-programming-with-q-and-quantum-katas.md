@@ -1,24 +1,12 @@
 ---
 layout: post
-status: publish
-published: true
 has_maths: true
 title: 'Quantum programming: getting started with Q# and Quantum Katas'
-author:
-  display_name: Benoit Patra
-  login: benoitpatra
-  email: benoit.patra@gmail.com
-  url: https://www.benoitpatra.com
-author_login: benoitpatra
-author_email: benoit.patra@gmail.com
-author_url: https://www.benoitpatra.com
-wordpress_id: 2341
-wordpress_url: http://benoitpatra.com/?p=2341
+author: benoitpatra
 date: '2020-05-02 15:13:32 +0000'
-date_gmt: '2020-05-02 13:13:32 +0000'
 featured: true
-featured_image_thumbnail:
 featured_image: /assets/images/legacy-wp-content/2020/05/qubit-preview.png
+image: /assets/images/legacy-wp-content/2020/05/qubit-preview.png
 hidden: true
 categories:
 - Programming

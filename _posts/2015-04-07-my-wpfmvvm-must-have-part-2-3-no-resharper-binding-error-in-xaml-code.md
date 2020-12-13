@@ -1,20 +1,7 @@
 ---
 layout: post
-status: publish
-published: true
 title: My WPF/MVVM "must have" part 2/ 3 - No Resharper binding error in XAML code
-author:
-  display_name: Benoit Patra
-  login: benoitpatra
-  email: benoit.patra@gmail.com
-  url: https://www.benoitpatra.com
-author_login: benoitpatra
-author_email: benoit.patra@gmail.com
-author_url: https://www.benoitpatra.com
-wordpress_id: 752
-wordpress_url: http://benoitpatra.com/?p=752
 date: '2015-04-07 13:02:58 +0000'
-date_gmt: '2015-04-07 11:02:58 +0000'
 categories:
 - Programming
 - MVVM

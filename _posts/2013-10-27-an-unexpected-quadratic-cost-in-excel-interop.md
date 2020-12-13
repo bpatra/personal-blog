@@ -1,18 +1,7 @@
 ---
 layout: post
-status: publish
-published: true
 title: An unexpected quadratic cost in Excel Interop
-author:
-  display_name: Benoit Patra
-  login: benoitpatra
-  email: benoit.patra@gmail.com
-  url: https://www.benoitpatra.com
-author_login: benoitpatra
-author_email: benoit.patra@gmail.com
-author_url: https://www.benoitpatra.com
 date: '2013-10-27 12:13:52 +0000'
-date_gmt: '2013-10-27 11:13:52 +0000'
 categories:
 - Programming
 - Algorithms

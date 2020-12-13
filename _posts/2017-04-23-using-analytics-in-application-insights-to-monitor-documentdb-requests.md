@@ -1,18 +1,7 @@
 ---
 layout: post
-status: publish
-published: true
 title: Using Analytics in Application Insights to monitor CosmosDB Requests
-author:
-  display_name: Benoit Patra
-  login: benoitpatra
-  email: benoit.patra@gmail.com
-  url: https://www.benoitpatra.com
-author_login: benoitpatra
-author_email: benoit.patra@gmail.com
-author_url: https://www.benoitpatra.com
 date: '2017-04-23 15:21:07 +0000'
-date_gmt: '2017-04-23 15:21:07 +0000'
 categories:
 - Programming
 - Database

@@ -1,18 +1,7 @@
 ---
 layout: post
-status: publish
-published: true
 title: A sample Wix installer using the ActiveSetup feature
-author:
-  display_name: Benoit Patra
-  login: benoitpatra
-  email: benoit.patra@gmail.com
-  url: https://www.benoitpatra.com
-author_login: benoitpatra
-author_email: benoit.patra@gmail.com
-author_url: https://www.benoitpatra.com
 date: '2014-07-26 00:15:02 +0000'
-date_gmt: '2014-07-25 22:15:02 +0000'
 categories:
 - Uncategorized
 - Programming

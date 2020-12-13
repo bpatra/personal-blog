@@ -1,18 +1,7 @@
 ---
 layout: post
-status: publish
-published: true
 title: TeamCity on Windows Azure VM part 1/2 - server setup
-author:
-  display_name: Benoit Patra
-  login: benoitpatra
-  email: benoit.patra@gmail.com
-  url: https://www.benoitpatra.com
-author_login: benoitpatra
-author_email: benoit.patra@gmail.com
-author_url: https://www.benoitpatra.com
 date: '2015-09-21 18:39:21 +0000'
-date_gmt: '2015-09-21 16:39:21 +0000'
 categories:
 - Programming
 - Continuous Integration

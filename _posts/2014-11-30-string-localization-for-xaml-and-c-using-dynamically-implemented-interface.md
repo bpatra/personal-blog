@@ -1,18 +1,7 @@
 ---
 layout: post
-status: publish
-published: true
 title: String localization for XAML and C# using dynamically implemented interface
-author:
-  display_name: Benoit Patra
-  login: benoitpatra
-  email: benoit.patra@gmail.com
-  url: https://www.benoitpatra.com
-author_login: benoitpatra
-author_email: benoit.patra@gmail.com
-author_url: https://www.benoitpatra.com
 date: '2014-11-30 11:51:19 +0000'
-date_gmt: '2014-11-30 10:51:19 +0000'
 categories:
 - Programming
 tags:

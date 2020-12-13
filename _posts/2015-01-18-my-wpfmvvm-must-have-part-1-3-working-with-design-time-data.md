@@ -1,18 +1,7 @@
 ---
 layout: post
-status: publish
-published: true
 title: My WPF/MVVM "must have" part 1/ 3 - working with design time data
-author:
-  display_name: Benoit Patra
-  login: benoitpatra
-  email: benoit.patra@gmail.com
-  url: https://www.benoitpatra.com
-author_login: benoitpatra
-author_email: benoit.patra@gmail.com
-author_url: https://www.benoitpatra.com
 date: '2015-01-18 17:23:06 +0000'
-date_gmt: '2015-01-18 16:23:06 +0000'
 categories:
 - Programming
 - MVVM

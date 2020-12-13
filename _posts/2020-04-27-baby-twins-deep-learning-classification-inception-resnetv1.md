@@ -1,19 +1,9 @@
 ---
 layout: post
-status: publish
-published: true
 title: Baby twins deep learning classification with Inception-ResNetV1
-author:
-  display_name: Benoit Patra
-  login: benoitpatra
-  email: benoit.patra@gmail.com
-  url: https://www.benoitpatra.com
-author_login: benoitpatra
-author_email: benoit.patra@gmail.com
-author_url: https://www.benoitpatra.com
 date: '2020-04-27 09:10:28 +0000'
-date_gmt: '2020-04-27 09:10:28 +0000'
 featured: true
+image: /assets/images/legacy-wp-content/2020/04/superlittleLandJ2.jpg
 featured_image: /assets/images/legacy-wp-content/2020/04/superlittleLandJ2.jpg
 hidden: true
 categories:

@@ -1,20 +1,7 @@
 ---
 layout: post
-status: publish
-published: true
 title: Remote debugging Python with VSCode
-author:
-  display_name: Benoit Patra
-  login: benoitpatra
-  email: benoit.patra@gmail.com
-  url: https://www.benoitpatra.com
-author_login: benoitpatra
-author_email: benoit.patra@gmail.com
-author_url: https://www.benoitpatra.com
-wordpress_id: 2052
-wordpress_url: http://benoitpatra.com/?p=2052
 date: '2017-11-27 21:50:29 +0000'
-date_gmt: '2017-11-27 21:50:29 +0000'
 categories:
 - Programming
 - DevTools

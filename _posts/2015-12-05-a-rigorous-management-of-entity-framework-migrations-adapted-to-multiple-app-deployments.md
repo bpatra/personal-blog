@@ -1,19 +1,7 @@
 ---
 layout: post
-status: publish
-published: true
-title: A rigorous management of Entity Framework migrations adapted to multiple app
-  deployments
-author:
-  display_name: Benoit Patra
-  login: benoitpatra
-  email: benoit.patra@gmail.com
-  url: https://www.benoitpatra.com
-author_login: benoitpatra
-author_email: benoit.patra@gmail.com
-author_url: https://www.benoitpatra.com
+title: "A rigorous management of Entity Framework migrations adapted to multiple app deployments"
 date: '2015-12-05 14:56:10 +0000'
-date_gmt: '2015-12-05 14:56:10 +0000'
 categories:
 - Programming
 - Database

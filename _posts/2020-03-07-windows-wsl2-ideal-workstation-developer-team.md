@@ -1,18 +1,6 @@
 ---
 layout: post
-status: publish
-published: true
 title: Windows with WSL2, a good configuration for a dev team?
-author:
-  display_name: Benoit Patra
-  login: benoitpatra
-  email: benoit.patra@gmail.com
-  url: https://www.benoitpatra.com
-author_login: benoitpatra
-author_email: benoit.patra@gmail.com
-author_url: https://www.benoitpatra.com
-date: '2020-03-07 11:25:45 +0000'
-date_gmt: '2020-03-07 11:25:45 +0000'
 featured: true
 featured_image: /assets/images/legacy-wp-content/2020/03/Ubutntu-on-Windows-10-logo-banner2.jpg
 hidden: true

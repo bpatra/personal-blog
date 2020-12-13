@@ -1,18 +1,7 @@
 ---
 layout: post
-status: publish
-published: true
 title: Unit Testing Drag and Drop logic with MVVM pattern in WPF
-author:
-  display_name: Benoit Patra
-  login: benoitpatra
-  email: benoit.patra@gmail.com
-  url: https://www.benoitpatra.com
-author_login: benoitpatra
-author_email: benoit.patra@gmail.com
-author_url: https://www.benoitpatra.com
 date: '2014-03-15 15:49:47 +0000'
-date_gmt: '2014-03-15 14:49:47 +0000'
 categories:
 - Programming
 - UnitTesting

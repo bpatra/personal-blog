@@ -1,18 +1,7 @@
 ---
 layout: post
-status: publish
-published: true
 title: Resize image and preserve ratio with Powershell
-author:
-  display_name: Benoit Patra
-  login: benoitpatra
-  email: benoit.patra@gmail.com
-  url: https://www.benoitpatra.com
-author_login: benoitpatra
-author_email: benoit.patra@gmail.com
-author_url: https://www.benoitpatra.com
 date: '2014-09-14 18:32:22 +0000'
-date_gmt: '2014-09-14 16:32:22 +0000'
 categories:
 - Programming
 - Scripting
