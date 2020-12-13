@@ -1,0 +1,53 @@
+{VERSION 6 0 "IBM INTEL NT" "6.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Maple Output" 0 11 1 
+{CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }3 3 0 -1 -1 -1 0 
+0 0 0 0 0 -1 0 }}
+{SECT 0 {EXCHG {PARA 0 "" 0 "" {TEXT 208 10 "Exercice 2" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT 208 450 "On commence par remarquer que n\351cess
+airement le polyn\364me P doit \352tre de degr\351 3. En effet ou bien
+ celui \347i est de degr\351 strictement sup\351rieur \340 trois auque
+l cas\nle premier terme est n\351gligeable devant le second et le seco
+nd ne tend pas vers 0. Ou bien le le polynome est de degr\351 inf\351r
+ieur ou \351gal \340 deux et donc le second terme devient n\351gligeab
+le par rapport au premier. Ce premier terme n'\351tant lui non plus pa
+s sommable car ne tendant pas vers 0." }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 24 
+"Pn := a*n^3+b*n^2+c*n+d;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#PnG,**
+&%\"aG\"\"\")%\"nG\"\"$F(F(*&%\"bGF()F*\"\"#F(F(*&%\"cGF(F*F(F(%\"dGF(
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 33 "un := (n^7+3*n^6)^(1/7)
+-Pn^(1/3);" }{TEXT -1 0 "" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#unG,&*
+$),&*$)%\"nG\"\"(\"\"\"F-*&\"\"$F-)F+\"\"'F-F-#F-F,F-F-*$),**&%\"aGF-)
+F+F/F-F-*&%\"bGF-)F+\"\"#F-F-*&%\"cGF-F+F-F-%\"dGF-#F-F/F-!\"\"" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 148 "On va r\351aliser un d\351veloppe
+ment asymptotique \340 l'ordre 2 de la quantit\351 u_n car on sait qu'
+\340 partir de l'ordre 1/n^2 tous les termes sont sommables." }}{PARA 
+0 "> " 0 "" {MPLTEXT 1 0 35 "dev := series(un, n = infinity, 2);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%$devG,,*&,&\"\"\"F(*$)%\"aG#F(\"\"$F
+(!\"\"F(%\"nGF(F(#F-\"\"(F(*(F-F.F+#!\"#F-%\"bGF(F.*&,&#\"#F\"#\\F.*&F
+*F(,&*(F-F.%\"cGF(F+F.F(*(\"\"*F.F5\"\"#F+F4F.F(F.F(F/F.F(-%\"OG6#*&F(
+F(*$)F/FAF(F.F(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 34 "devTrunc
+ := convert(dev, polynom);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%)devTr
+uncG,**&,&\"\"\"F(*$)%\"aG#F(\"\"$F(!\"\"F(%\"nGF(F(#F-\"\"(F(*(F-F.F+
+#!\"#F-%\"bGF(F.*&,&#\"#F\"#\\F.*&F*F(,&*(F-F.%\"cGF(F+F.F(*(\"\"*F.F5
+\"\"#F+F4F.F(F.F(F/F.F(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 50 "
+sol := solve(\{coeffs(devTrunc, n)\}, \{a, b, c, d\});" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#>%$solG<&/%\"aG\"\"\"/%\"bG#\"\"*\"\"(/%\"cG#!#a\"
+#\\/%\"dGF4" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 61 "Nous allons v\351r
+ifier nos solutions sur (au moins) un example." }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 21 "u2n := subs(sol, un);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%$u2nG,&*$),&*$)%\"nG\"\"(\"\"\"F-*&\"\"$F-)F+\"\"'F-F
+-#F-F,F-F-*$),**$)F+F/F-F-*&#\"\"*F,F-*$)F+\"\"#F-F-F-*&#\"#a\"#\\F-F+
+F-!\"\"%\"dGF-#F-F/F-FB" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 7 "d
+ := 2;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"dG\"\"#" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 36 "sum2 := sum(u2n, n = 0 .. infinity)
+;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%%sum2G-%$sumG6$,&*$),&*$)%\"nG
+\"\"(\"\"\"F0*&\"\"$F0)F.\"\"'F0F0#F0F/F0F0*$),**$)F.F2F0F0*&#\"\"*F/F
+0*$)F.\"\"#F0F0F0*&#\"#a\"#\\F0F.F0!\"\"F@F0#F0F2F0FE/F.;\"\"!%)infini
+tyG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "evalf(sum2);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#$!+La^f;!\"*" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 1 " " }}}}{MARK "13 0 0" 1 }{VIEWOPTS 1 1 0 1 1 
+1803 1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }

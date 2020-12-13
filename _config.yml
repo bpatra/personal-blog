@@ -64,6 +64,8 @@ navigation:
     url: /archives
   - text: About
     url: /about
+  - text: Academic (deprecated)
+    url: /academic
 
 # Required Plugins
 plugins_dir:
