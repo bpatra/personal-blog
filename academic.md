@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Academic (deprecated)
+title: Academic (past)
 ---
 
 <div> This page is a clone of my legacy page at <a href="http://www.lsta.lab.upmc.fr/">LSTA laboratory</a> (now <a href="http://www.lpsm.paris/">LPSM</a>) of University Paris VI.</div>
@@ -84,7 +84,7 @@ Séminaire Bilbab, ENST-Paris EDF.
 
 #### Université Pierre et Marie Curie, 2010-2011. LM 345 Probabilités (Section PIMA Semestre 1). 36 h.
 
-[Polycopié de Raphaël Krikorian](/assets/download/teaching/http://www.licence.math.upmc.fr/telecharger.php/LM345-cours-2005-2006.pdf?path=UE/LM345/fichiers/3/1) (année 2006-2007).  
+[Polycopié de Raphaël Krikorian](http://www.licence.math.upmc.fr/telecharger.php/LM345-cours-2005-2006.pdf?path=UE/LM345/fichiers/3/1) (année 2006-2007).  
 
 **Feuilles de TDs _(proposées par Thierry Lévy, corrections Bruno Jaffuel)_ :**  
 [Feuille 1 - Opérations sur les ensembles, dénombrement](/assets/download/teaching/LM345_TD1.pdf) et son [corrigé](/assets/download/teaching/LM345_TD1_Corr.pdf).  

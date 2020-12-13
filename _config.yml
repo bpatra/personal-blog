@@ -64,7 +64,7 @@ navigation:
     url: /archives
   - text: About
     url: /about
-  - text: Academic (deprecated)
+  - text: Academic (past)
     url: /academic
 
 # Required Plugins
