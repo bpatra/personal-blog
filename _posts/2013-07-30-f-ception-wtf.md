@@ -22,7 +22,6 @@ tags:
 - F#
 - powershell
 - functional programming
-comments: []
 ---
 
 {% include image-caption.html imageurl='/assets/images/legacy-wp-content/2013/07/220px-inception_ver3.jpg' title="F#-ception!" position_class="image-right" %}

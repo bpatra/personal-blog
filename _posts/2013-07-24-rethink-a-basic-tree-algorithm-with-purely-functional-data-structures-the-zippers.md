@@ -26,7 +26,6 @@ tags:
 - Tree
 - functional programming
 - BigData
-comments: []
 ---
 This is my first post, it follows a question that I have posted few weeks ago <a title="here" href="http://stackoverflow.com/questions/17364840/implement-tree-builder-with-f">here</a>. A really interesting link provided by a stackoverflow user made me review my question and lead me to write this post. The objective here is to describe the modification of an existing algorithm implementation, from a first try which uses intensively mutability of the underlying data structure to a purely immutable functional implementation. We will show that this can be achieved quite easily when using the appropriate data structures which in our case are the so-called "zippers".
 

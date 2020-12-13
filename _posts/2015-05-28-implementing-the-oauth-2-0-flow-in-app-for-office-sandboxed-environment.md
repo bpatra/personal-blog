@@ -23,15 +23,6 @@ tags:
 - OAUTH
 - office365
 - office-addins
-comments:
-- id: 461
-  author: SutoCom
-  author_email: dennes777@gmail.com
-  author_url: http://www.sutocom.net
-  date: '2015-05-29 12:50:25 +0000'
-  date_gmt: '2015-05-29 10:50:25 +0000'
-  content: Reblogged this on <a href="http://sutocom.net/2015/05/29/implementing-the-oauth-2-0-flow-in-app-for-office-sandboxed-environment/"
-    rel="nofollow">SutoCom Solutions</a>.
 ---
 <strong>EDIT:</strong> this approach is outdated. You can have a look at the sample we released and especially in the README section we compare the different approaches
 <a href="https://github.com/Keluro/Office365-AddinWeb-SignInSample">https://github.com/Keluro/Office365-AddinWeb-SignInSample</a>

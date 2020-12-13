@@ -22,17 +22,6 @@ tags:
 - MVVM
 - WPF
 - XAML
-comments:
-- id: 451
-  author: My WPF/MVVM &#8220;must have&#8221; part 2/ 3 &#8211; No Resharper binding
-    error in XAML code | Beno&icirc;t Patra&#039;s blog
-  author_email: ''
-  author_url: http://benoitpatra.com/2015/04/07/my-wpfmvvm-must-have-part-2-3-no-resharper-binding-error-in-xaml-code/
-  date: '2015-04-07 13:08:11 +0000'
-  date_gmt: '2015-04-07 11:08:11 +0000'
-  content: "[&#8230;] you have followed my previous post regarding WPF and MVVM, you
-    saw&nbsp;that the ViewModels (VMs), consumed by the Views (composed essentially
-    of XAML code), are [&#8230;]"
 ---
 This is the first post of a series in three parts where I will discuss what are the "must have" of any of my WPF/MVVM projects. This one is about dealing with design time data with the framework <a title="MVVM light" href="http://www.mvvmlight.net/">MVVM light.</a>&nbsp;The&nbsp;sample project of this post can be found <a href="https://github.com/bpatra/DesignableMVVMSample">here on my github</a>.
 

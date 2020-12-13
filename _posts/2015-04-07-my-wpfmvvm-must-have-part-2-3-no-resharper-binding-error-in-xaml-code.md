@@ -24,7 +24,6 @@ tags:
 - MVVM
 - resharper
 - XAML
-comments: []
 ---
 This second post of&nbsp;the "WPF must have" series deals with Resharper and its ability to find binding errors in XAML.
 

@@ -26,7 +26,6 @@ tags:
 - nosql
 - CosmosDB
 - BigData
-comments: []
 ---
 
 If you are using <a href="https://azure.microsoft.com/en-us/documentation/articles/documentdb-introduction/">DocumentDB</a> you may&nbsp;had to write your own <a href="https://azure.microsoft.com/en-us/documentation/articles/documentdb-programming/">stored procedure</a>. A stored procedure is a function written in Javascript that runs on the DocumentDB cloud infrastructure. It may reduce performance problem or make you execute some queries&nbsp;that are not supported yet through&nbsp;the REST API such as <a href="https://dzone.com/articles/aggregation-framework-as-stored-procedure-in-azure">aggregate function</a>.

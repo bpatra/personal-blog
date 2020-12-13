@@ -30,7 +30,6 @@ tags:
 - Maths
 - Linear algebra
 - quantum programming
-comments: []
 ---
 
 Quantum computing has received a lot of attention in the past years and in fall 2019 <a href="https://www.youtube.com/watch?v=-ZNEzzDcllU" target="_blank">Google claimed</a> they achieved the so-called <a href="https://en.wikipedia.org/wiki/Quantum_supremacy">quantum supremacy</a>. Quantum computing brings with it great promises from its early days, when Richard Feynman and others, imagined that leveraging the quantum properties of subatomic particles could lead to devices with inconmensurable computing power compared to what could be ever achieved with a classical computer.

@@ -29,7 +29,6 @@ tags:
 - Docker
 - Team Management
 - Efficiency
-comments: []
 ---
 In the Talentoday tech team we have regular discussions about the best Operating System (OS) workstation configuration for the team. While experienced engineers are free to choose what they prefer, it is reasonable to recommend and maintain a kind of <em>preferred</em> configuration for interns and juniors to facilitate the setup and onboarding. Talentoday tech stack being <a href="https://stackoverflow.com/questions/4715374/what-is-the-meaning-of-nix">*Nix based</a>, for long most of the developers were using MacOS with MacBooks. This is definitely an acceptable solution but we confronted that, and some of us (me included), started to use Linux distributions. However, I did not&nbsp;find yet an ideal setup. I will&nbsp;share here&nbsp;some criticisms about various OS configurations and discuss the new Microsoft WSL2 and see how this could be the best of <del>both</del> all worlds, yet to be confirmed.
 

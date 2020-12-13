@@ -24,7 +24,6 @@ tags:
 - powershell
 - PowerTab
 - Windows PowerShell
-comments: []
 ---
 <strong>Edit: this post was written before the release of <a href="https://github.com/lzybkr/PSReadLine">PSReadLine</a> which seems to be a more reasonable choice than <a href="https://powertab.codeplex.com/">PowerTab</a> for powershell.exe enhancement (completion, intellisense etc.). Indeed, this latter project looks like&nbsp;to be dead now and does not seem to be as rich as the former one. Regarding the rest of the post below, I encourage you to use Conemu console which is still far better than the usual CommandPrompt (this may change with&nbsp;the&nbsp;release of Win10). In addition,&nbsp;you may skip the "Aliasing part" because command in PATH are well recognized by PSReadLine which was not the case for PowerTab. You will discover also a lot of interesting features proposed by PsReadLine such as syntax coloring, custom key bindings....</strong>
 

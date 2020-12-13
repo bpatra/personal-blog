@@ -24,7 +24,6 @@ tags:
 - unit tests
 - UnitTest
 - WPF
-comments: []
 ---
 One of the great advantage of the MVVM pattern is that it allows you to test the Graphic User Interface logic of the application through the view models. The latter ones are in charge of 'presenting' the data to your screen controls, the so-called views. For a very short introduction to MVVM, I recommend <a href="http://blog.hitechmagic.com/?page_id=513">this article</a>. This post is the last one of the series on the WPF/MVVM and it deals with the organization of the view model unit tests in a large project. I have written a <a href="/2014/03/15/unit-testing-drag-and-drop-logic-with-mvvm-pattern-in-wpf/">blog post</a> on how MVVM can let you test some part of your logic that you might not have thought possible before. The present blog post does not aim at presenting 'how' you write unit test but rather at presenting a way to organize the numerous unit tests.
 

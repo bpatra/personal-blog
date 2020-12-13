@@ -20,7 +20,6 @@ tags:
 - git
 - learning
 - github
-comments: []
 ---
 
 Since 2010, I teach C++&nbsp; about 25 hours per year at <a href="http://www.ensae.fr/">ENSAE</a>&nbsp;engineering school. During a short period we have to teach the students, with few computer science background, the complex concept of C++ (pointers, dynamic memory management, virtuality, templates etc.). The objective is to give them the basic material to be autonomous while they will be building their own C++ project during the second semester. This year we decided to sacrifice a little part of the core C++ teaching to have one lesson and a practical class dedicated to source control. Indeed, we have seen too many students struggling with sharing code on USB drives or via emails. Moreover, we do believe that this is something that a student should know before getting into&nbsp;any&nbsp;professional life involving code. To my point of view, source control is entirely a part of the software development process and could not be avoided anymore.

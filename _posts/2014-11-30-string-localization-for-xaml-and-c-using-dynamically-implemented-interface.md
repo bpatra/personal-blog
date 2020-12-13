@@ -23,28 +23,6 @@ tags:
 - Unit Testing
 - WPF
 - XAML
-comments:
-- id: 431
-  author: My WPF/MVVM &#8220;must have&#8221; part 1/ 3 &#8211; working with design
-    time data | Beno&icirc;t Patra&#039;s blog
-  author_email: ''
-  author_url: http://benoitpatra.com/2015/01/18/my-wpfmvvm-must-have-part-1-3-working-with-design-time-data/
-  date: '2015-01-18 19:09:37 +0000'
-  date_gmt: '2015-01-18 18:09:37 +0000'
-  content: "[&#8230;] you create a multi lang app with the approach detailed in one
-    of my previous posts you can change within the if(ViewModelBase.IsInDesignModeStatic)
-    scope the CurrentUICulture to [&#8230;]"
-- id: 441
-  author: My WPF/MVVM &#8220;must have&#8221; part 2/ 3 &#8211; No Resharper binding
-    error in XAML code | Beno&icirc;t Patra&#039;s blog
-  author_email: ''
-  author_url: http://benoitpatra.com/2015/04/07/my-wpfmvvm-must-have-part-2-3-no-resharper-binding-error-in-xaml-code/
-  date: '2015-04-07 13:08:16 +0000'
-  date_gmt: '2015-04-07 11:08:16 +0000'
-  content: "[&#8230;] addition, this works very well&nbsp;with the strongly typed
-    translation mechanism that I presented in this previous post. Remark&nbsp;that
-    all available translations are now proposed by R# and if you try to use a non
-    [&#8230;]"
 ---
 In this post I will describe a solution for easy localized strings management in XAML or C#. Precisely, we will use the usual recommended material for manipulating localized strings in .NET: resx files and the <a href="http://msdn.microsoft.com/en-us/library/system.resources.resourcemanager%28v=vs.110%29.aspx">ResourceManager</a> class. However, for XAML manipulation, we will add a "type layer" on top of this. We will see that having typed resources can be very useful. The "type layer" is basically an interface where string properties contain the localized strings, then in XAML or C# code the translations are accessed by using directly these properties. To avoid painful repetitions, the implementation of the interface is dynamically generated using some very simple <a href="http://en.wikipedia.org/wiki/Common_Intermediate_Language">MSIL</a>. 
 

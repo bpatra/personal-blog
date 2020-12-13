@@ -24,7 +24,6 @@ tags:
 - teamcity
 - git
 - github
-comments: []
 ---
 The public website of my company <a href="https://keluro.com/">Keluro</a> is built with <a href="https://jekyllrb.com/">Jekyll</a>. If you are a Jekyll user you are probably aware of <a href="https://pages.github.com/">Github </a> pages. To me, the best feature of Github pages is the automated deployment of your website when pushing on a specific branch (namely 'gh-pages'). We hosted the website almost a year in Github pages. However, we suffer many inconveniences with it:
 

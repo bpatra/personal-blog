@@ -23,14 +23,6 @@ tags:
 - reverse proxy
 - teamcity
 - windows azure
-comments:
-- id: 17512
-  author: Steve
-  author_email: steveland83@gmail.com
-  author_url: ''
-  date: '2016-07-24 17:28:32 +0000'
-  date_gmt: '2016-07-24 17:28:32 +0000'
-  content: Awesome post. Thanks!
 ---
 TeamCity is a continuous integration (CI) server developed by <a href="https://www.jetbrains.com">Jetbrains</a>. I have worked with <a href="http://www.cruisecontrolnet.org">CruiseControl </a> and <a href="http://jenkins-ci.org">Hudson/Jenkins </a> and, to my point-of-view, TeamCity is beyond comparison. I will not detail all the features that made me&nbsp;love this product, let me&nbsp;sum up by saying that TeamCity is both a powerful and easy to use software. It is so easy to use that you can let non tech guys visit the web app, trigger their own builds, collect artifacts etc.<br />
 TeamCity 9.1 has been developed with the Tomcat/JEE tech stack. However, it works on windows and, in this post, I will explain how to setup a proper installation on Windows VM hosted on&nbsp;Azure using Azure SQL. Precisely, I will detail the following points

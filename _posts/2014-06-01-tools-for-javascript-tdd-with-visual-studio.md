@@ -25,7 +25,6 @@ tags:
 - powershell
 - Unit Testing
 - visual studio
-comments: []
 ---
 In this post I describe the tools that I have selected for efficient development of javascript tests within Visual Studio. Indeed, if you are developing sites with ASP.NET or <a href="http://msdn.microsoft.com/en-us/office/dn448457.aspx">Apps for Office</a> then you are more or less committed to use Visual Studio. Therefore, you probably do not want to use another editor for your javascript development.
 

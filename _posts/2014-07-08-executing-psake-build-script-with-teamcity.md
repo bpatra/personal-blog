@@ -26,7 +26,6 @@ tags:
 - psake
 - software versioning
 - teamcity
-comments: []
 ---
 For my build tasks I have been using MSBuild for a while. I found out that it is fine to use it for standard build tasks such as invoking msbuild.exe itself. However, when it comes to really custom actions it is really painful. I did not want to struggle any longer with xml config files and would like to stay as close as possible to a simple procedural programming language. Most of all I was fed up by the quoting issues when invoking external executables. When writing such actions I wanted to stick to a shell scripting language that I already know. Still, basic scripting can be a little bit improved when it comes to build process. To be precise, the notion of task (or target) is extremely handy because you can split a build step in sub tasks that you may combine differently depending on the build config. While it looks like overkill for a small project it will ease your life in large projects where packaging can be complex.
 

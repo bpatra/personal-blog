@@ -28,7 +28,6 @@ tags:
 - keras
 - machine learning
 - neural networks
-comments: []
 ---
 
 Deeplearning techniques have proven to be the most efficient AI tools for computer vision. In this blog post we use a deeplearning convolutional neural network to build a classifier&nbsp;on my baby twins pictures.

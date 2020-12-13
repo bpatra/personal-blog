@@ -20,7 +20,6 @@ tags:
 - ".NET"
 - iis
 - webhooks
-comments: []
 ---
 Modern REST APIs such as <a href="https://msdn.microsoft.com/en-us/office/office365/api/notify-rest-operations">Outlook REST Api</a>, <a href="https://graph.microsoft.io/en-us/docs/api-reference/beta/resources/webhooks">Microsoft Graph</a> or <a href="https://developers.facebook.com/docs/graph-api/webhooks">Facebook Graph</a> expose very powerful capabilities called <a href="https://en.wikipedia.org/wiki/Webhook">webhooks</a>. They allow push notifications. After subscription, when something change these API send notifications to your service by calling the URL you provided. For example, in Outlook REST API the push notification services will send a request when something has been modify in the user mailbox such as a mail received or an email marked as read.
 

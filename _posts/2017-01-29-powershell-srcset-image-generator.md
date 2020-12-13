@@ -25,7 +25,6 @@ tags:
 - pictures
 - web
 - SEO
-comments: []
 ---
 If you have a website and SEO matters for you, then you probably had to <a href="https://developers.google.com/speed/docs/insights/OptimizeImages">optimize images</a>. To this aim, you may want to have responsive images. As explained <a href="https://www.sitepoint.com/how-to-build-responsive-images-with-srcset/">here</a>,
 

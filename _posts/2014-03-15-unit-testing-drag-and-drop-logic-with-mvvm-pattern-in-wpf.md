@@ -27,7 +27,6 @@ tags:
 - Unit Testing
 - WPF
 - XAML
-comments: []
 ---
 I recently had a discussion with a friend about the Model-View-ViewModel pattern (MVVM) for UI apps and the fact that it allows unit testing where you would not have thought it possible in the first place, for example, logic involved by drag and drop. We agreed on the fact that most of MVVM posts are very theoretical regarding MVVM and when they are not, the testing part, is only mentioned never detailed. That is why I decided to write 
 The objective of this post is to detail the code architecture and the techniques involved to the testing of a very simple WPF app. This app enables the user to rank via drag and drop the list of the french football clubs and save this ranking. This could be a part of larger app that could be used, for example, to bet the final table... However for the sake of simplicity of this post we will focus mainly on the WPF control <em>ListView</em> containing the football club rows. The source code can be found in this <a href="https://github.com/bpatra/MvvMSample">github repository</a>.
