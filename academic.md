@@ -94,7 +94,8 @@ Séminaire Bilbab, ENST-Paris EDF.
 [Feuille 5 - Variables aléatoires : loi et espérance (suite)](/assets/download/teaching/LM345_TD5.pdf) et son [corrigé](/assets/download/teaching/LM345_TD5_Corr.pdf).  
 [Feuille 6 - Vecteurs aléatoires](/assets/download/teaching/LM345_TD6.pdf) et son [corrigé.](/assets/download/teaching/LM345_TD6_Corr.pdf)  
 [Feuille 7 - Indépendance ](/assets/download/teaching/LM345_TD7.pdf)et son [corrigé.](/assets/download/teaching/LM345_TD7Bis.pdf)  
-[Feuille 8 - Suites de variables aléatoires](/assets/download/teaching/LM345_TD8.pdf)et son [corrigé.](/assets/download/teaching/LM345_TD8_Corr.pdf)[Feuille 9 - Suites de variables aléatoires (bis)](/assets/download/teaching/LM345_TD9.pdf) et son [corrigé.](/assets/download/teaching/LM345_TD9_Corr.pdf)  
+[Feuille 8 - Suites de variables aléatoires](/assets/download/teaching/LM345_TD8.pdf)et son [corrigé.](/assets/download/teaching/LM345_TD8_Corr.pdf)  
+[Feuille 9 - Suites de variables aléatoires (bis)](/assets/download/teaching/LM345_TD9.pdf) et son [corrigé.](/assets/download/teaching/LM345_TD9_Corr.pdf)  
 [Feuille 10 - Loi des grands nombres](/assets/download/teaching/LM345_TD10.pdf) et son [corrigé.](/assets/download/teaching/LM345_TD10_Corr.pdf)  
 [Feuille 11 - Loi des grands nombres](/assets/download/teaching/LM345_TD11.pdf) et son [corrigé.](/assets/download/teaching/LM345_TD11_Corr.pdf)  
 [Feuille 12 - Loi des grands nombres (bis)](/assets/download/teaching/LM345_TD12.pdf) et son [corrigé.](/assets/download/teaching/LM345_TD12_Corr.pdf)  
@@ -110,22 +111,22 @@ Séminaire Bilbab, ENST-Paris EDF.
 [Le cours de LM125](/assets/download/teaching/PolyCoursLM125.pdf) de Sophie Chemla.
 
 **Fiches :**  
-[TD 1 Systèmes linéaires](/assets/download/teaching/LM125-TD1-SysLin-S2.pdf).  
-[TD 2 Matrices](/assets/download/teaching/LM125-TD2-Mat-S2.pdf).  
+[TD 1 Systèmes linéaires.](/assets/download/teaching/LM125-TD1-SysLin-S2.pdf)  
+[TD 2 Matrices.](/assets/download/teaching/LM125-TD2-Mat-S2.pdf)  
 [TD 3 Espaces Vectoriels.](/assets/download/teaching/LM125-TD3-EV-S2.pdf)  
-[TD 4 Dimension Finie](/assets/download/teaching/LM125-TD4-DimFin-S2.pdf).  
-[TD 5 Applications Linéaires et Matrices](/assets/download/teaching/LM125-TD5-AppLin-S2.pdf).  
-[TD 6 Déterminants](/assets/download/teaching/LM125-TD6-Det-S2.pdf).  
-[TD 7 Diagonalisation](/assets/download/teaching/LM125-TD7-Diag-S2.pdf).
+[TD 4 Dimension Finie.](/assets/download/teaching/LM125-TD4-DimFin-S2.pdf)  
+[TD 5 Applications Linéaires et Matrices.](/assets/download/teaching/LM125-TD5-AppLin-S2.pdf)  
+[TD 6 Déterminants.](/assets/download/teaching/LM125-TD6-Det-S2.pdf)  
+[TD 7 Diagonalisation.](/assets/download/teaching/LM125-TD7-Diag-S2.pdf)
 
 **Contrôles :**  
 [CC1](/assets/download/teaching/LM125-CC1.pdf) ([corrigé)](/assets/download/teaching/LM125-CC1-Correction.pdf) [CC2](/assets/download/teaching/LM125-CC2.pdf) ([corrigé)](/assets/download/teaching/LM125-CC2-Correction.pdf) [CC3](/assets/download/teaching/LM125-CC3.pdf) (corrigé en lien dans le pdf)  
 
 **Corrections d'exercices :**  
-[Correction DM1 (exercices 4 et 6 fiche 4)](/assets/download/teaching/LM125-DM1-Correction.pdf)  
-[Un exercie type corrigé](/assets/download/teaching/LM125-ExerciceSynthese.pdf) et l['exercice 9 du TD 6](/assets/download/teaching/LM125-Correction-TD6-Ex9.pdf)  
+[Correction DM1 (exercices 4 et 6 fiche 4).](/assets/download/teaching/LM125-DM1-Correction.pdf)  
+[Un exercie type corrigé.](/assets/download/teaching/LM125-ExerciceSynthese.pdf) et l'[exercice 9 du TD 6](/assets/download/teaching/LM125-Correction-TD6-Ex9.pdf)  
 
-[Code TEX](/assets/download/teaching/LM125-S2_10-Tex.zip) (zippé)
+[Code TEX](/assets/download/teaching/LM125-S2_10-Tex.zip) (zippé).
 
 #### Université Pierre et Marie Curie, LM125 MIME 16.4 Semestre 1 2009-2010  
 
@@ -133,26 +134,26 @@ Séminaire Bilbab, ENST-Paris EDF.
 Fiches de TDs (réalisées en collaboration avec L. Sabbagh et S. Laruelle) :  
 
 **PDFs _(les numéros des fiches ne suivent pas un ordre chronologique)_:**  
-[TD1](/assets/download/teaching/LM125-MIME-TD1.pdf) (Systèmes linéaires)  
-[TD2](/assets/download/teaching/LM125-MIME-TD2.pdf) et [TD2BIS](/assets/download/teaching/LM125-MIME-TD2BIS.pdf) (Matrices)  
-[TD3](/assets/download/teaching/LM125-MIME-TD3.pdf) (Espaces vectoriels et applications linéaires)  
-[TD4](/assets/download/teaching/LM125-MIME-TD4.pdf) (Déterminants)  
-[TD5](/assets/download/teaching/LM125-MIME-TD5.pdf) (Espaces vectoriels de dimension finie, bases)  
-[TD6](/assets/download/teaching/LM125-MIME-TD6.pdf) (Applications linéaires et matrices)  
-[TD7](/assets/download/teaching/LM125-MIME-TD7.pdf) (Quelques éléments sur la diagonalisation)  
-[Contrôle Continu 1](/assets/download/teaching/LM125-MIME-CC1.pdf) [Contrôle Continu 2](/assets/download/teaching/LM125-MIME-CC2.pdf)[Contrôle Continu 3](/assets/download/teaching/LM125-MIME-CC3.pdf)  
+[TD1](/assets/download/teaching/LM125-MIME-TD1.pdf) _Systèmes linéaires._  
+[TD2](/assets/download/teaching/LM125-MIME-TD2.pdf) et [TD2BIS](/assets/download/teaching/LM125-MIME-TD2BIS.pdf) _Matrices._  
+[TD3](/assets/download/teaching/LM125-MIME-TD3.pdf) _Espaces vectoriels et applications linéaires._  
+[TD4](/assets/download/teaching/LM125-MIME-TD4.pdf) _Déterminants._  
+[TD5](/assets/download/teaching/LM125-MIME-TD5.pdf) _Espaces vectoriels de dimension finie, bases._  
+[TD6](/assets/download/teaching/LM125-MIME-TD6.pdf) _Applications linéaires et matrices._  
+[TD7](/assets/download/teaching/LM125-MIME-TD7.pdf) _Quelques éléments sur la diagonalisation._  
+[Contrôle Continu 1](/assets/download/teaching/LM125-MIME-CC1.pdf), [Contrôle Continu 2](/assets/download/teaching/LM125-MIME-CC2.pdf), [Contrôle Continu 3](/assets/download/teaching/LM125-MIME-CC3.pdf).  
 [Un exercice corrigé (matrices d'applications linéaires)](/assets/download/teaching/LM125-Exocorrection.pdf)  
 [Correction exercice 9 TD 4.](/assets/download/teaching/CorrTD4-9.pdf)  
 
 **TEX:**  
-[Code Tex](/assets/download/teaching/LM125-MIME-S1-2009.zip)(zippé)  
+[Code Tex](/assets/download/teaching/LM125-MIME-S1-2009.zip) (zippé).  
 
 #### Université Pierre et Marie Curie, LM120 Section IPCM, Calcul Matriciel Semestre 2 2008-2009  
  
 Toutes les fiches et contrôles au [format PDF](/assets/download/teaching/LM120_09_PDF.zip) ainsi que le [code TEX](/assets/download/teaching/LM120_09_Tex.zip) (zippé).  
 
 _Les fiches de TDs ont été réalisées en collaboration avec Romain Hennequin.  
-Nous remercions Juliette Leloup pour ses précieuses sources TEX dont nous nous sommes aidées_
+Nous remercions Juliette Leloup pour ses précieuses sources TEX dont nous nous sommes aidées._
 
 ### Colles en classes préparatoires
 
