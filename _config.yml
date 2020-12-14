@@ -17,7 +17,6 @@ disqus: benoitpatra
 # used by both template and Jekyll SEO TAG pluging
 logo: '/assets/images/logo.png'
 
-
 # jekyll-seo-tag
 author:
   name: Benoit Patra
