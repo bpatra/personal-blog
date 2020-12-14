@@ -9,7 +9,6 @@ categories:
 tags:
 - Command-line interface
 - ConEmu
-- ISE
 - powershell
 - PowerTab
 - Windows PowerShell

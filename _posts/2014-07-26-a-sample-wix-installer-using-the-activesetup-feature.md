@@ -12,7 +12,7 @@ tags:
 - Addin
 - Excel
 - Excel-DNA
-- install
+- installer
 - msi
 - windows registry
 - wix

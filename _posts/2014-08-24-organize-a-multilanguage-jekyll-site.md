@@ -6,10 +6,8 @@ categories:
 - Programming
 - Web Development
 tags:
-- html
 - jekyll
 - mulitlanguage
-- website
 - SEO
 ---
 In this post I will describe a simple organization of <a href="http://jekyllrb.com/">Jekyll</a> sources to get a mulitlanguage website.
