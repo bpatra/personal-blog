@@ -1,6 +1,7 @@
 ---
 layout: page
-title: About
+title: About Me
+image: /assets/images/logo-400.png
 ---
 
 

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Academic (past)
+image: /assets/images/logo-400.png
 ---
 
 <div> This page is a clone of my legacy page at <a href="http://www.lsta.lab.upmc.fr/">LSTA laboratory</a> (now <a href="http://www.lpsm.paris/">LPSM</a>) of University Paris VI.</div>
