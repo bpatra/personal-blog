@@ -13,7 +13,7 @@ My initial background is in mathematics, I graduated from ENS Cachan and I hold 
 
 I have been working in the software industry for more than ten years now. For more details, I invite you to consult my <a title="LinkedIn profile" href="https://www.linkedin.com/in/benoit-patra/">LinkedIn profile</a>. 
 
-When it comes to programming, I enjoy all aspects of it: from frontend to backend passing by DevOps topics. Of course I still have a strong taste for machine learning and datascience. Software development is also a matter of people and creating successful teamwork also matters to me a lot. 
+When it comes to programming, I enjoy all aspects of it: from frontend to backend passing by DevOps topics. Of course I still have a strong taste for machine learning and datascience. Software development is also about people and creating successful teamwork also matters to me a lot. 
 
 Why this blog? I see this blog as a good opportunity to share some technical stuff. But I maintain this blog mainly because it is a good exercise for me. Indeed, this is a very efficient way for a native french speaker living in France to write english content on a regular basis.
 
