@@ -32,7 +32,7 @@ Before starting the description of the steps, let me write a few words about the
 
 Regarding the hosting solution, I hesitated between a standard Github pages or the new, still in preview, Azure Static Web Apps. Github pages looked to have made some great progress since 2016, when [I posted about it](/2016/02/12/hosting-jekyll-generated-site-on-azure-web-app-using-teamcity-automated-deployment/) and pointed some lack of features for a proper hosting. Now both Azure Static Web Apps or Github pages offer free TLS certificates for custom domains and the caching policy looks ok to me. Finally, I decided to go with Azure Static Web Apps because it is more transparent than a Github pages solution. As explain below, in both cases, I had to rely on advanced build with Github actions, so let us give a try to Azure Static Web Apps.
 
-> trl;dr yes that's another Wordpress to Jekyll migration blog post! But towards Azure Static Web s this time.
+> trl;dr yes that's another Wordpress to Jekyll migration blog post! But towards Azure Static Web Apps this time.
 
 In the following, I'll describe the steps for a successful and painless migration.
 
