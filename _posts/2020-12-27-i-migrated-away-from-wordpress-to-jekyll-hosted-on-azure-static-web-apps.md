@@ -37,7 +37,7 @@ Regarding the hosting solution, I hesitated between a standard Github pages or t
 
 In the following, I'll describe the steps for a successful and painless migration.
 
-{% include image-caption.html imageurl='/assets/images/posts/wordpress-to-jekyll-migration/bloated-interface.jpg' caption="Despite it served me well for years, I will not miss the bloated Wordpress admin interface." position_class="image-center" %}
+{% include image-caption.html imageurl='/assets/images/posts/wordpress-to-jekyll-migration/bloated-interface.jpg' caption="Despite it served me well for years, I will not miss the bloated Wordpress admin interface." position_class="image-center" size_class="medium" %}
 
 ## 1. Find a theme on the web
 
@@ -45,7 +45,7 @@ You will not be able to import your theme and visual from Wordpress or at least 
 
 Just browse the web and find a Jekyll theme that you like. While it is feasible to get a standard HTML theme and _"jekyllized"_ it afterwards, I suggest you should get a Jekyll template first, especially a blog aware theme. This will spare you some unnecessary dev work. I found mine on [jekyllthemes](https://jekyllthemes.io/), there are some good free ones but, for a couples of dollars, the paying ones are definitely better. It is definitely worth the cost IMHO.
 
-{% include image-caption.html imageurl='/assets/images/posts/wordpress-to-jekyll-migration/my-old-wordpress-theme.jpg' caption="My old Wordpress theme, while very simple and satisfactory because after all that's just a simple dev blog, I prefer the new one." position_class="image-center" %}
+{% include image-caption.html imageurl='/assets/images/posts/wordpress-to-jekyll-migration/my-old-wordpress-theme.jpg' caption="My old Wordpress theme, while very simple and satisfactory because after all that's just a simple dev blog, I prefer the new one." position_class="image-center" size_class="medium" %}
 
 ## 2. Import your posts from Wordpress
 
@@ -93,7 +93,7 @@ Now you have a working database replica of your Wordpress blog locally. You can 
 
 Now you should see under the `/posts` folder all your existing posts in the markdown format that will be processed by Jekyll. At this stage by running `jekyll serve` you should see your blog working locally. Yet images are probably missing or pointing to the Wordpress hosted assets.
 
-{% include image-caption.html imageurl='/assets/images/posts/wordpress-to-jekyll-migration/all-posts-after-jekyll-import.jpg' caption="Retrieving posts formatted for Jekyll is the first and most important step to achieve. The other is actually just 'fixing' URLs, paths to asset..." position_class="image-center" %}
+{% include image-caption.html imageurl='/assets/images/posts/wordpress-to-jekyll-migration/all-posts-after-jekyll-import.jpg' caption="Retrieving posts formatted for Jekyll is the first and most important step to achieve. The other is actually just 'fixing' URLs, paths to asset..." position_class="image-center" size_class="medium" %}
 
 ## 3. Do not forget to check consistence of URL paths
 
@@ -150,7 +150,7 @@ For deploying my `Jekyll 4` blog using `ruby 2.7.2`, here is my Github actions j
 
 Note that Azure Static Web Apps all the TLS termination but also the `http` to `https` redirection and the SSL certificates renewals. In addition, everything is free (at least for now): hosting and CDN. I have been using this service for more than a month now and it seems definitely a good option. 
 
-{% include image-caption.html imageurl='/assets/images/posts/wordpress-to-jekyll-migration/successful-deploy-github-actions-azure-static-web-apps.jpg' caption="Github actions jobs successful and the statically generated Jekyll website is pushed to Azure Static Web Apps" position_class="image-center" %}
+{% include image-caption.html imageurl='/assets/images/posts/wordpress-to-jekyll-migration/successful-deploy-github-actions-azure-static-web-apps.jpg' caption="Github actions jobs successful and the statically generated Jekyll website is pushed to Azure Static Web Apps" position_class="image-center" size_class="small" %}
 
 ## 8. Moving comments
 
