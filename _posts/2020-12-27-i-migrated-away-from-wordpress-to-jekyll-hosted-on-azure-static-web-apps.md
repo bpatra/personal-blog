@@ -5,6 +5,7 @@ title: 'I migrated my blog away from Wordpress to a Jekyll solution hosted on Az
 date: '2020-12-27 00:00:00 +0000'
 featured: true
 featured_image: /assets/images/posts/wordpress-to-jekyll-migration/wordpress2jekyll.jpg
+image: /assets/images/posts/wordpress-to-jekyll-migration/wordpress2jekyll.jpg
 featured_image_in_post: /assets/images/posts/wordpress-to-jekyll-migration/wordpress2jekyll.jpg
 hidden: true
 categories:
