@@ -1,10 +1,9 @@
 ---
 layout: post
 title: Windows with WSL2, a good configuration for a dev team?
-featured: true
+featured: false
 image: /assets/images/legacy-wp-content/2020/03/Ubutntu-on-Windows-10-logo-banner2.jpg
 featured_image: /assets/images/legacy-wp-content/2020/03/Ubutntu-on-Windows-10-logo-banner2.jpg
-hidden: true
 categories:
 - Programming
 - Windows
