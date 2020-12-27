@@ -37,7 +37,7 @@ social:
 # used by both theme and SEO-tag
 twitter:
   username: benoitpatra # used by theme
-  card: summary
+  card: summary_large_image
 
 # Social links for template
 github: 'bpatra'
