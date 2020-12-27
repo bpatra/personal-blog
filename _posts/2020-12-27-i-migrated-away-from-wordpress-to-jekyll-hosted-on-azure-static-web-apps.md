@@ -48,7 +48,7 @@ Just browse the web and find a Jekyll theme that you like. While it is feasible 
 
 ## 2. Import your posts from Wordpress
 
-If you are used to the Wordpress world, you know that most problems are (unsuccessfully) tackled by a plugin. I tried to use the [`Jekyll Exporter`](https://wordpress.org/plugins/jekyll-exporter/) plugin, of course that was unsuccessful. So I dropped the idea of _exporting_ from Wordpress and focused on _importing_ into Jekyll.
+If you are used to the Wordpress world, you know that most problems are (unsuccessfully) tackled by a plugin. I tried to use the [`Jekyll Exporter`](https://wordpress.org/plugins/jekyll-exporter/) plugin, of course that was a failure. So I dropped the idea of _exporting_ from Wordpress and focused on _importing_ into Jekyll.
 
 Then I decided to go with the basic [Jekyll importer](https://import.jekyllrb.com/docs/wordpress/). Before going into the subtleties of connecting the Wordpress database. Let me point out that Jekyll importer needs some dependencies that may be a little tricky to install. For this reason, I invite you to install [Ruby Version Manager (RVM)](https://rvm.io/) with [Bundler](https://bundler.io/) to avoid any troubles with global and/or multi rubies install.
 
