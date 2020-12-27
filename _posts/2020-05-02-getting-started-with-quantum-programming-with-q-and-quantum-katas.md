@@ -42,7 +42,7 @@ I started playing around with Q# in spring 2018. I managed to install and ran th
 
 In this blog post, I share some of my feedbacks, tips and even resources to help you getting started. As <a href="#maths"> discussed here</a>, to start for real quantum computing you need higher (post-secondary) education in mathematics. However, you can definitely get the substance of what is quantum computing with no maths at all. In all cases, I recommend you this 3-minutes videos, for a quick overview of what quantum computing is.
 
-<iframe width="500" height="281" src="https://www.youtube.com/embed/WVv5OAR4Nik" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><p>A very well done 3-min intro on quantum computing by IBM. If you do not want to jump into what follows and just have an overview of what is quantum computing, that's a good video to watch.</p>
+{% include youtube-embed.html ytb_src='https://www.youtube.com/embed/WVv5OAR4Nik' caption="A very well done 3-min intro on quantum computing by IBM. If you do not want to jump into what follows and just have an overview of what is quantum computing, that's a good video to watch." %}
 
 <h2>An overview of Quantum Katas</h2>
 
@@ -62,7 +62,7 @@ On the <a href="https://docs.microsoft.com/en-us/quantum/overview/how-to-learn-q
 <h3 id="maths">Mathematics</h3>
 Linear algebra is almost everywhere in quantum computing. Precisely, linear algebra with the field $\mathbb{C}$ of <a href="https://en.wikipedia.org/wiki/Complex_number" target="_blank">complex numbers</a>. As you will learn, a $N$-Qubits system is described by a $2^{N}$ dimensional vector space on $\mathbb{C}$.
 
-I would say that to really get started with quantum computing, <strong>one would need a good knowledge on complex numbers and linear algebra that would correspond more or less to a BSc. in Sciences</strong>. In the french/european universitarian system this corresponds to Licence L2/L3 or Maths Sp&eacute; (for <a href="https://en.wikipedia.org/wiki/Classe_pr%C3%A9paratoire_aux_grandes_%C3%A9coles" target="_blank">preparation classes</a>). I was a maths teaching assistant at University Paris VI for three years, I taught there linear algebra, material and <a href="http://www.lsta.upmc.fr/doct/patra/index.html#enseignement" target="_blank">exercices are still available here (in french)</a>.
+I would say that to really get started with quantum computing, <strong>one would need a good knowledge on complex numbers and linear algebra that would correspond more or less to a BSc. in Sciences</strong>. In the french/european universitarian system this corresponds to Licence L2/L3 or Maths Spé (for <a href="https://en.wikipedia.org/wiki/Classe_pr%C3%A9paratoire_aux_grandes_%C3%A9coles" target="_blank">preparation classes</a>). I was a maths teaching assistant at University Paris VI for three years, I taught there linear algebra, material and <a href="http://www.lsta.upmc.fr/doct/patra/index.html#enseignement" target="_blank">exercices are still available here (in french)</a>.
 
 The Quantum Katas provide two tutorials about complex numbers and linear algebra. Yet, in my humble opinion, I think this a good refresher on concepts and notations but I doubt one can reasonably learn from scratch and be ready for the rest of Quantum Katas.
 
@@ -94,12 +94,12 @@ Before you can start with quantum programming, you just need to <em>accept</em> 
 </blockquote>
 So my advice here is to accept these principles and quick, otherwise you would be stuck there for a very long time. You will have plenty of time to meditate on this but if you want to start quantum computing this will slow you down. And, before I forget, let me also warn you with a common mistake, we beginners do to reassure ourselves when confronted with the shocking reality of quantum mechanics. It is tempting to think that <em>a Qubit in superposition is still Zero or(exclusively) One but because we cannot observe it for some obscure reasons, it is just a modelisation of the possible outcomes by probabilities</em>. That's incorrect: with superposition, they <strong>are</strong> both $|0\rangle$ and $|1\rangle$ <em>at the same time</em>. Yes this is crazy! But there's another world down there at subatomic scale, with different laws...
 
-<iframe width="500" height="281" src="https://www.youtube.com/embed/7B1llCxVdkE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><p>I personally liked this video on superposition and decoherence. Visualizations are great.</p>
+{% include youtube-embed.html ytb_src='https://www.youtube.com/embed/7B1llCxVdkE' caption="I personally liked this video on superposition and decoherence. Visualizations are great." %}
 
 I also saw some amazing animations on this website (in French): <a href="http://toutestquantique.fr/dualite/">toutestquantique.fr</a><br />
 From the same authors, this video illustrates well the wave-particle duality.
 
-<iframe width="500" height="281" src="https://www.youtube.com/embed/JlsPC2BW_UI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><p>French are not only good at playing soccer (I mean football), they also create great videos on wave-particle duality.</p>
+{% include youtube-embed.html ytb_src='https://www.youtube.com/embed/JlsPC2BW_UI' caption="French are not only good at playing soccer (I mean football), they also create great videos on wave-particle duality." %}
 
 <h3>Do not spend too much time on the Bloch Sphere and quantum circuit visualizations</h3>
 The Quantum Katas take an approach "by code" with Q#. This has been really adapted for me. But with other didactic approaches I followed when I started, the Bloch Sphere is often used to represent and visualize 1-Qubit states.
@@ -117,12 +117,13 @@ If you come with a mathematical background you probably have not worked with <a 
 <h3>Watch this PhD comics video - 6min</h3>
 This one is more advanced than the video mentioned in the introduction. Yet, it gives you an amazing tour on what quantum computing is in only 6 minutes.
 
-<iframe width="500" height="281" src="https://www.youtube.com/embed/T2DXrs0OpHU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><p>From Youtube's description: theoretical Physicists John Preskill and Spiros Michalakis describe how things are different in the Quantum World and how that can lead to powerful Quantum Computers.</p>
+{% include youtube-embed.html ytb_src='https://www.youtube.com/embed/T2DXrs0OpHU' caption="From Youtube's description: theoretical Physicists John Preskill and Spiros Michalakis describe how things are different in the Quantum World and how that can lead to powerful Quantum Computers." %}
+
 
 <h3>Watch this conference from Andrew Helwer - 1h30</h3>
 The conference is lead by a young talented researcher. With humility and great clarity, he onboards an audience of computer scientists to quantum computing. The attendees' questions are also relevant.
 
-<iframe width="500" height="281" src="https://www.youtube.com/embed/F_Riqjdh2oM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><p>Andrew Helwer's talk: Quantum computing for computer scientists.</p>
+{% include youtube-embed.html ytb_src='https://www.youtube.com/embed/F_Riqjdh2oM' caption="Andrew Helwer's talk: Quantum computing for computer scientists." %}
 
 <h3 id="notebooks">Use Jupyter notebooks for your Quantum Katas</h3>
 When completing Quantum Katas. You will have the choice to run them as Q# projects or <a href="https://docs.microsoft.com/en-us/quantum/install-guide/qjupyter" target="_blank">Jupyter notebooks</a>. I strongly encourage you to use the notebooks. You will benefit from great well formatted tutorials with $ \LaTeX $ formulas.
