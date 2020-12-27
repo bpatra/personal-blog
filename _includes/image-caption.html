@@ -8,5 +8,7 @@
     <img src="{{ include.imageurl }}" alt="{{ title }}" />
     {% if include.caption %}
         <figcaption class="caption-text">{{ include.caption }}</figcaption> 
+    {% else %}
+        <div class="caption-placeholder"></div>
     {% endif %}
 </figure>

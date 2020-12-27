@@ -6,6 +6,12 @@
   }
 }
 
+.caption-placeholder{
+  @media only screen and (max-width: 501px) {
+    margin-bottom: 20px;
+  }
+}
+
 .centered-figure{
   display: flex;
   flex-direction: column;
