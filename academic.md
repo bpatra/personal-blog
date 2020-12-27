@@ -69,8 +69,8 @@ Séminaire Bilbab, ENST-Paris EDF.
 **Fiches de TDs :**  
 [Chapitre 1\. Intro](/assets/download/teaching/LM115_Ch1_Intro.pdf)  
 [Chapitre 2\. Nombres réels](/assets/download/teaching/LM115_Ch2_Reels.pdf)  
-[Chapitre 3\. Suites](/assets/download/teaching/LM115_Ch3_Suites.pdf)
-[Chapitre 4\. Continuité, dérivabilité etc...](/assets/download/teaching/LM115_Ch4_ContinuiteDerivabilite.pdf) 
+[Chapitre 3\. Suites](/assets/download/teaching/LM115_Ch3_Suites.pdf)  
+[Chapitre 4\. Continuité, dérivabilité etc...](/assets/download/teaching/LM115_Ch4_ContinuiteDerivabilite.pdf)  
 [Chapitre 4\. Continuité, dérivabilité (suite)...](/assets/download/teaching/LM115_Ch4_ContinuiteDerivabiliteSuite.pdf)  
 [Chapitre 5. Intégration](/assets/download/teaching/LM115_Ch5_Integration.pdf)  
 [Chapitre 5. Complément de calcul intégral.](/assets/download/teaching/LM115_Ch6_Calculus.pdf)
