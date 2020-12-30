@@ -4,7 +4,6 @@ title: "Programming well structured Javascript stored procedures for DocumentDB 
 date: '2016-07-09 17:06:38 +0000'
 categories:
 - Programming
-- Scripting
 - Database
 tags:
 - javascript

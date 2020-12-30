@@ -5,6 +5,7 @@ date: '2015-09-21 18:39:21 +0000'
 categories:
 - Programming
 - Continuous Integration
+- DevOps
 tags:
 - azure
 - azure sql

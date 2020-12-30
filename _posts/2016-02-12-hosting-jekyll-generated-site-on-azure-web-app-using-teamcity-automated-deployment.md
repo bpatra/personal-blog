@@ -5,6 +5,7 @@ date: '2016-02-12 23:08:32 +0000'
 categories:
 - Programming
 - Continuous Integration
+- DevOps
 tags:
 - ".NET"
 - azure

@@ -5,6 +5,7 @@ date: '2015-10-07 23:17:32 +0000'
 categories:
 - Programming
 - Continuous Integration
+- DevOps
 tags:
 - azure
 - iis

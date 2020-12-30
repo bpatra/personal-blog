@@ -3,7 +3,6 @@ layout: post
 title: No hdmi sound without OS reboot? Restart the drivers...
 date: '2013-12-22 18:10:38 +0000'
 categories:
-- Uncategorized
 - Scripting
 - Windows
 tags:

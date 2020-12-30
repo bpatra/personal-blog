@@ -3,7 +3,6 @@ layout: post
 title: A sample Wix installer using the ActiveSetup feature
 date: '2014-07-26 00:15:02 +0000'
 categories:
-- Uncategorized
 - Programming
 - Windows
 tags:
