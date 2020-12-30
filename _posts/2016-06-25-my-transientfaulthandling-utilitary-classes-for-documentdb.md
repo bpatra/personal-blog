@@ -1,6 +1,6 @@
 ---
 layout: post
-title: My TransientFaultHandling utilitary classes for DocumentDB
+title: My TransientFaultHandling utility classes for DocumentDB
 date: '2016-06-25 22:42:03 +0000'
 categories:
 - Programming
@@ -18,7 +18,7 @@ tags:
 
 <strong>Edit</strong>: look at the comment below. The release v1.8.0 of the .NET SDK proposes some settings options for these retry policies.
 
-<a href="https://blogs.msdn.microsoft.com/bigdatasupport/2015/09/02/dealing-with-requestratetoolarge-errors-in-azure-documentdb-and-testing-performance/">Some samples are provided by Microsoft</a> on how to handle this 429 "Request too large error", but they are concerning only commands, such as inserting or deleting a document, there is no sample on own to implement the retry policies for common queries. <a href="https://www.nuget.org/packages/Microsoft.Azure.DocumentDB.TransientFaultHandling/">A Nuget package is also available</a>: "Microsoft.Azure.Documents.Client.TransientFaultHandling" but even if integrating it is as quick as an eye blink, there is no logging capabilities. In my case it did not really resolve my exceeding RU problem, I even doubt that I made it work and the code is not opensource. Then, I decided to integrate the ideas from the samples in own utilitary classes on top of the DocumentDB .NET SDK.
+<a href="https://blogs.msdn.microsoft.com/bigdatasupport/2015/09/02/dealing-with-requestratetoolarge-errors-in-azure-documentdb-and-testing-performance/">Some samples are provided by Microsoft</a> on how to handle this 429 "Request too large error", but they are concerning only commands, such as inserting or deleting a document, there is no sample on own to implement the retry policies for common queries. <a href="https://www.nuget.org/packages/Microsoft.Azure.DocumentDB.TransientFaultHandling/">A Nuget package is also available</a>: "Microsoft.Azure.Documents.Client.TransientFaultHandling" but even if integrating it is as quick as an eye blink, there is no logging capabilities. In my case it did not really resolve my exceeding RU problem, I even doubt that I made it work and the code is not opensource. Then, I decided to integrate the ideas from the samples in own utility classes on top of the DocumentDB .NET SDK.
 
 The idea is similar to "TransientFaultHandling" package: to wrap the DocumentClient inside another class exposed only through an interface. By all accounts, it is a good thing to abstract the DocumentClient behind an interface for testability purposes. In our case this interface is named <em>IDocumentClientWrapped</em>.
 
