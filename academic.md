@@ -98,14 +98,13 @@ Séminaire Bilbab, ENST-Paris EDF.
 [Feuille 8 - Suites de variables aléatoires](/assets/download/teaching/LM345_TD8.pdf)et son [corrigé.](/assets/download/teaching/LM345_TD8_Corr.pdf)  
 [Feuille 9 - Suites de variables aléatoires (bis)](/assets/download/teaching/LM345_TD9.pdf) et son [corrigé.](/assets/download/teaching/LM345_TD9_Corr.pdf)  
 [Feuille 10 - Loi des grands nombres](/assets/download/teaching/LM345_TD10.pdf) et son [corrigé.](/assets/download/teaching/LM345_TD10_Corr.pdf)  
-[Feuille 11 - Loi des grands nombres](/assets/download/teaching/LM345_TD11.pdf) et son [corrigé.](/assets/download/teaching/LM345_TD11_Corr.pdf)  
-[Feuille 12 - Loi des grands nombres (bis)](/assets/download/teaching/LM345_TD12.pdf) et son [corrigé.](/assets/download/teaching/LM345_TD12_Corr.pdf)  
+[Feuille 11 - Convergence en loi, TCL](/assets/download/teaching/LM345_TD11.pdf) et son [corrigé.](/assets/download/teaching/LM345_TD11_Corr.pdf)  
+[Feuille 12 - Convergence en loi, TCL (bis)](/assets/download/teaching/LM345_TD12.pdf) et son [corrigé.](/assets/download/teaching/LM345_TD12_Corr.pdf)  
 
 **Contrôles :**  
 [Contrôle continu 1.](/assets/download/teaching/LM345_CC1.pdf)  
 [Contrôle continu 2](/assets/download/teaching/LM345_CC2.pdf) et [son corrigé](/assets/download/teaching/LM345_CC2_Corr.pdf).  
 [Contrôle continu 3](/assets/download/teaching/LM345_CC3.pdf) et [son corrigé](/assets/download/teaching/LM345_CC3_Corr.pdf).  
-
 
 #### Université Pierre et Marie Curie, LM125 Algèbre linéaire (3S Gr2 Semestre 2).  
 
