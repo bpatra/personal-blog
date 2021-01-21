@@ -38,3 +38,30 @@
     }
   }
 }
+
+
+.chat-form {
+  margin-bottom: 1em;
+
+  .message-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    div {
+      margin-top: 5px;
+      background-color: rgb(29, 29, 29);
+      color: white;
+      padding: 5px 10px;
+      width: fit-content;
+      float: right;
+      border-radius: 5px;
+    }
+  }
+}
+
+.no-border{
+  padding: 10px;
+  img {
+    box-shadow: none;
+  }
+}
