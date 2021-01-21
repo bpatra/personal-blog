@@ -2,6 +2,7 @@
 layout: page
 title: "Benoit's streaming channel"
 sitemap: false
+noindex: true
 ---
 
 Welcome to my live streaming channel, powered by iAdvize  
