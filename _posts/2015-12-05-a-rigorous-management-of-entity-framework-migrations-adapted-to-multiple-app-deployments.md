@@ -9,7 +9,7 @@ tags:
 - sql server
 - visual studio
 - entity framework
-- csharp
+- C#
 - migrations
 - asp.net
 - database management
