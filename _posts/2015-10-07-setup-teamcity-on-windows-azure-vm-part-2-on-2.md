@@ -9,7 +9,6 @@ categories:
 tags:
 - azure
 - iis
-- internet information service
 - sql azure
 - ssl
 - teamcity

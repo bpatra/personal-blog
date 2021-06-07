@@ -6,7 +6,6 @@ categories:
 - Programming
 - Web Development
 tags:
-- app-for-office
 - HTML5
 - javascript
 - OAUTH
