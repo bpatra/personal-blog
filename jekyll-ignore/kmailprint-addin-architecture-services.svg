@@ -16,8 +16,8 @@
    inkscape:version="1.0.1 (c497b03c, 2020-09-10)"
    sodipodi:docname="kmailprint-addin-architecture-services.svg"
    inkscape:export-filename="/Users/benoitpatra/Code/personal-blog/assets/images/posts/kmailprint-story/kmailprint-architecture-services.png"
-   inkscape:export-xdpi="21.113926"
-   inkscape:export-ydpi="21.113926">
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
   <defs
      id="defs2499">
     <rect
@@ -106,6 +106,45 @@
        width="74.000687"
        height="9.5828228"
        id="rect10896" />
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter11576"
+       x="-1.593248e-06"
+       width="1.0000032"
+       y="-7.5310685e-06"
+       height="1.0000151">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="7.6342837e-05"
+         id="feGaussianBlur11578" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter11580"
+       x="-2.2202255e-06"
+       width="1.0000044"
+       y="-7.0671301e-06"
+       height="1.0000141">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="7.6342837e-05"
+         id="feGaussianBlur11582" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter11584"
+       x="-8.2742156e-08"
+       width="1.0000002"
+       y="-8.3230809e-07"
+       height="1.0000017">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="5.222026e-06"
+         id="feGaussianBlur11586" />
+    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -114,9 +153,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.24748737"
-     inkscape:cx="664.29943"
-     inkscape:cy="642.65423"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="1087.9492"
+     inkscape:cy="282.53539"
      inkscape:document-units="mm"
      inkscape:current-layer="g2113"
      inkscape:document-rotation="0"
@@ -206,7 +245,7 @@
          y="27.543634"
          ry="2.6472657" />
       <rect
-         style="opacity:0.994;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.658786"
+         style="opacity:0.994;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.31757095;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;filter:url(#filter11584)"
          id="rect3970"
          width="151.46889"
          height="15.057961"
@@ -219,7 +258,7 @@
          id="path3972"
          sodipodi:nodetypes="cc" />
       <rect
-         style="opacity:0.994;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.658785"
+         style="opacity:0.994;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.31757095;filter:url(#filter11576);stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
          id="rect3970-9"
          width="114.99956"
          height="24.328926"
@@ -228,7 +267,7 @@
          ry="2.643311" />
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.02705px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.131757"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.02705000000000002px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.131757;"
          x="258.42914"
          y="72.889862"
          id="text9352-4-5-9-9"><tspan
@@ -236,10 +275,10 @@
            id="tspan9350-1-6-7-3"
            x="258.42914"
            y="72.889862"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.02705px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke-width:0.131757">Handling Exchange requests </tspan></text>
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.02705000000000002px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.131757;">Handling Exchange requests </tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.02705px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.131757"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.02705000000000002px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.131757;"
          x="258.56503"
          y="83.951851"
          id="text9352-4-5-9-9-2"><tspan
@@ -247,7 +286,7 @@
            id="tspan9350-1-6-7-3-1"
            x="258.56503"
            y="83.951851"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.02705px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke-width:0.131757">Delegating calls to PDF Printer</tspan></text>
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.02705000000000002px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.131757;">Delegating calls to PDF Printer</tspan></text>
       <path
          style="opacity:0.992;fill:none;stroke:#000000;stroke-width:1.05406;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#TriangleOutM-6)"
          d="M 249.9105,75.594242 205.57628,77.32246"
@@ -259,7 +298,7 @@
          id="path3972-7-7"
          sodipodi:nodetypes="cc" />
       <rect
-         style="opacity:0.994;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.658785"
+         style="opacity:0.994;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.31757095;filter:url(#filter11580);stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
          id="rect3970-9-3"
          width="82.524414"
          height="25.926056"
@@ -268,7 +307,7 @@
          ry="2.643311" />
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.02705px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.131757"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.02705000000000002px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.131757;"
          x="273.32657"
          y="133.48198"
          id="text9352-4-5-8-6"><tspan
@@ -276,10 +315,10 @@
            id="tspan9350-1-6-9-7"
            x="273.32657"
            y="133.48198"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.02705px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke-width:0.131757">DOM manipulations</tspan></text>
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.02705000000000002px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.131757;">DOM manipulations</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.02705px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.131757"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.02705000000000002px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.131757;"
          x="273.70056"
          y="144.11069"
          id="text9352-4-5-9-6-6"><tspan
@@ -287,10 +326,10 @@
            id="tspan9350-1-6-7-0-5"
            x="273.70056"
            y="144.11069"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.02705px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke-width:0.131757">Virtual PDF printing</tspan></text>
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.02705000000000002px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.131757;">Virtual PDF printing</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.02705px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.131757"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.02705000000000002px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.131757;"
          x="215.4946"
          y="11.565454"
          id="text9352-3-9-1"><tspan
@@ -298,7 +337,7 @@
            id="tspan9350-3-5-0"
            x="215.4946"
            y="11.565454"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.02705px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke-width:0.131757">Serving frontend Single Page Application</tspan></text>
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.02705000000000002px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.131757;">Serving frontend Single Page Application</tspan></text>
       <text
          xml:space="preserve"
          id="text10852"
