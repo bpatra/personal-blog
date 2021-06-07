@@ -1,12 +1,12 @@
 ---
 layout: post
 published: true
-title: 'The story of KMailPrint, the one million PDFs app'
+title: 'KMailPrint, the app is celebrating its first million of PDFs'
 date: '2021-06-06 00:00:00 +0000'
 featured: true
-featured_image: /assets/images/posts/wordpress-to-jekyll-migration/wordpress2jekyll.jpg
-image: /assets/images/posts/wordpress-to-jekyll-migration/wordpress2jekyll.jpg
-featured_image_in_post: /assets/images/posts/wordpress-to-jekyll-migration/wordpress2jekyll.jpg
+featured_image: /assets/images/posts/kmailprint-story/kmailprint-story.jpg
+image: /assets/images/posts/kmailprint-story/kmailprint-story.jpg
+featured_image_in_post: /assets/images/posts/kmailprint-story/kmailprint-story.jpg
 hidden: true
 categories:
 - Programming
@@ -18,21 +18,20 @@ tags:
 - azure static web apps
 - C#
 - react
-- angularJS
+- javascript
+- office-addins
 - asp.net
 comments: []
 ---
 
 In 2015, I used to creating Office Addin with the traditional COM/VSTO approach and I heard about this new model to create Office Addin. These were web addins, the model was entirely different from what I used to develop. Office was about 1 billion user at that time and this promise of a market place to distribute was definitely exciting. I developped quickly to addins. The first one was an Excel add-in allowing you to sync your spreadsheet with Google Analytics data, the second one KMailPrint was a simple virtual printer for Outlook, allowing you to print in a nicely formatted PDF.
 
+{% include image-caption.html imageurl='/assets/images/posts/kmailprint-story/screenshot-addin-commands.jpg' caption="TODO:" position_class="image-center" size_class="medium" %}
+
+
 At that time the capabilities for Excel web addins were limited so I dropped the support of this former email. KMailPrint quickly found a certain tractions printing several hundred of email daily. I decided to maintain the project over the years dedicating at most few hours per years. It is 6 years old now and the counter achieve more than a milion of generated PDF, considering that there is no API and these are manual requests from end-users, far from being amazing there is definitely a certain interest. In this post I will detail, all the migrations that the project have submit to.
 
-TODO: image illustrating KMailPrint
-
-TODO: image of Google Analytics
-
-TODO: image of pulse Githug
-
+{% include image-caption.html imageurl='/assets/images/posts/kmailprint-story/kmailprint-google-analytics.jpg' caption="TODO:" position_class="image-center" size_class="medium" %}
 
 # The global architecture evolution
 
