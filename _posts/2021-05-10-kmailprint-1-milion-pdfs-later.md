@@ -24,7 +24,7 @@ tags:
 comments: []
 ---
 
-In 2015, I used to creating Office Addin with the traditional COM/VSTO approach and I heard about this new model to create Office Addin. These were web addins, the model was entirely different from what I used to develop. Office was about 1 billion user at that time and this promise of a market place to distribute was definitely exciting. I developped quickly two addins. The first one was an Excel add-in allowing you to sync your spreadsheet with Google Analytics data, the second one KMailPrint was a simple virtual printer for Outlook, allowing you to print in a nicely formatted PDF.
+In 2012, while working at eFront I used to creating traditional Office Addin. At that time we leveraged the COM/VSTO technologies. Few years later I heard about this new generation of  Office Addins. They were actualy web addins, the model was entirely different from what I used to develop. Office was about 1 billion user at that time and this promise of a market place to distribute was definitely exciting. I developped quickly two addins. The first one was an Excel add-in allowing you to sync your spreadsheet with Google Analytics data, the second one KMailPrint was a simple virtual printer for Outlook, allowing you to print in a nicely formatted PDF.
 
 {% include image-caption.html imageurl='/assets/images/posts/kmailprint-story/screenshot-addin-commands.jpg' caption="The Outlook addin loads in a task pane. It also allows yout to directly call command from a contextual menu directly in the email." position_class="image-center" size_class="small" %}
 
