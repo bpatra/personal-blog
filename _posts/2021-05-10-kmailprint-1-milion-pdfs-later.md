@@ -24,7 +24,7 @@ tags:
 comments: []
 ---
 
-In 2012, while working at eFront I used to creating traditional Office Addin. At that time we leveraged the COM/VSTO technologies. Few years later I heard about this new generation of  Office Addins. They were actualy web addins, the model was entirely different from what I used to develop. Office was about 1 billion user at that time and this promise of a market place to distribute was definitely exciting. I developped quickly two addins. The first one was an Excel add-in allowing you to sync your spreadsheet with Google Analytics data, the second one KMailPrint was a simple virtual printer for Outlook, allowing you to print in a nicely formatted PDF.
+In 2012, while working at eFront I used to creating traditional Office Addin. At that time we leveraged the COM/VSTO technologies. The next year, I heard about this new generation of  Office Addins. They were actualy web addins, the model was entirely different from what I used to develop. Office was about 1 billion user at that time and this promise of a market place to distribute was definitely exciting. I developped quickly two addins. The first one was an Excel add-in allowing you to sync your spreadsheet with Google Analytics data, the second one KMailPrint was a simple virtual printer for Outlook, allowing you to print in a nicely formatted PDF.
 
 {% include image-caption.html imageurl='/assets/images/posts/kmailprint-story/screenshot-addin-commands.jpg' caption="The Outlook addin loads in a task pane. It also allows yout to directly call command from a contextual menu directly in the email." position_class="image-center" size_class="small" %}
 
@@ -40,7 +40,12 @@ At that time the capabilities for Excel web addins were limited so I dropped the
 
 At first there were only one server that were handling everything. Among the main responsibilities, the server was serving the Single Page Application powering the web addin, handling the virtual printer logic and finally handling all the server side logic.
 
+{% include image-caption.html imageurl='/assets/images/posts/kmailprint-story/kmailprint-architecture.png' caption="TODO:" position_class="image-center" size_class="medium" %}
+
 Over the years, it evolved to a most service oriented approach. The frontend is now served statically independtly of the application server or the virtual printer service.
+
+{% include image-caption.html imageurl='/assets/images/posts/kmailprint-story/kmailprint-architecture-services.png' caption="TODO:" position_class="image-center" size_class="medium" %}
+
 
 # Evolution of the frontend
 
@@ -50,10 +55,12 @@ I leverage the first version of the Office UI Fabric which were a kind of Design
 
 Now the project has been almost be rewritten in React Typescript. Note that the Office Commands reuse the same classes and typescript module, yet thanks to an advanced Webpack configuration there is no dependency of React in my Addin commands. The UI is almost all made with Microsoft's new design system Fluent UI.
 
+{% include image-caption.html imageurl='/assets/images/posts/kmailprint-story/evolution-frontend.png' caption="TODO:" position_class="image-center" size_class="large" %}
+
+
 # Evolution of the backend
 
 The very first backend was implemented was a C# ASP.NET MVC. Then I stripped all dynamic views rendering to make it an .NET core Web API app. It is now a .NET Core 3.1 web app. My main motivation towards migrating to .NET core was the ability to containerize application for easier hosting and maintenance. Now that I work with a Macbook for 4 years, I am glad to still be able to work with .NET which was only possible with a .NET core project.
-
 
 # Evolution of the printer
 
@@ -63,6 +70,7 @@ The installation was more and more problematic and we managed to containerize wi
 
 PhantomJS was known to be end-of-life for many years. In 2021, I finally decided to remove PhantomJS and rewrote the virtual printer using the Pupeeter project which leverages internally the Chrome Embedded Framework. The project lies as a containerized service whose API are still implemented in Typescript with Node and ExpressJS.
 
+{% include image-caption.html imageurl='/assets/images/posts/kmailprint-story/evolution-backend.png' caption="TODO:" position_class="image-center" size_class="large" %}
 
 # Evolution of the infrastructure
 
@@ -74,5 +82,6 @@ In addition, I followed the evolution of the Azure Blobstorage (equivalent of Am
 
 Finally, the fresh new frontend written in React is hosted in Azure Static Web Apps. I have already spoke in good favor about Azure Static Web Apps. I confirm that is really adapted to host a frontend SPA application as well.
 
+{% include image-caption.html imageurl='/assets/images/posts/kmailprint-story/evolution-infra.png' caption="TODO:" position_class="image-center" size_class="large" %}
 
 That's it for this time traveling in the history of this small project. I encourage you to maintain your sparetime projects. Having hundreds of people using it everday was a strong motivator for me but to be frank I was tempted to let it go last year. Now that I work at iAdvize were our main technology for frontend development is React, that was a great opportunity for me to learn React with a real project with real goals.
