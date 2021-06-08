@@ -14,7 +14,10 @@
    version="1.1"
    id="svg2505"
    inkscape:version="1.0.1 (c497b03c, 2020-09-10)"
-   sodipodi:docname="kmailprint-addin-architecture.svg">
+   sodipodi:docname="kmailprint-addin-architecture.svg"
+   inkscape:export-filename="/Users/benoitpatra/Code/personal-blog/assets/images/posts/kmailprint-story/kmailprint-architecture.png"
+   inkscape:export-xdpi="89.992577"
+   inkscape:export-ydpi="89.992577">
   <defs
      id="defs2499">
     <marker
@@ -149,7 +152,7 @@
            y="36.221199"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583">https://outlook.office.com</tspan></text>
       <rect
-         style="fill:none;stroke:#000000;stroke-width:0.560942;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         style="fill:none;stroke:#000000;stroke-width:0.56072497;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="rect849"
          width="103.2378"
          height="97.959656"
@@ -157,7 +160,7 @@
          y="27.543634"
          ry="2.6472657" />
       <rect
-         style="opacity:0.994;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.658786"
+         style="opacity:0.994;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.31757;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="rect3970"
          width="158.10852"
          height="54.961548"
@@ -171,7 +174,7 @@
          sodipodi:nodetypes="cc" />
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.02705px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.131757"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.02705000000000002px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.131757;stroke-opacity:1;"
          x="220.42946"
          y="-27.612614"
          id="text9352"><tspan
@@ -179,10 +182,10 @@
            id="tspan9350"
            x="220.42946"
            y="-27.612614"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.02705px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke-width:0.131757">Serving frontend Single Page Application</tspan></text>
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.02705000000000002px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.131757;stroke:none;stroke-opacity:1;">Serving frontend Single Page Application</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.02705px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.131757"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.02705000000000002px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.131757;stroke-opacity:1;"
          x="220.20027"
          y="-14.616468"
          id="text9352-4"><tspan
@@ -190,10 +193,10 @@
            id="tspan9350-1"
            x="220.20027"
            y="-14.616468"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.02705px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke-width:0.131757">Handling Exchange requests</tspan></text>
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.02705000000000002px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.131757;stroke:none;stroke-opacity:1;">Handling Exchange requests</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.02705px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.131757"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.02705000000000002px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.131757;stroke-opacity:1;"
          x="219.94881"
          y="-1.5842932"
          id="text9352-4-5"><tspan
@@ -201,10 +204,10 @@
            id="tspan9350-1-6"
            x="219.94881"
            y="-1.5842932"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.02705px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke-width:0.131757">DOM manipulations</tspan></text>
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.02705000000000002px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.131757;stroke:none;stroke-opacity:1;">DOM manipulations</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.02705px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.131757"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.02705000000000002px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.131757;stroke-opacity:1;"
          x="219.95947"
          y="11.410135"
          id="text9352-4-5-9"><tspan
@@ -212,7 +215,7 @@
            id="tspan9350-1-6-7"
            x="219.95947"
            y="11.410135"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.02705px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke-width:0.131757">Virtual PDF printing</tspan></text>
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.02705000000000002px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.131757;stroke:none;stroke-opacity:1;">Virtual PDF printing</tspan></text>
       <text
          xml:space="preserve"
          id="text10852-7"
