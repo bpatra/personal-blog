@@ -1,6 +1,5 @@
 ---
 layout: post
-published: true
 title: 'KMailPrint, the app celebrates a million of generated PDFs'
 date: '2021-06-08 00:00:00 +0000'
 featured: true
