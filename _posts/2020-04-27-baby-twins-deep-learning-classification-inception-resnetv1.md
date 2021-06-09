@@ -2,6 +2,7 @@
 layout: post
 title: Baby twins deep learning classification with Inception-ResNetV1
 date: '2020-04-27 09:10:28 +0000'
+disqus: false
 featured: true
 image: /assets/images/legacy-wp-content/2020/04/superlittleLandJ2.jpg
 featured_image: /assets/images/legacy-wp-content/2020/04/superlittleLandJ2.jpg

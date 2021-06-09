@@ -2,6 +2,7 @@
 layout: post
 title: F#-ception, wtf ?!?
 date: '2013-07-30 20:33:07 +0000'
+disqus: false
 categories:
 - Programming
 - Algorithms

@@ -2,6 +2,7 @@
 layout: post
 title: My TransientFaultHandling utility classes for DocumentDB
 date: '2016-06-25 22:42:03 +0000'
+disqus: true
 categories:
 - Programming
 - Database

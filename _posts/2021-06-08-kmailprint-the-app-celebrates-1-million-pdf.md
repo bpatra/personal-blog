@@ -3,6 +3,7 @@ layout: post
 title: 'KMailPrint, the app celebrates a million of generated PDFs'
 date: '2021-06-08 00:00:00 +0000'
 featured: true
+disqus: false
 featured_image: /assets/images/posts/kmailprint-story/kmailprint-story.jpg
 image: /assets/images/posts/kmailprint-story/kmailprint-story.jpg
 featured_image_in_post: /assets/images/posts/kmailprint-story/kmailprint-story.jpg

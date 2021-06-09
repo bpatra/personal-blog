@@ -2,6 +2,7 @@
 layout: post
 title: An unexpected quadratic cost in Excel Interop
 date: '2013-10-27 12:13:52 +0000'
+disqus: true
 categories:
 - Programming
 - Algorithms

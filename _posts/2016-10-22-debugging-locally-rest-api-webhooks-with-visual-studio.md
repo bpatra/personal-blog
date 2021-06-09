@@ -2,6 +2,7 @@
 layout: post
 title: "Debugging locally REST API webhooks with Visual Studio"
 date: '2016-10-22 18:49:38 +0000'
+disqus: false
 categories:
 - Programming
 - DevTools

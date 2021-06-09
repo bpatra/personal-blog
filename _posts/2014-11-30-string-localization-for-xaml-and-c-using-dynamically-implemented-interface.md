@@ -2,6 +2,7 @@
 layout: post
 title: String localization for XAML and C# using dynamically implemented interface
 date: '2014-11-30 11:51:19 +0000'
+disqus: false
 categories:
 - Programming
 tags:

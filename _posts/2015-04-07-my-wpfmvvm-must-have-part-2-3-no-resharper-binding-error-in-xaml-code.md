@@ -2,6 +2,7 @@
 layout: post
 title: My WPF/MVVM "must have" part 2/ 3 - No Resharper binding error in XAML code
 date: '2015-04-07 13:02:58 +0000'
+disqus: false
 categories:
 - Programming
 - MVVM

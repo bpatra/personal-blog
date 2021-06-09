@@ -2,6 +2,7 @@
 layout: post
 title: A git practical class
 date: '2013-12-01 18:26:23 +0000'
+disqus: false
 categories:
 - Programming
 - DevTools

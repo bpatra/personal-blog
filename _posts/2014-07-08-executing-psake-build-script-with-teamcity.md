@@ -2,6 +2,7 @@
 layout: post
 title: Executing PSake build script with Teamcity
 date: '2014-07-08 23:16:27 +0000'
+disqus: false
 categories:
 - Programming
 - Scripting

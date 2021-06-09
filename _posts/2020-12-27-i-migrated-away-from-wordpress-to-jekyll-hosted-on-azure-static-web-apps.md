@@ -2,6 +2,7 @@
 layout: post
 title: 'I migrated my blog away from Wordpress to a Jekyll solution hosted on Azure Static Web Apps'
 date: '2020-12-27 00:00:00 +0000'
+disqus: false
 featured: false
 featured_image: /assets/images/posts/wordpress-to-jekyll-migration/wordpress2jekyll.jpg
 image: /assets/images/posts/wordpress-to-jekyll-migration/wordpress2jekyll.jpg

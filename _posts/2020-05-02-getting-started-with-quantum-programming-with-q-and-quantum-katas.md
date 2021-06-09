@@ -3,6 +3,7 @@ layout: post
 has_maths: true
 title: 'Quantum programming: getting started with Q# and Quantum Katas'
 date: '2020-05-02 15:13:32 +0000'
+disqus: false
 featured: true
 featured_image: /assets/images/legacy-wp-content/2020/05/qubit-preview.png
 image: /assets/images/legacy-wp-content/2020/05/qubit-preview.png

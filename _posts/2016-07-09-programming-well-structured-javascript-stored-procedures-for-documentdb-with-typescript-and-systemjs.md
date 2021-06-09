@@ -2,6 +2,7 @@
 layout: post
 title: "Programming well structured Javascript stored procedures for DocumentDB with Typescript and SystemJs"
 date: '2016-07-09 17:06:38 +0000'
+disqus: false
 categories:
 - Programming
 - Database

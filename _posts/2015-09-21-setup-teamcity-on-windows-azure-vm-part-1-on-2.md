@@ -2,6 +2,7 @@
 layout: post
 title: TeamCity on Windows Azure VM part 1/2 - server setup
 date: '2015-09-21 18:39:21 +0000'
+disqus: true
 categories:
 - Programming
 - Continuous Integration

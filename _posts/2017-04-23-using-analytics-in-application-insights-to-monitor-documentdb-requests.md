@@ -2,6 +2,7 @@
 layout: post
 title: Using Analytics in Application Insights to monitor CosmosDB Requests
 date: '2017-04-23 15:21:07 +0000'
+disqus: false
 categories:
 - Programming
 - Database

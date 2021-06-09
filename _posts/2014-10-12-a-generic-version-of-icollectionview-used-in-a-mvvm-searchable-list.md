@@ -2,6 +2,7 @@
 layout: post
 title: A generic version of ICollectionView used in a MVVM searchable list
 date: '2014-10-12 16:54:13 +0000'
+disqus: true
 categories:
 - Programming
 - MVVM

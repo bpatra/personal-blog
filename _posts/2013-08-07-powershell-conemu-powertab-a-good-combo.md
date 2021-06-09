@@ -2,6 +2,7 @@
 layout: post
 title: 'Powershell + ConEmu + PowerTab: a good combo'
 date: '2013-08-07 20:38:19 +0000'
+disqus: false
 categories:
 - Programming
 - Scripting

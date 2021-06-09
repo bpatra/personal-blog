@@ -2,6 +2,7 @@
 layout: post
 title: TeamCity on Windows Azure VM part 2/2 - enabling SSL with reverse proxy
 date: '2015-10-07 23:17:32 +0000'
+disqus: true
 categories:
 - Programming
 - Continuous Integration

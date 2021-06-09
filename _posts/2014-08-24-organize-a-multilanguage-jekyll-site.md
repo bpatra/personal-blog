@@ -2,6 +2,7 @@
 layout: post
 title: Organize a multilanguage Jekyll site
 date: '2014-08-24 15:47:39 +0000'
+disqus: true
 categories:
 - Programming
 - Web Development

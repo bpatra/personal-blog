@@ -2,6 +2,7 @@
 layout: post
 title: Unit Testing Drag and Drop logic with MVVM pattern in WPF
 date: '2014-03-15 15:49:47 +0000'
+disqus: false
 categories:
 - Programming
 - UnitTesting

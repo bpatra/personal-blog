@@ -2,6 +2,7 @@
 layout: post
 title: My WPF/MVVM "must have" part 1/ 3 - working with design time data
 date: '2015-01-18 17:23:06 +0000'
+disqus: false
 categories:
 - Programming
 - MVVM

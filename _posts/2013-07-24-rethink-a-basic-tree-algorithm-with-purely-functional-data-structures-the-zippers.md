@@ -2,6 +2,7 @@
 layout: post
 title: 'Rewriting a tree algorithm with purely functional data structures: the "zippers".'
 date: '2013-07-24 23:34:30 +0000'
+disqus: false
 categories:
 - Programming
 - Algorithms

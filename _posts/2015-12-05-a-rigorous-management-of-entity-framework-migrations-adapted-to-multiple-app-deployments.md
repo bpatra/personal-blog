@@ -2,6 +2,7 @@
 layout: post
 title: "A rigorous management of Entity Framework migrations adapted to multiple app deployments"
 date: '2015-12-05 14:56:10 +0000'
+disqus: true
 categories:
 - Programming
 - Database

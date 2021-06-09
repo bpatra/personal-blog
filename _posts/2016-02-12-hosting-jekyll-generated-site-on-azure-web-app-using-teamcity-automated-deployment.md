@@ -2,6 +2,7 @@
 layout: post
 title: Hosting Jekyll website on Azure Web app using TeamCity automated deployment
 date: '2016-02-12 23:08:32 +0000'
+disqus: false
 categories:
 - Programming
 - Continuous Integration

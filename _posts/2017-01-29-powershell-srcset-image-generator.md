@@ -2,6 +2,7 @@
 layout: post
 title: Powershell srcset image generator
 date: '2017-01-29 18:33:27 +0000'
+disqus: false
 categories:
 - Programming
 - Scripting

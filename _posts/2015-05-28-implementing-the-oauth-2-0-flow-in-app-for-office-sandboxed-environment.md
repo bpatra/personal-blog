@@ -2,6 +2,7 @@
 layout: post
 title: Implementing the OAUTH 2.0 flow in app for office sandboxed environment
 date: '2015-05-28 17:15:09 +0000'
+disqus: true
 categories:
 - Programming
 - Web Development

@@ -2,6 +2,7 @@
 layout: post
 title: My WPF/MVVM "must have" part 3/3 - On view model unit tests organization
 date: '2015-06-30 13:11:33 +0000'
+disqus: false
 categories:
 - Programming
 - MVVM

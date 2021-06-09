@@ -2,6 +2,7 @@
 layout: post
 title: Resize image and preserve ratio with Powershell
 date: '2014-09-14 18:32:22 +0000'
+disqus: true
 categories:
 - Programming
 - Scripting

@@ -2,6 +2,7 @@
 layout: post
 title: Remote debugging Python with VSCode
 date: '2017-11-27 21:50:29 +0000'
+disqus: true
 categories:
 - Programming
 - DevTools

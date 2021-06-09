@@ -2,7 +2,7 @@
 layout: post
 title: Tools for javascript TDD with Visual Studio
 date: '2014-06-01 20:56:38 +0000'
-date_gmt: '2014-06-01 18:56:38 +0000'
+disqus: false
 categories:
 - Programming
 - UnitTesting
