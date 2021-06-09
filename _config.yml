@@ -60,11 +60,11 @@ navigation:
   - text: Home
     url: /
   - text: Archives
-    url: /archives
+    url: /archives/
   - text: About
-    url: /about
+    url: /about/
   - text: Academic (past)
-    url: /academic
+    url: /academic/
 
 # Required Plugins
 plugins_dir:
