@@ -8,7 +8,7 @@ image: /assets/images/logo-400.png
 
 ## Scientific publications and research projects
 
-- **2012 (defended on March 5th 2012)** [_Large scale learning: a contribution to distributed asynchronous clustering algorithms analysis._](/assets/download/research/BenoitPatra-PhDMain-2012.pdf)
+- **2012 B. Patra PhD thesis (defended on March 5th 2012 - Univ. Paris VI)** [_Large scale learning: a contribution to distributed asynchronous clustering algorithms analysis._](/assets/download/research/BenoitPatra-PhDMain-2012.pdf)
 
 - **2011 M. Durut, B. Patra and F. Rossi.** _[A Discussion on Parallelization Schemes for Competitive Vector Quantization Algorithms.](https://arxiv.org/pdf/1205.2282.pdf)_
 ESANN 2012. [Poster](https://hal.archives-ouvertes.fr/file/index/docid/696072/filename/poster.pdf).
