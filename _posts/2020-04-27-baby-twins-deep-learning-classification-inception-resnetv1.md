@@ -174,7 +174,7 @@ This shows all the positive signs of a successfully trained ML algorithm. Theref
 The classification reports and confusion matrix on the test dataset confirm the measure on the validation set. We achieve nearly 80% of accuracy. One interesting thing is, from the report, J. looks to be a little be more difficult for our model to classify than L. Honestly, I have no assumption on what could cause this. A deeper analysis by examining layers in the spirit of what has been presented above could be conducted.
 
 <h2>Conclusion</h2>
-I did not spend time trying to tune so much the <em>InceptionResNetV1</em> hyperparameters. I also tweaked but only a little the top layers. No doubt that there is room for great improvements here. This can constitute a follow up blog post.
+I did not spend time trying to tune so much the <em>InceptionResNetV1</em> hyperparameters. I tweaked a little the top layers of the classifier. No doubt that there is room for great improvements here. This can constitute a follow up blog post.
 
 Also, I did not confront other algorithms and deeplearning architectures. I quickly gave a try to the <a href="https://sefiks.com/2018/08/06/deep-face-recognition-with-keras/">Deepface Keras implementation</a> but without significant results. I did not spend time investigating why this was not working. Once again this could be part of an interesting follow up. Ideally, I would also benchmark this <a href="https://github.com/ageitgey/face_recognition" target="_blank">DLib implementation</a>.
 
