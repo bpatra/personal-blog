@@ -16,4 +16,4 @@ I'm a lifelong tech and science enthusiast with a keen interest in all things pr
 
 Why start this blog? I see it as an opportunity to share and discuss technical stuff that's inspiring me. But I also view it as a valuable exercise: blogging is a very efficient way for a native French speaker living in France to write in English on a regular basis.
 
-On the personal side, I'm a father of two twin girls. I'm also very fond of sailing and all watersports. I regularly enjoy racing, cruising, windsurfing, kitesurfing, foiling, and more.
+On the personal side, I'm a father of two twin girls. I'm also very fond of all watersports. I regularly enjoy sailing, kitesurfing, foiling, and more.
