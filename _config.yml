@@ -49,7 +49,7 @@ jekyll-archives:
     - month
     - categories
     - tags
-  layouts: archive
+  layout: archive
   permalinks:
     month: '/:year/:month/'
     category: '/category/:name/'

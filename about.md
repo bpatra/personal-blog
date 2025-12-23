@@ -4,7 +4,7 @@ title: About Me
 image: /assets/images/logo-400.png
 ---
 
-Hi, my name is Benoît Patra and I currently serve as Chief Technology Officer at [iAdvize](https://www.iadvize.com). Welcome to my personal blog.
+Hi, my name is Benoît Patra and I currently serve as Chief Technology Officer at [Trustpair](https://www.trustpair.com). Welcome to my personal blog.
 
 {% include image-caption.html imageurl='/assets/images/pages/about2.jpg' title="Benoit Patra" position_class="image-right"%}
 
